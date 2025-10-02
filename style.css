@@ -312,7 +312,7 @@ body {
 
 /* ------------------- ESTILOS RESPONSIVE ------------------- */
 
-/* Tablets y pantallas medianas */
+/* Tablets */
 @media (max-width: 1024px) {
   .banner-container {
     width: 90%;
@@ -324,45 +324,52 @@ body {
     max-height: 70px;
   }
 
-  .line1 h1 {
-    font-size: 1.8em;
-    top: -60px;
-  }
-
+  .line1 h1,
   .line2 {
     font-size: 1.8em;
     top: -60px;
   }
+  .line3 {
+    font-size: 1.2em;
+    top: -60px;
+  }
+
+  /* Imagen: sigue ocupando la mitad derecha */
+  .hero-image {
+    width: 50%;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
 
   .hero-image img {
-    max-width: 400px;
-    padding-right: 5%;
+    width: 100%;
+    height: auto;
   }
 }
 
 /* Móviles */
 @media (max-width: 700px) {
-  /* Logos más pequeños pero aún lado a lado */
-.logo-container {
-  display: flex !important;
-  flex-direction: row !important;   /* fuerza fila siempre */
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap !important;     /* evita que salten de línea */
-  gap: 15px;
-}
+  /* Logos en fila siempre */
+  .logo-container {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap !important;
+    gap: 15px;
+  }
 
-.logo-cintandina,
+  .logo-cintandina,
   .logo-ci {
     max-height: 50px;
     width: auto;
   }
 
-
   .separator {
     width: 2px;
     background: #000;
-    height: 60px; 
+    height: 60px;
   }
 
   /* Texto más compacto */
@@ -375,25 +382,27 @@ body {
     font-size: 1.4em;
     top: -30px;
   }
+
   .line3 {
     font-size: 1em;
     top: -30px;
-    }
+  }
 
-  /* Imagen ajustada pero siempre hacia la derecha */
-      .hero-image {
-      width: 50%;              /* ocupa la mitad derecha */
-      display: flex;
-      justify-content: flex-end;
-    }
-    
-    .hero-image img {
-      max-width: 100%;         /* se ajusta dentro de esa mitad */
-      height: auto;
-      display: block;
-    }
+  /* Imagen: ocupa la mitad derecha, pegada al borde */
+  .hero-image {
+    width: 50%;              /* solo mitad derecha */
+    margin-left: auto;        /* empuja todo el bloque a la derecha */
+    display: flex;
+    justify-content: flex-end; /* pegada al borde derecho */
+  }
 
+  .hero-image img {
+    width: 100%;              /* que llene ese 50% */
+    height: auto;
+    display: block;
+  }
 }
+
 
 
 
