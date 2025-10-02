@@ -340,12 +340,15 @@ body {
 /* Móviles */
 @media (max-width: 700px) {
   /* Logos más pequeños pero aún lado a lado */
-  .logo-container {
-    flex-direction: row;   /* 👈 asegura que no se apilen */
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
+.logo-container {
+  display: flex !important;
+  flex-direction: row !important;   /* fuerza fila siempre */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap !important;     /* evita que salten de línea */
+  gap: 15px;
+}
+
      .logo-cintandina,
   .logo-ci {
     max-height: 50px;
