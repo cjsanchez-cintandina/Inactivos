@@ -54,7 +54,7 @@ body {
 .header .banner-container {
   position: relative;
   z-index: 1;
-  background: rgba(0.9, 0.9, 0.9, 0.9); /* caja blanca transparente */
+  background: transparent;/* caja blanca transparente */
   padding: 40px;
   border-radius: 15px;
   max-width: 900px;   /* ancho máximo */
