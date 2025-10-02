@@ -91,40 +91,39 @@ body {
   font-size: 2.2em;
   color: #666;
   line-height: 1;
- margin-top: 5px;
+ margin-top: 15px;
 }
 
 .line2 {
   font-size: 2.2em;
   color: #666;
   line-height: 1;
-  margin-top: 10px;
-  font-weight: 300;
+  margin-top: 5px;
+  font-weight: 250;
 }
 
 .line3 {
   font-size: 1.5em;
   color: #666;
   margin-top: 10px;
-  font-weight: 300;
+  font-weight: 250;
 }
 
-.line1 h1,
-.line2 {
-  position: relative;
-  transform: translateY(-50px); 
+.line1, .line2 {
+  position: absolute;
+  bottom: 20px;   /* ajusta según quieras */
+  left: 50%;
+  transform: translateX(-30%);
   z-index: 3;
   text-align: center;
-  margin: 0;
 }
-
-
 
 /* Imagen central */
 .hero-image {
   display: flex;
   justify-content: flex-end; /* manda la imagen a la derecha */
   padding-right: 15%;        /* empuja un poco hacia adentro para no pegarla al borde */
+  position: relative;
 }
 
 .hero-image img {
