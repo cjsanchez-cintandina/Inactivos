@@ -104,10 +104,10 @@ body {
 
 .line1 h1, 
 .line2 {
-  margin-top: -50px; /* sube el texto */
+  margin-top: -70px; 
   position: relative;
-  z-index: 2; /* queda por encima de la imagen */
-  text-align: center; /* o left/right según prefieras */
+  z-index: 2; 
+  text-align: center; 
 }
 
 
