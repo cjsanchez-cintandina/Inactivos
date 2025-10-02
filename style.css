@@ -99,19 +99,21 @@ body {
   color: #666;
   line-height: 1.1;
   margin-top: 10px;
+  font-weight: normal;
 }
 
 .line3 {
   font-size: 1.5em;
   color: #666;
   margin-top: 10px;
+  font-weight: normal;
 }
 
 .line1 h1, 
 .line2 {
-  margin-top: -90px; 
+  margin-top: -70px; 
   position: relative;
-  z-index: 2; 
+  z-index: 3; 
   text-align: center; 
 }
 
