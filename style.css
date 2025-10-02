@@ -120,11 +120,11 @@ body {
 .hero-image {
   display: flex;
   justify-content: flex-end; /* manda la imagen a la derecha */
-  padding-right: 10%;        /* empuja un poco hacia adentro para no pegarla al borde */
+  padding-right: 15%;        /* empuja un poco hacia adentro para no pegarla al borde */
 }
 
 .hero-image img {
-  max-width: 450px;
+  max-width: 500px;
   height: auto;
 }
 
