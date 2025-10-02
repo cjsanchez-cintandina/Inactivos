@@ -109,13 +109,15 @@ body {
   font-weight: 300;
 }
 
-.line1 h1, 
+.line1 h1,
 .line2 {
-  margin-top: -70px; 
   position: relative;
-  z-index: 3; 
-  text-align: center; 
+  transform: translateY(-50px); 
+  z-index: 3;
+  text-align: center;
+  margin: 0;
 }
+
 
 
 /* Imagen central */
