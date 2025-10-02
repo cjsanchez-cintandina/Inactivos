@@ -372,9 +372,13 @@ body {
   }
 
   .line2 {
-    font-size: 1.2em;
+    font-size: 1.4em;
     top: -30px;
   }
+  .line3 {
+    font-size: 1em;
+    top: -30px;
+    }
 
   /* Imagen ajustada pero siempre hacia la derecha */
   .hero-image {
