@@ -10,12 +10,12 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: var(--dark-text);
-    line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--dark-text);
+  line-height: 1.6;
 }
 
 /* Header */
@@ -25,10 +25,9 @@ body {
   background-position: center;
   position: relative;
   display: flex;
-  flex-direction: column; /* Para que los elementos se apilen verticalmente */
   justify-content: center;
   align-items: center;
-  min-height: 90vh; /* ahora ocupa el 90% de la pantalla */
+  min-height: 90vh;
   border-bottom: 1px solid #eee;
   overflow: hidden;
 }
@@ -42,30 +41,28 @@ body {
   height: 100%;
   background: linear-gradient(
     to bottom, 
-    rgba(255,255,255,0.95) 0%,   /* blanco fuerte arriba */
-    rgba(255,255,255,0.7) 50%,   /* blanco más bajo */
-    rgba(255,255,255,0.4) 90%,   /* degradado más largo */
-    rgba(255,255,255,0) 100%     /* transparente al final */
+    rgba(255,255,255,0.95) 0%, 
+    rgba(255,255,255,0.7) 50%, 
+    rgba(255,255,255,0.4) 90%, 
+    rgba(255,255,255,0) 100%
   );
   pointer-events: none;
   z-index: 0;
 }
 
-
-/* Contenedor interno del banner */
-.header .banner-container {
+/* Contenedor interno */
+.banner-container {
   position: relative;
   z-index: 1;
-  background: transparent;/* caja blanca transparente */
+  background: transparent;
   padding: 40px;
   border-radius: 15px;
-  max-width: 900px;   /* ancho máximo */
-  width: 80%;         /* que se adapte */
+  max-width: 900px;
+  width: 80%;
   text-align: center;
-  box-shadow: 0 ;
 }
 
-/* Logos y contenido dentro del banner */
+/* Logos */
 .logo-container {
   display: flex;
   align-items: center;
@@ -80,20 +77,37 @@ body {
   width: auto;
 }
 
-/* Texto dentro del banner */
+/* Separador */
+.separator {
+  width: 3px;
+  height: 100px;
+  background: #000;
+  margin: 0 10px;
+}
+
+/* Texto */
 .line1 h1 {
   font-size: 2.2em;
-  color: #666666;
+  color: #666;
   line-height: 1.1;
 }
 
-.line2 p {
+.line2 {
   font-size: 2.2em;
-  color: #666666;
+  color: #666;
   line-height: 1.1;
+  display: block;
+  margin-top: 10px;
 }
 
-
+/* Imagen central */
+.hero-image img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto 0 auto; /* centrada */
+}
 
 /* Call to action */
 .call-to-action {
@@ -107,90 +121,6 @@ body {
   display: block;
   margin: 10px auto 0;
   width: 40px;
-}
-/* Separador */
-.separator {
-  width: 3px;
-  height: 100px;
-  background: #000000;
-   margin: 0 10px;
-}
-
-/* Texto */
-.title-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.product-name {
-  display: flex;
-  flex-direction: column;
-  font-size: 4em;
-  font-weight: 700;
-  color: var(--dark-text, #000000);
-  line-height: 0.7; /* controla espacio vertical */
-
-}
-
-.product-slogan {
-  font-size: 2em;
-  font-weight: 700;
-  color: var(--dark-green);
-}
-
-
-/* Hero Section */
-.hero-section {
-    margin: 0;
-    text-align: center;
-    padding: 60px 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden; /* Para que la imagen de la cinta no se salga */
-}
-
-.hero-content h1 {
-    font-size: 2.8em;
-    color: var(--dark-text);
-    margin-bottom: 15px;
-    font-weight: 700;
-}
-
-.hero-content p {
-    font-size: 1.2em;
-    color: #555;
-    margin-bottom: 30px;
-}
-
-.call-to-action {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    color: #555;
-    font-weight: 600;
-}
-
-.arrow-down {
-    width: 30px;
-    height: auto;
-    cursor: pointer;
-}
-.hero-image img {
-    margin-top: 40px;
-    width: 100%;
-    max-width: 800px; 
-}
-
-.hero-image img {
-    max-width: 400px;
-    margin: 20px auto;
-    display: block;
-    margin-left: auto;
 }
 
 /* Product Slogan Section */
