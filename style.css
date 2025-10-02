@@ -91,7 +91,7 @@ body {
   font-size: 2.2em;
   color: #666;
   line-height: 1;
- margin-top: 0;
+ margin-top: 10;
 }
 
 .line2 {
@@ -112,7 +112,7 @@ body {
 .line1 h1,
 .line2 {
   position: relative;
-  top: -30px;   
+  top: -90px;   
   z-index: 2;
   text-align: center;
   margin: 0;   
