@@ -191,13 +191,14 @@ body {
 .hero-image {
     margin-top: 40px;
     width: 100%;
-    max-width: 800px; /* Ajusta el tamaño de la imagen de la cinta */
+    max-width: 800px; 
 }
 
 .hero-image img {
     width: 100%;
     height: auto;
     display: block;
+    margin-left: auto;
 }
 
 /* Product Slogan Section */
