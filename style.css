@@ -88,7 +88,7 @@ body {
 /* Texto */
 .line1 h1, 
 .line2 {
-  margin-top: -40px; /* sube el texto */
+  margin-top: -50px; /* sube el texto */
   position: relative;
   z-index: 2; /* queda por encima de la imagen */
   text-align: center; /* o left/right según prefieras */
@@ -101,7 +101,7 @@ body {
   width: 100%;
   height: auto;
   display: block;
-  margin: 50px 0 0 auto; /* centrada */
+  margin: 10px 0 0 auto; /* centrada */
 }
 
 /* Call to action */
