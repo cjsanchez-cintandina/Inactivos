@@ -89,7 +89,7 @@ body {
 
 
 /* Hero Section */
-/*.hero-section {
+.hero-section {
     margin: 0;
     text-align: center;
     padding: 60px 5%;
@@ -99,7 +99,7 @@ body {
     justify-content: center;
     position: relative;
     overflow: hidden; /* Para que la imagen de la cinta no se salga */
-}*/
+}
 
 .hero-content h1 {
     font-size: 2.8em;
