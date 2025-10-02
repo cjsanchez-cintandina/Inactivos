@@ -19,29 +19,34 @@ body {
 }
 
 /* Header */
-/* Header */
 .header {
   background: url('assets/FONDO-CINTA-DE-SEGURIDAD-INTELIGENTE.png');
   background-size: cover;
   background-position: center;
   position: relative;
-  width: 100%;
-  height: 100vh; /* ocupa alto de pantalla */
   display: flex;
-  justify-content: center;  
+  flex-direction: column; /* Para que los elementos se apilen verticalmente */
+  justify-content: center;
   align-items: center;
+  min-height: 90vh; /* ahora ocupa el 90% de la pantalla */
+  border-bottom: 1px solid #eee;
   overflow: hidden;
 }
 
-/* Capa oscura/transparente que cubre toda la imagen */
-.header::before {
+.header::after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background: rgba(255,255,255,0.5); /* capa blanquita translúcida */
+  height: 150%; /* degradado más largo hacia abajo */
+  background: linear-gradient(
+    to bottom, 
+    rgba(255,255,255,0.9) 0%, 
+    rgba(255,255,255,0.3) 40%, 
+    rgba(255,255,255,0) 100%
+  );
+  pointer-events: none;
   z-index: 0;
 }
 
