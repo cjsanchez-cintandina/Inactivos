@@ -357,9 +357,9 @@ body {
 
 
   .separator {
-    width: 1px;
+    width: 2px;
     background: #000;
-    height: 70px; 
+    height: 60px; 
   }
 
   /* Texto más compacto */
@@ -375,9 +375,11 @@ body {
 
   /* Imagen ajustada pero siempre hacia la derecha */
   .hero-image {
-    justify-content: flex-end;
-    padding-right: 10%;
-  }
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 2%; /* más cerca al borde derecho */
+    }
+
 
   .hero-image img {
     width: 80%;   /* más grande proporcionalmente en móvil */
