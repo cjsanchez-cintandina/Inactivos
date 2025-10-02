@@ -340,13 +340,21 @@ body {
 /* Móviles */
 @media (max-width: 700px) {
   /* Logos más pequeños pero aún lado a lado */
-  .logo-cintandina,
+  .logo-container {
+    flex-direction: row;   /* 👈 asegura que no se apilen */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+     .logo-cintandina,
   .logo-ci {
     max-height: 50px;
+    width: auto;
   }
 
+
   .separator {
-    height: 60px; /* más bajita en móvil */
+    height: 50px; /* más bajita en móvil */
   }
 
   /* Texto más compacto */
@@ -368,7 +376,7 @@ body {
 
   .hero-image img {
     width: 60%;   /* más grande proporcionalmente en móvil */
-    max-width: 300px;
+    max-width: 280px;
   }
 }
 
