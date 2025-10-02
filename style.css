@@ -114,7 +114,7 @@ body {
 .hero-image {
   display: flex;
   justify-content: flex-end; /* manda la imagen a la derecha */
-  padding-right: 30%;        /* empuja un poco hacia adentro para no pegarla al borde */
+  padding-right: 20%;        /* empuja un poco hacia adentro para no pegarla al borde */
 }
 
 .hero-image img {
