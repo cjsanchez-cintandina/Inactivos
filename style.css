@@ -357,7 +357,10 @@ body {
 
 
   .separator {
-    height: 50px; /* más bajita en móvil */
+    width: 2px;
+    background: #000;
+    margin: 0 10px;
+    height: 60px; /* más bajita en móvil */
   }
 
   /* Texto más compacto */
