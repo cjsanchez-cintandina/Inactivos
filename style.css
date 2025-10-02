@@ -75,9 +75,10 @@ body {
 }
 
 .logo-ci {
-  max-height: 100px;  
+  max-height: 100px;        
   width: auto;
   display: block;
+  letter-spacing: 4px
 }
 
 
