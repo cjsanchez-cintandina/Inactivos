@@ -1,158 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cinta de Empaque Inteligente</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Montserrat', sans-serif;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    header {
-      background: url('assets/FONDO-CINTA-DE-SEGURIDAD-INTELIGENTE.png') no-repeat center/cover;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      position: relative;
-    }
-
-    header::after {
-      content: "";
-      position: absolute;
-      top: 0; left: 0; width: 100%; height: 100%;
-      background: linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.2) 70%);
-    }
-
-    header .content {
-      position: relative;
-      z-index: 1;
-      max-width: 800px;
-      padding: 20px;
-    }
-
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 20px;
-    }
-
-    header p {
-      font-size: 1.2rem;
-    }
-
-    /* Sección intermedia */
-    .section {
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    .section h2 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-      color: #1e7e34;
-    }
-
-    .section p {
-      max-width: 700px;
-      margin: 0 auto 20px;
-      font-size: 1.1rem;
-    }
-
-    /* Diferenciales */
-    .features {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-      margin-top: 40px;
-    }
-
-    .feature {
-      background: #f5f5f5;
-      border-radius: 10px;
-      padding: 20px;
-      flex: 1 1 250px;
-      max-width: 300px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    }
-
-    .feature h3 {
-      color: #28a745;
-      margin-bottom: 10px;
-    }
-
-    /* Footer */
-    footer {
-      background: #333;
-      color: #fff;
-      text-align: center;
-      padding: 30px 10px;
-      font-size: 0.9rem;
-    }
-
-    @media (max-width: 768px) {
-      header h1 { font-size: 1.8rem; }
-      .section h2 { font-size: 1.5rem; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinta de Empaque Inteligente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <div class="content">
-      <h1>Conoce cómo funciona</h1>
-      <p>Un producto que habla de tu empresa y que conecta con tus clientes.</p>
-    </div>
-  </header>
-
-  <section class="section">
-    <h2>Más de 65 años de experiencia</h2>
-    <p>Fabricando y comercializando productos adhesivos y de embalaje de excelente calidad.</p>
-  </section>
-
-  <section class="section">
-    <h2>Diferencia que marca</h2>
-    <div class="features">
-      <div class="feature">
-        <h3>Entrega inmediata</h3>
-        <p>De rollos impresos con información digital personalizada.</p>
+    <header class="header">
+      <div class="logo-container">
+        <div class="logo-box">
+          <img src="assets/LOGO CINTANDINA.png" alt="logo-cintandina" class="logo-cintandina">
+        </div>
+        <div class="separator">
+        </div>
+        <div class="logo-box">
+          <img src="assets/LOGO-CI.png" alt="Cinta de empaque inteligente" class="logo-ci">
+        </div>
+  <div class="banner-container">
+    <div class="logo-container">
+      <div class="logo-box">
+        <img src="assets/LOGO CINTANDINA.png" alt="logo-cintandina" class="logo-cintandina">
       </div>
-      <div class="feature">
-        <h3>Información actualizada</h3>
-        <p>En caso de cambios o novedades.</p>
-      </div>
-      <div class="feature">
-        <h3>Verificación en línea</h3>
-        <p>Confirmación de entrega digital y segura.</p>
-      </div>
-      <div class="feature">
-        <h3>Canal de comunicación</h3>
-        <p>Para inquietudes, dudas o sugerencias.</p>
-      </div>
-      <div class="feature">
-        <h3>Promoción adicional</h3>
-        <p>Acceso a información de valor para tus clientes.</p>
+        <div class="hero-image">
+            <img src="assets/ROLLOS-CI.png" alt="Cinta de empaque inteligente" >
+        </div>
+        <span class="line1"><h1>Seguridad, rapidez <br> y personalización</h1></span>
+        <span class="line2"><p> Entrega inmediata con logotipo y datos <br> de tu empresa.</p></span>
+        <div class="call-to-action">
+            <span>Conoce cómo funciona</span>
+            <img src="assets/FECHA-1.png" alt="Flecha hacia abajo" class="arrow-down">
+        </div>
+        
+    </header>
+      <div class="separator"></div>
+      <div class="logo-box">
+        <img src="assets/LOGO-CI.png" alt="Cinta de empaque inteligente" class="logo-ci">
       </div>
     </div>
-  </section>
+    <div class="hero-image">
+      <img src="assets/ROLLOS-CI.png" alt="Cinta de empaque inteligente">
+    </div>
+    <span class="line1"><h1>Seguridad, rapidez <br> y personalización</h1></span>
+    <span class="line2"><p>Entrega inmediata <br> con logotipo y datos <br> de tu empresa.</p></span>
+    <div class="call-to-action">
+      <span>Conoce cómo funciona</span>
+      <img src="assets/FLECHA-1.png" alt="Flecha hacia abajo" class="arrow-down">
+    </div>
+  </div>
+</header>
 
-  <section class="section">
-    <h2>Seguridad, rapidez y personalización</h2>
-    <p>Entrega inmediata con logotipo y datos de tu empresa.</p>
-  </section>
 
-  <footer>
-    <p>© 2025 Cintandina S.A. - Todos los derechos reservados.</p>
-  </footer>
+    <!-- HERO -->
+    <div class="hero-content">
+
+
+    </div> <!-- ✅ cierre de hero-content -->
+
+    <!-- SLOGAN -->
+    <section class="product-slogan-section">
+        <p>Un producto que habla de tu empresa y que conecta con tus clientes.</p>
+        <div class="display-container">
+            <img src="https://via.placeholder.com/700x400?text=Display+Interactivo" 
+                 alt="Teléfono escaneando caja" 
+                 class="interactive-image">
+        </div>
+    </section>
 
 </body>
 </html>
-
-
