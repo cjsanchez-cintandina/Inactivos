@@ -39,16 +39,18 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 150%; /* degradado más largo hacia abajo */
+  height: 100%;
   background: linear-gradient(
     to bottom, 
-    rgba(255,255,255,0.9) 0%, 
-    rgba(255,255,255,0.3) 40%, 
-    rgba(255,255,255,0) 100%
+    rgba(255,255,255,0.95) 0%,   /* blanco fuerte arriba */
+    rgba(255,255,255,0.7) 60%,   /* blanco más bajo */
+    rgba(255,255,255,0.4) 85%,   /* degradado más largo */
+    rgba(255,255,255,0) 100%     /* transparente al final */
   );
   pointer-events: none;
   z-index: 0;
 }
+
 
 /* Contenedor interno del banner */
 .header .banner-container {
