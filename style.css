@@ -339,6 +339,12 @@ body {
 
 /* Móviles */
 @media (max-width: 700px) {
+    body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
   /* Logos más pequeños pero aún lado a lado */
 .logo-container {
   display: flex !important;
@@ -349,7 +355,7 @@ body {
   gap: 15px;
 }
 
-     .logo-cintandina,
+.logo-cintandina,
   .logo-ci {
     max-height: 50px;
     width: auto;
@@ -380,7 +386,7 @@ body {
   }
 
   .hero-image img {
-    width: 60%;   /* más grande proporcionalmente en móvil */
+    width: 80%;   /* más grande proporcionalmente en móvil */
     max-width: 280px;
   }
 }
