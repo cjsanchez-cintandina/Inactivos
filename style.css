@@ -389,18 +389,17 @@ body {
   }
 
   /* Imagen: ocupa la mitad derecha, pegada al borde */
-  .hero-image {
-    width: 80%;              
-    margin-left: auto;        
-    display: flex;
-    justify-content: flex-end; 
-  }
+      .hero-image {
+      width: 100%;             /* ocupa toda la pantalla */
+      display: flex;
+      justify-content: flex-end; /* pega la imagen al borde derecho */
+    }
+    
+    .hero-image img {
+      width: 80%;              /* la imagen se escala al 80% del ancho total */
+      max-width: none;         /* evita límites */
+    }
 
-  .hero-image img {
-    width: 100%;              
-    height: auto;
-    display: block;
-  }
 }
 
 
