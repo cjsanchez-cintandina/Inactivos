@@ -91,14 +91,14 @@ body {
   font-size: 2.2em;
   color: #666;
   line-height: 1;
- margin-top: 15px;
+ margin-top: 5px;
 }
 
 .line2 {
   font-size: 2.2em;
   color: #666;
   line-height: 1;
-  margin-top: 5px;
+  margin-top: 8px;
   font-weight: 280;
 }
 
@@ -112,8 +112,8 @@ body {
 .line1 h1,
 .line2 {
   position: relative;
-  top: -70px;   
-  z-index: 3;
+  top: -80px;   
+  z-index: 1;
   text-align: center;
   margin: 0;   
 }
