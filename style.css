@@ -384,7 +384,7 @@ body {
   .hero-image {
       display: flex;
       justify-content: flex-end;
-      padding-right: 2%; /* más cerca al borde derecho */
+      padding-right: 10%; /* más cerca al borde derecho */
     }
 
 
