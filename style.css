@@ -9,6 +9,9 @@
     --light-orange: #ffeeba; /* Para el texto resaltado */
 }
 
+body, h1, h2, h3, p, span, a {
+  font-family: 'Poppins', sans-serif !important;
+}
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
