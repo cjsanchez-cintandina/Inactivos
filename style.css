@@ -101,6 +101,13 @@ body {
   margin-top: 10px;
 }
 
+.line3 {
+  font-size: 1.5em;
+  color: #666;
+  display: block;
+  margin-top: 10px;
+}
+
 .line1 h1, 
 .line2 {
   margin-top: -70px; 
