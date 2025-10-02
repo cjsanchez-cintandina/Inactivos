@@ -390,14 +390,14 @@ body {
 
   /* Imagen: ocupa la mitad derecha, pegada al borde */
   .hero-image {
-    width: 50%;              /* solo mitad derecha */
-    margin-left: auto;        /* empuja todo el bloque a la derecha */
+    width: 80%;              
+    margin-left: auto;        
     display: flex;
-    justify-content: flex-end; /* pegada al borde derecho */
+    justify-content: flex-end; 
   }
 
   .hero-image img {
-    width: 100%;              /* que llene ese 50% */
+    width: 100%;              
     height: auto;
     display: block;
   }
