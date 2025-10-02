@@ -90,23 +90,23 @@ body {
 .line1 h1 {
   font-size: 2.2em;
   color: #666;
-  line-height: 0.9;
+  line-height: 1;
  margin-top: 10px;
 }
 
 .line2 {
   font-size: 2.2em;
   color: #666;
-  line-height: 0.9;
+  line-height: 1;
   margin-top: 10px;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .line3 {
   font-size: 1.5em;
   color: #666;
   margin-top: 10px;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .line1 h1, 
