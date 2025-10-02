@@ -50,11 +50,11 @@ body {
 }
 
 .logo-ci {
-  max-height: 100%;        
+  max-height: 100px;  
   width: auto;
   display: block;
-  letter-spacing: 4px
 }
+
 
 /* Separador */
 .separator {
