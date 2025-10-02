@@ -381,17 +381,18 @@ body {
     }
 
   /* Imagen ajustada pero siempre hacia la derecha */
-  .hero-image {
+      .hero-image {
+      width: 50%;              /* ocupa la mitad derecha */
       display: flex;
       justify-content: flex-end;
-      padding-right: 10%; /* más cerca al borde derecho */
+    }
+    
+    .hero-image img {
+      max-width: 100%;         /* se ajusta dentro de esa mitad */
+      height: auto;
+      display: block;
     }
 
-
-  .hero-image img {
-    width: 80%;   /* más grande proporcionalmente en móvil */
-    max-width: 280px;
-  }
 }
 
 
