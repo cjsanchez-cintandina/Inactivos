@@ -84,7 +84,6 @@ body {
 .line1 h1 {
   font-size: 2.2em;
   color: #666666;
-  margin: 15px 0;
   line-height: 1.1;
 }
 
@@ -95,12 +94,6 @@ body {
 }
 
 
-/* Imagen central */
-.hero-image img {
-  max-width: 400px;
-  margin: 20px auto;
-  display: block;
-}
 
 /* Call to action */
 .call-to-action {
@@ -187,16 +180,15 @@ body {
     height: auto;
     cursor: pointer;
 }
-
-.hero-image {
+.hero-image img {
     margin-top: 40px;
     width: 100%;
     max-width: 800px; 
 }
 
 .hero-image img {
-    width: 100%;
-    height: auto;
+    max-width: 400px;
+    margin: 20px auto;
     display: block;
     margin-left: auto;
 }
