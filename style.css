@@ -90,7 +90,7 @@ body {
 .line1 h1 {
   font-size: 2.2em;
   color: #666;
-  line-height: 1.1;
+  line-height: 1.3;
 }
 
 .line2 {
@@ -114,11 +114,11 @@ body {
 .hero-image {
   display: flex;
   justify-content: flex-end; /* manda la imagen a la derecha */
-  padding-right: 10%;        /* empuja un poco hacia adentro para no pegarla al borde */
+  padding-right: 30%;        /* empuja un poco hacia adentro para no pegarla al borde */
 }
 
 .hero-image img {
-  max-width: 400px;
+  max-width: 450px;
   height: auto;
 }
 
