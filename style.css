@@ -86,19 +86,14 @@ body {
 }
 
 /* Texto */
-.line1 h1 {
-  font-size: 2.2em;
-  color: #666;
-  line-height: 1.1;
+.line1 h1, 
+.line2 {
+  margin-top: -40px; /* sube el texto */
+  position: relative;
+  z-index: 2; /* queda por encima de la imagen */
+  text-align: center; /* o left/right según prefieras */
 }
 
-.line2 {
-  font-size: 2.2em;
-  color: #666;
-  line-height: 1.1;
-  display: block;
-  margin-top: 10px;
-}
 
 /* Imagen central */
 .hero-image img {
