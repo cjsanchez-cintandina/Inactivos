@@ -339,12 +339,6 @@ body {
 
 /* Móviles */
 @media (max-width: 700px) {
-    body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
   /* Logos más pequeños pero aún lado a lado */
 .logo-container {
   display: flex !important;
@@ -382,7 +376,7 @@ body {
   /* Imagen ajustada pero siempre hacia la derecha */
   .hero-image {
     justify-content: flex-end;
-    padding-right: 5%;
+    padding-right: 10%;
   }
 
   .hero-image img {
