@@ -125,8 +125,8 @@ body {
 /* Imagen central */
 .hero-image {
   display: flex;
-  justify-content: flex-end; /* manda la imagen a la derecha */
-  padding-right: 15%;        /* empuja un poco hacia adentro para no pegarla al borde */
+  justify-content: center;
+  padding-right: 0;        /* empuja un poco hacia adentro para no pegarla al borde */
 }
 
 .hero-image img {
@@ -208,7 +208,6 @@ body {
 
 .how-to-read-section {
     font-size: 1.5em;
-    margin-bottom: 40px;
     font-weight: 700;
 }
 
@@ -241,7 +240,7 @@ body {
     rgba(255,255,255,0) 100%   
   );
   pointer-events: none;
-  z-index: 2;
+  z-index: 0;
 }
 
 
@@ -458,7 +457,6 @@ body {
 
   .how-to-read-section {
     font-size: 0.9em;
-    margin-bottom: 20px;
   }
 
 
