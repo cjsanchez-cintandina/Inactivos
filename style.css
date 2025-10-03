@@ -331,7 +331,7 @@ body {
   }
   .line3 {
     font-size: 1.2em;
-    top: -60px;
+    top: -80px;
   }
 
   /* Imagen: sigue ocupando la mitad derecha */
@@ -385,7 +385,7 @@ body {
 
   .line3 {
     font-size: 1em;
-    top: -30px;
+    top: -75px;
   }
 
   /* Imagen: ocupa la mitad derecha, pegada al borde */
