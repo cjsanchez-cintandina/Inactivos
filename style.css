@@ -216,37 +216,37 @@ body {
 /* Difference Section */
 
 .difference-section {
-  position: relative; 
-  background: url('assets/FONDO-CINTA-DE-SEGURIDAD-INTELIGENTE.png') no-repeat center;
-  background-size: cover;   
-  background-position: center; 
+  position: relative;
+  overflow: hidden; /* evita que el pseudo-elemento se salga */
   padding: 80px 5%;
   text-align: center;
-  z-index: 1;
 }
 
-.difference-section::after {
-  content: "";
+.background-layer {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    to top,                   
-    rgba(255,255,255,1) 0%,    
-    rgba(255,255,255,0.8) 30%, 
-    rgba(255,255,255,0.4) 60%,
-    rgba(255,255,255,0) 100%   
-  );
-  pointer-events: none;
+  background: 
+    linear-gradient(to top, 
+      rgba(255,255,255,1) 0%,    
+      rgba(255,255,255,0.8) 30%, 
+      rgba(255,255,255,0.4) 60%, 
+      rgba(255,255,255,0) 100%
+    ),
+    url('assets/FONDO-CINTA-DE-SEGURIDAD-INTELIGENTE.png') no-repeat center;
+  background-size: cover;
   z-index: 0;
 }
 
-difference-section > * {
+
+.content-layer {
   position: relative;
-  z-index: 1;
+  z-index: 1; /* ahora el texto siempre está arriba */
+  color: #000; /* o blanco, según contraste */
 }
+
 
 .step {
     display: flex;
