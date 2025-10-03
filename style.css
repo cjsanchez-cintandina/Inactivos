@@ -375,7 +375,7 @@ body {
   /* Texto más compacto */
   .line1 h1 {
     font-size: 1.4em;
-    top: -30px;
+    top: -50px;
   }
 
   .line2 {
@@ -385,7 +385,7 @@ body {
 
   .line3 {
     font-size: 1em;
-    top: -30px;
+    top: -50px;
   }
 
   /* Imagen: ocupa la mitad derecha, pegada al borde */
