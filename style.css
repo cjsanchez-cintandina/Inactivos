@@ -159,11 +159,13 @@ body {
   font-size: 1.5em;
   color: var(--dark-green);
   line-height: 1.1;
+  text-align: center;
 }
 .line5 {
   font-size: 1.5em;
   color: var(--dark-green);
   font-weight: 280;
+  text-align: center;
 }
 
 .line1 h1,
