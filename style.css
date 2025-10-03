@@ -361,11 +361,11 @@ body {
   }
 
   .how-to-read-section {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 
   .step-icon {
-    width: 70px;
+    width: 100%;
   }
 
 /* Móviles */
@@ -427,6 +427,7 @@ body {
       max-width: none;         /* evita límites */
     }
 
+    /* Instructivo*/
     .how-to-read-section {
     padding: 30px 5%;
   }
@@ -447,7 +448,7 @@ body {
   }
 
   .step-icon {
-    width: 60px;
+    width: 100%;
   }
 
 }
