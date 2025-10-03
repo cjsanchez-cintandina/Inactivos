@@ -219,8 +219,8 @@ body {
 .difference-section {
   position: relative; 
   background: url('assets/FONDO-CINTA-DE-SEGURIDAD-INTELIGENTE.png') no-repeat center;
-  background-size: contain;  
-  background-position: center bottom; 
+  background-size: cover;   
+  background-position: center; 
   padding: 80px 5%;
   text-align: center;
   z-index: 1;
@@ -236,13 +236,14 @@ body {
   background: linear-gradient(
     to top,                   
     rgba(255,255,255,1) 0%,    
-    rgba(255,255,255,0.7) 40%, 
-    rgba(255,255,255,0.3) 70%,
+    rgba(255,255,255,0.8) 30%, 
+    rgba(255,255,255,0.4) 60%,
     rgba(255,255,255,0) 100%   
   );
   pointer-events: none;
   z-index: 2;
 }
+
 
 .step {
     display: flex;
