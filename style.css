@@ -183,8 +183,7 @@ body {
 }
 
 .display-container {
-    max-width: 900px; /* Ajusta el ancho máximo de la imagen */
-    margin: 0 auto;
+    max-width: 100%; 
 }
 
 .interactive-image {
