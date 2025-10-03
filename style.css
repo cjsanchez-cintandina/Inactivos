@@ -336,7 +336,7 @@ body {
 
   /* Imagen: sigue ocupando la mitad derecha */
   .hero-image {
-    width: 50%;
+    width: 100%;
     margin-left: auto;
     display: flex;
     justify-content: flex-end;
@@ -344,7 +344,7 @@ body {
 
   .hero-image img {
     width: 100%;
-    height: auto;
+    max-width: none;
   }
 }
 
