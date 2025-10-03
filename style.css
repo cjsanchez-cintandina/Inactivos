@@ -197,7 +197,7 @@ body {
 .how-to-read-section {
     background-color: var(--dark-green); /* O un verde más oscuro */
     color: var(--white);
-    height: 150px;  
+    height: 80px;  
     display: flex;   
     flex-direction: column;
     justify-content: center;
