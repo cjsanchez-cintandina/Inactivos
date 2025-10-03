@@ -197,9 +197,13 @@ body {
 .how-to-read-section {
     background-color: var(--dark-green); /* O un verde más oscuro */
     color: var(--white);
-    height: auto;
+    height: 400px;  
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 60px 5%;
+    padding: 0 5%;   
 }
 
 .how-to-read-section {
@@ -449,11 +453,6 @@ body {
     margin-bottom: 20px;
   }
 
-  .steps-container {
-    flex-direction: column; /* 👈 se apilan en una sola columna */
-    align-items: center;
-    gap: 20px;
-  }
 
   .step {
     max-width: 100%; /* ocupan todo el ancho disponible */
