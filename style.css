@@ -197,7 +197,7 @@ body {
 .how-to-read-section {
     background-color: var(--dark-green); /* O un verde más oscuro */
     color: var(--white);
-    height: 80px;  
+    height: 60px;  
     display: flex;   
     flex-direction: column;
     justify-content: center;
@@ -382,7 +382,7 @@ body {
   }
 
   .how-to-read-section {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .step-icon {
@@ -451,10 +451,12 @@ body {
     /* Instructivo*/
     .how-to-read-section {
     padding: 30px 5%;
+    height: 20px;  
+        
   }
 
   .how-to-read-section {
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 20px;
   }
 
