@@ -101,7 +101,7 @@ body {
   font-size: 2.2em;
   color: #666;
   line-height: 1.1;
-  margin-top: 10px;
+  margin-top: 13px;
   font-weight: 280;
 }
 
@@ -135,7 +135,7 @@ body {
 
 /* Call to action */
 .call-to-action {
-  margin-top: 10px;
+  margin-top: 3px;
   text-align: center;
   font-weight: 600;
   cursor: pointer;
