@@ -234,8 +234,8 @@ body {
   background: 
     linear-gradient(to top, 
       rgba(255,255,255,0.95) 0%, 
-      rgba(255,255,255,0.7) 50%, 
-      rgba(255,255,255,0.4) 90%,          
+      rgba(255,255,255,0.5) 50%, 
+      rgba(255,255,255,0.2) 90%,          
       rgba(255,255,255,0) 100%
     ),
     url('assets/FONDO-CINTA-DE-SEGURIDAD-INTELIGENTE.png') no-repeat center;
