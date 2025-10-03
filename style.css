@@ -152,6 +152,7 @@ body {
     background-color: var(--light-gray);
     padding: 30px 5%;
     font-weight: 600;
+    text-alingn: center;
 }
 
 .line4 {
@@ -352,6 +353,12 @@ body {
     top: -70px;
   }
 
+    .line4 {
+    font-size: 1.2em;
+  }
+  .line5 {
+    font-size: 1.2em;
+  }
   /* Imagen: sigue ocupando la mitad derecha */
   .hero-image {
     width: 380px;
@@ -404,6 +411,13 @@ body {
   .line3 {
     font-size: 1em;
     top: -70px;
+  }
+     .line4 {
+    font-size: 1em;
+  }
+
+  .line5 {
+    font-size: 1em;
   }
 
   /* Imagen: ocupa la mitad derecha, pegada al borde */
