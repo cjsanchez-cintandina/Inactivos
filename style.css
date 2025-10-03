@@ -135,7 +135,7 @@ body {
 
 /* Call to action */
 .call-to-action {
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
   font-weight: 600;
   cursor: pointer;
@@ -331,7 +331,7 @@ body {
   }
   .line3 {
     font-size: 1.2em;
-    top: -90px;
+    top: -70px;
   }
 
   /* Imagen: sigue ocupando la mitad derecha */
@@ -385,7 +385,7 @@ body {
 
   .line3 {
     font-size: 1em;
-    top: -90px;
+    top: -70px;
   }
 
   /* Imagen: ocupa la mitad derecha, pegada al borde */
