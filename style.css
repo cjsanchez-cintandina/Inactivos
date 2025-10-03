@@ -101,13 +101,13 @@ body {
   font-size: 2.2em;
   color: #666;
   line-height: 1.1;
-  margin-bottom: 5px;
+  margin-bottom: 5px !important;
   font-weight: 280;
 }
 
 .line3 {
   font-size: 1.5em;
-  margin-top: 0px;
+  margin-top: 0px !important;
   color: #666;
   font-weight: 280;
 }
