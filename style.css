@@ -327,7 +327,7 @@ body {
   .line1 h1,
   .line2 {
     font-size: 1.8em;
-    top: -80px;
+    top: -70px;
   }
   .line3 {
     font-size: 1.2em;
@@ -336,7 +336,7 @@ body {
 
   /* Imagen: sigue ocupando la mitad derecha */
   .hero-image {
-    width: 100%;
+    width: 100px;
     margin-left: auto;
     display: flex;
     justify-content: flex-end;
@@ -380,17 +380,17 @@ body {
 
   .line2 {
     font-size: 1.4em;
-    top: -30px;
+    top: -50px;
   }
 
   .line3 {
     font-size: 1em;
-    top: -50px;
+    top: -30px;
   }
 
   /* Imagen: ocupa la mitad derecha, pegada al borde */
       .hero-image {
-      width: 100%;             /* ocupa toda la pantalla */
+      width: 100px;             /* ocupa toda la pantalla */
       display: flex;
       justify-content: flex-end; /* pega la imagen al borde derecho */
     }
