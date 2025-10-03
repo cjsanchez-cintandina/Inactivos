@@ -336,7 +336,7 @@ body {
 
   /* Imagen: sigue ocupando la mitad derecha */
   .hero-image {
-    width: 500px;
+    width: 300px;
     margin-left: auto;
     display: flex;
     justify-content: flex-end;
@@ -390,7 +390,7 @@ body {
 
   /* Imagen: ocupa la mitad derecha, pegada al borde */
       .hero-image {
-      width: 500px;             /* ocupa toda la pantalla */
+      width: 300px;             /* ocupa toda la pantalla */
       display: flex;
       justify-content: flex-end; /* pega la imagen al borde derecho */
     }
