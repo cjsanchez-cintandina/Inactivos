@@ -190,7 +190,8 @@ body {
 .interactive-image {
     width: 100%;
     height: auto;
-    display: block;
+    justify-content: center; 
+    padding-right: 0; 
 }
 
 /* banner How to Read Section */
