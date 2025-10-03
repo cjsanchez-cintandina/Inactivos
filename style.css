@@ -149,9 +149,15 @@ body {
 
 /* Product Slogan Section */
 .product-slogan-section {
-    background-color: var(--light-gray);
-    padding: 30px 5%;
-    font-weight: 600;
+  width: 100vw;              
+  margin: 0;                 
+  padding: 0;                
+  text-align: center;        
+}
+
+.product-slogan-section span {
+  display: block;
+  margin-bottom: 10px;
 }
 
 .line4 {
@@ -183,10 +189,11 @@ body {
 }
 
 .interactive-image {
-    width: 100%;
-    height: auto;
-    justify-content: center; 
-    padding-right: 0; 
+  width: 100%;             
+  height: auto;              
+  display: block;            
+  margin: 0;
+  padding: 0;
 }
 
 /* banner How to Read Section */
