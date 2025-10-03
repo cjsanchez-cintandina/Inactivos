@@ -452,12 +452,12 @@ body {
     /* Instructivo*/
     .how-to-read-section {
     padding: 30px 5%;
-    height: 15px;  
+    height: 10px;  
         
   }
 
   .how-to-read-section {
-    font-size: 0.8em;
+    font-size: 1em;
     margin-bottom: 20px;
   }
 
