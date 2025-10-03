@@ -237,7 +237,7 @@ body {
 }
 
 .step-icon {
-    width: 80px; /* Ajusta el tamaño de los iconos de los pasos */
+    width: 100%; 
     height: auto;
 }
 
