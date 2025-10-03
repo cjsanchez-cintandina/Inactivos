@@ -201,7 +201,7 @@ body {
     padding: 60px 5%;
 }
 
-.how-to-read-section h2 {
+.how-to-read-section {
     font-size: 1.5em;
     margin-bottom: 40px;
     font-weight: 700;
@@ -222,21 +222,6 @@ body {
     align-items: center;
     gap: 15px;
 }
-
-.step-number {
-    font-size: 2.5em;
-    font-weight: 700;
-    background-color: var(--white);
-    color: var(--primary-green);
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid var(--primary-green);
-}
-
 .step-icon {
     width: 100%; 
     height: auto;
@@ -371,6 +356,17 @@ body {
     max-width: none;
   }
 }
+.how-to-read-section {
+    padding: 40px 5%;
+  }
+
+  .how-to-read-section {
+    font-size: 1.3em;
+  }
+
+  .step-icon {
+    width: 70px;
+  }
 
 /* Móviles */
 @media (max-width: 700px) {
@@ -430,6 +426,29 @@ body {
       width: 100%;              /* la imagen se escala al 80% del ancho total */
       max-width: none;         /* evita límites */
     }
+
+    .how-to-read-section {
+    padding: 30px 5%;
+  }
+
+  .how-to-read-section {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+
+  .steps-container {
+    flex-direction: column; /* 👈 se apilan en una sola columna */
+    align-items: center;
+    gap: 20px;
+  }
+
+  .step {
+    max-width: 100%; /* ocupan todo el ancho disponible */
+  }
+
+  .step-icon {
+    width: 60px;
+  }
 
 }
 
