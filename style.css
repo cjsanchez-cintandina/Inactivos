@@ -410,10 +410,9 @@ font-size: 5.1em;
     justify-content: flex-end;
   }
 
-  .phone-app-image {
+   .phone-app-image {
     justify-content: flex-end;
-    width: 100px;
-    margin-top: 20px;
+    width: 90%;
   }
 }
 
@@ -525,7 +524,7 @@ font-size: 5.1em;
   }
 
   .phone-app-image {
-    width: 100px;
+    width: 50%;
     justify-content: flex-end;
   }
 
