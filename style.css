@@ -493,11 +493,11 @@ font-size: 5.1em;
   }
 
   .line6 {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .line7 {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .step {
@@ -525,7 +525,7 @@ font-size: 5.1em;
   }
 
   .phone-app-image {
-    width: 85%;
+    width: 50%;
     justify-content: flex-end;
   }
 
