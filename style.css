@@ -283,9 +283,10 @@ body {
 
 .features-display-container {
   display: flex;
-  align-items: flex-start; /* Alinea arriba el texto y la imagen */
-  justify-content: flex-end; /* Mantiene todo hacia la derecha */
-  gap: 40px; /* Espacio entre texto e imagen */
+  flex-direction: row;         /* Texto e imagen en la misma fila */
+  justify-content: flex-end;   /* Todo el bloque hacia la derecha */
+  align-items: flex-start;     /* Alineación superior */
+  gap: 40px;                   /* Espacio entre texto e imagen */
   width: 100%;
   background: transparent;
   border: none;
@@ -298,35 +299,32 @@ body {
 .features-list {
   display: flex;
   flex-direction: column;
-  align-items: flex-end; /* Alinea el texto e íconos a la derecha */
-  text-align: right; /* Texto alineado a la derecha */
+  align-items: flex-end;       /* Alinea texto e íconos a la derecha */
+  text-align: right;           /* Texto alineado a la derecha */
   max-width: 40%;
   font-size: 0.8em;
   background: transparent;
 }
 /* cada ítem */
+
 .feature-item {
   display: flex;
+  flex-direction: row-reverse; /* Icono a la izquierda, texto a la derecha */
   align-items: center;
-  justify-content: flex-end; /* Icono y texto a la derecha */
+  justify-content: flex-end;
   gap: 10px;
   background: transparent;
 }
 
 
 .feature-item img.feature-icon {
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
 }
 
-
-.feature-item p {
-  margin: 0;
-  font-size: 1em;
-  color: #444;
-}
 
 /* imagen */
+
 .phone-app-image {
   display: flex;
   justify-content: flex-end;
@@ -336,11 +334,10 @@ body {
 
 
 .phone-app-image img {
-  width: 250px;
+  width: 260px;
   height: auto;
   background: transparent;
 }
-
 
 
 
