@@ -291,6 +291,7 @@ body {
     gap: 50px;
     max-width: 800px;
     margin: 0 auto;
+    font-weight: 250;
 }
 
 .features-display-container {
@@ -424,7 +425,7 @@ body {
 
 .features-display-container {
     max-width: none;
-    gap: 20px;
+    gap: 50px;
     font-size: 0.8em;
     top: -50px;
   }
@@ -517,7 +518,7 @@ body {
 
     .features-display-container {
     max-width: none;
-    gap: 20px;
+    gap: 50px;
     font-size: 0.7em;
     top: -35px;
   }
