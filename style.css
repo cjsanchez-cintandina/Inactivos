@@ -277,7 +277,9 @@ font-size: 3.1em;
     justify-content:  flex-start !important;
     flex-direction: column;
     font-weight: 250;
-    text-align: right; 
+    text-align: right;
+    padding-right: 10%;
+    padding: 10px 50px 20px;
 }
 
 .features-list{
