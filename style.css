@@ -465,6 +465,10 @@ font-size: 5.1em;
     font-size: 1em;
   }
 
+    .line6, .line7 {
+    font-size: 1.2em;
+  }
+
   /* Imagen: ocupa la mitad derecha, pegada al borde */
       .hero-image {
       width: 380px;             /* ocupa toda la pantalla */
@@ -489,7 +493,7 @@ font-size: 5.1em;
   }
 
   .line6 {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .line7 {
