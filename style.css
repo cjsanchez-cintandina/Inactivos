@@ -247,13 +247,13 @@ body {
 }
 
 .line6 {
-  font-size: 2em;
+  font-size: 3.3em;
   color: #666666;
   line-height: 0.2;
 }
 
 .line7 {
- font-size: 2em;
+ font-size: 3.3em;
  color: var(--primary-green);
 }
 
@@ -266,6 +266,7 @@ body {
 }
 
 .features-display-container {
+    flex-direction: row;
     display: flex;
     font-size: 1.5em;
     max-width: 100%;
