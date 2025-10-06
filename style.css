@@ -261,17 +261,6 @@ body {
  margin-top: 15;
 }
 
-
-.difference-section h1 {
-    font-size: 3em;
-    font-weight: 700;
-    margin-bottom: 50px;
-}
-
-.difference-section {
-    color: var(--primary-green);
-}
-
 .features-display-container {
     display: flex;
     font-size: 1.5em;
