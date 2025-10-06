@@ -294,9 +294,8 @@ body {
 
 .features-display-container {
   position: relative;
-  top: -40px;   
+  top: -30px;   
   z-index: 2;
-  text-align: start;
   margin: 0;   
 }
 
@@ -304,7 +303,7 @@ body {
 .features-list {
     flex: 1;
     min-width: 300px;
-    text-align: left;
+    text-align: start;
 }
 
 .feature-item {
@@ -328,10 +327,11 @@ body {
 
 .phone-app-image {
     flex: 1;
-    min-width: 300px;
+    min-width: 400px;
     max-width: 500px; /* Ajusta el tamaño de la imagen del teléfono */
     display: flex;
     justify-content:  flex-end;
+    padding-right: -1%;   
 }
 
 
