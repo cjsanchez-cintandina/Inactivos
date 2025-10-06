@@ -282,34 +282,35 @@ body {
 }
 
 .features-display-container {
-  display: flex;
-  flex-wrap: nowrap;          /* evita que la imagen se vaya abajo */
-  justify-content: flex-end;  /* empuja todo el bloque hacia la derecha */
-  align-items: flex-start;    /* alinea texto e imagen arriba */
-  gap: 30px;                  /* espacio entre texto e imagen */
   position: relative;
-  top: -40px;
-  background: transparent;
-  border: none;
-  font-size: 0.8em;           /* texto más pequeño */
+  display: flex;
+  justify-content: flex-end;   /* todo el contenido hacia la derecha */
+  align-items: flex-start;
+  flex-wrap: nowrap;           /* evita que la imagen baje */
+  gap: 30px;                   /* espacio entre texto e imagen */
+  width: 50%;                  /* ocupa la mitad derecha de la pantalla */
+  margin-left: auto;           /* empuja todo hacia la derecha */
+  background: transparent;     /* sin fondo */
+  font-size: 0.8em;            /* texto más pequeño */
   color: #333;
-  padding-right: 5%;          /* margen desde el borde derecho */
-  width: 100%;                /* asegura el ancho total disponible */
+  padding-right: 2%;           /* un pequeño margen desde el borde derecho */
+  top: -40px;
+  z-index: 2;
   box-sizing: border-box;
 }
 
 /* bloque de texto */
 .features-list {
-  text-align: right;          /* texto alineado a la derecha */
-  max-width: 350px;           /* controla el ancho del texto */
-  flex-shrink: 0;             /* evita que se reduzca demasiado */
+  flex: 1;                     /* ocupa el espacio restante antes de la imagen */
+  text-align: right;           /* texto alineado a la derecha */
+  max-width: 350px;            /* controla el ancho del bloque de texto */
 }
 
-/* ítems del texto */
+/* ítems de texto */
 .feature-item {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-end;  /* icono y texto alineados a la derecha */
+  justify-content: flex-end;   /* icono + texto alineados a la derecha */
   margin-bottom: 15px;
   gap: 10px;
 }
@@ -326,13 +327,13 @@ body {
   color: #444;
 }
 
-/* imagen al lado derecho del texto */
+/* imagen al lado derecho */
 .phone-app-image {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
+  flex: 0 0 auto;              /* mantiene su tamaño y no se encoge */
   max-width: 300px;
-  flex-shrink: 0;             /* evita que se reduzca o baje */
 }
 
 .phone-app-image img {
@@ -343,6 +344,7 @@ body {
   box-shadow: none;
   background: transparent;
 }
+
 
 
 
@@ -426,16 +428,18 @@ body {
   }
 
 .features-display-container {
+    width: 100%;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    top: -20px;
+  }
+
+  .features-list {
+    text-align: center;
   }
 
 .features-list, .phone-app-image {
     flex: 1 1 100%;
     max-width: 90%;
-    text-align: center;
   }
 
   .feature-item {
@@ -536,8 +540,8 @@ body {
 
 .features-list, .phone-app-image {
     flex: 1 1 100%;
-    max-width: 90%;
-    text-align: center;
+    width: 100%;
+    align-items: center;
   }
 
   .feature-item {
