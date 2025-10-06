@@ -248,6 +248,11 @@ body {
   color: #000; /* o blanco, según contraste */
 }
 
+.line6 {
+  color: var(--light-gray);
+  line-height: 1.1;
+ margin-top: 15;
+}
 
 .step {
     display: flex;
