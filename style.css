@@ -282,43 +282,43 @@ body {
 }
 
 .features-display-container {
-  position: relative;
   display: flex;
-  flex-direction: row;          /* texto e imagen lado a lado */
-  justify-content: flex-end;    /* empuja todo hacia la derecha */
-  align-items: flex-start;
-  gap: 30px;                    /* separación entre texto e imagen */
-  width: 50%;                   /* ocupa la mitad derecha */
-  margin-left: auto;            /* empuja todo a la derecha */
+  align-items: flex-start; /* Alinea arriba el texto y la imagen */
+  justify-content: flex-end; /* Mantiene todo hacia la derecha */
+  gap: 40px; /* Espacio entre texto e imagen */
+  width: 100%;
+  background: transparent;
+  border: none;
   padding-right: 5%;
-  background: transparent;      /* sin fondo */
-  font-size: 0.9em;             /* texto un poco más pequeño */
-  color: #333;
-  box-sizing: border-box;
-  z-index: 2;
 }
+
+
 
 /* bloque de texto */
 .features-list {
-  flex: 1;
-  text-align: right;            /* texto alineado a la derecha */
-  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Alinea el texto e íconos a la derecha */
+  text-align: right; /* Texto alineado a la derecha */
+  max-width: 40%;
+  font-size: 0.8em;
+  background: transparent;
 }
-
 /* cada ítem */
 .feature-item {
   display: flex;
-  justify-content: flex-end;    /* alinea ícono + texto hacia la derecha */
-  align-items: flex-start;
+  align-items: center;
+  justify-content: flex-end; /* Icono y texto a la derecha */
   gap: 10px;
-  margin-bottom: 18px;
+  background: transparent;
 }
 
-.feature-icon {
-  width: 24px;
-  height: 24px;
-  flex-shrink: 0;
+
+.feature-item img.feature-icon {
+  width: 30px;
+  height: 30px;
 }
+
 
 .feature-item p {
   margin: 0;
@@ -328,20 +328,16 @@ body {
 
 /* imagen */
 .phone-app-image {
-  flex: 0 0 auto;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-start;
-  max-width: 320px;
+  align-items: center;
+  background: transparent;
 }
 
+
 .phone-app-image img {
-  width: 100%;
+  width: 250px;
   height: auto;
-  display: block;
-  border: none;
-  border-radius: 0;
-  box-shadow: none;
   background: transparent;
 }
 
