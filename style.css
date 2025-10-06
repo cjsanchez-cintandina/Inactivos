@@ -396,11 +396,9 @@ font-size: 3.1em;
   }
 
     .features-display-container {
-    display: flex;
-    flex-direction: row;
+
     font-size: 0.9em;
-    max-width: 100%;
-    gap: 20px;
+
 }
 
 .features-list {
@@ -409,10 +407,6 @@ font-size: 3.1em;
     text-align: start !important;
 }
 
-.features-list{
-  position: relative;
-  z-index: 2;
-}
 
 
 .feature-icon {
@@ -421,11 +415,6 @@ font-size: 3.1em;
 }
 
 
-.phone-app-image {
-    display: flex;
-    justify-content:  flex-end;
-    float: left;
-}
 
 .phone-app-image img {
   max-width: 250px;
@@ -524,12 +513,8 @@ font-size: 3.1em;
     width: 100%;
   }
 
-     .features-display-container {
-    display: flex;
-    flex-direction: row;
-    font-size: 0.6em;
-    max-width: 100%;
-    gap: 20px;
+ .features-display-container {
+font-size: 0.6em;
 }
 
 .features-list {
@@ -538,10 +523,6 @@ font-size: 3.1em;
     text-align: start !important;
 }
 
-.features-list{
-  position: relative;
-  z-index: 2;
-}
 
 
 .feature-icon {
@@ -551,10 +532,6 @@ font-size: 3.1em;
 }
 
 
-.phone-app-image {
-    display: flex;
-    justify-content:  flex-end;
-}
 
 .phone-app-image img {
   max-width: 200px;
