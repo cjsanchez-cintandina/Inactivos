@@ -487,39 +487,6 @@ font-size: 3.1em;
   }
 
 
- .features-display-container {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-    .feature-item p {
-    font-size: 0.9em;
-  }
-
-  .features-list {
-    text-align: right;
-    font-size: 0.9em;
-    align-items: flex-start;  /* Mantiene íconos y texto a la derecha */
-    width: 100%;
-  }
-
-
-  .feature-icon {
-    width: 25px;
-    height: 25px;
-  }
-
-  .phone-app-image {
-     width: 380px;
-    display: flex;
-    justify-content: flex-end; 
-  }  
-    .phone-app-image img {
-      width: 100%;              /* la imagen se escala al 80% del ancho total */
-      max-width: none;         /* evita límites */
-    }
-
-
 }
 
 
