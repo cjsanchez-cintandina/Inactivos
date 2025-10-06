@@ -283,60 +283,55 @@ body {
 
 .features-display-container {
   display: flex;
-  flex-direction: row;         /* Texto e imagen en la misma fila */
-  justify-content: flex-end;   /* Todo el bloque hacia la derecha */
-  align-items: flex-start;     /* Alineación superior */
-  gap: 40px;                   /* Espacio entre texto e imagen */
+  justify-content: flex-end;    /* todo el bloque a la derecha */
+  align-items: flex-start;
+  gap: 40px;
   width: 100%;
   background: transparent;
   border: none;
-  padding-right: 5%;
+  position: relative;
 }
-
-
 
 /* bloque de texto */
 .features-list {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;       /* Alinea texto e íconos a la derecha */
-  text-align: right;           /* Texto alineado a la derecha */
+  align-items: flex-end;        /* alinea todo a la derecha */
+  text-align: right;
   max-width: 40%;
   font-size: 0.8em;
   background: transparent;
+  margin-left: auto;            /* empuja el bloque hacia la derecha */
 }
-/* cada ítem */
 
+/* cada fila de ícono + texto */
 .feature-item {
   display: flex;
-  flex-direction: row-reverse; /* Icono a la izquierda, texto a la derecha */
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
   background: transparent;
 }
 
-
+/* íconos a la derecha del texto */
 .feature-item img.feature-icon {
   width: 28px;
   height: 28px;
+  order: 2; /* fuerza el ícono a la derecha del texto */
 }
 
-
-/* imagen */
-
+/* imagen del celular */
 .phone-app-image {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   background: transparent;
+  margin-right: 5%;
 }
-
 
 .phone-app-image img {
   width: 260px;
   height: auto;
-  background: transparent;
 }
 
 
