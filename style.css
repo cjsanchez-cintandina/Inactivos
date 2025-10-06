@@ -322,7 +322,7 @@ body {
   width: 50%;
   vertical-align: middle;
   background: transparent;
-  text-align: left; /* Alinea imagen a la izquierda */
+  text-align: end; /* Alinea imagen a la izquierda */
   overflow: visible;
   padding: 0;
 }
