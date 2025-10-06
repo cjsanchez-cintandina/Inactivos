@@ -278,8 +278,7 @@ font-size: 3.1em;
     flex-direction: column;
     font-weight: 250;
     text-align: right;
-    padding-right: 10%;
-    padding: 10px 50px 20px;
+    padding-right: 25%;
 }
 
 .features-list{
@@ -297,8 +296,8 @@ font-size: 3.1em;
 }
 
 .feature-icon {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     flex-shrink: 0;
 }
 
