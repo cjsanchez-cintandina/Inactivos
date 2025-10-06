@@ -292,6 +292,15 @@ body {
     margin: 0 auto;
 }
 
+.features-display-container {
+  position: relative;
+  top: -90px;   
+  z-index: 2;
+  text-align: start;
+  margin: 0;   
+}
+
+
 .features-list {
     flex: 1;
     min-width: 300px;
