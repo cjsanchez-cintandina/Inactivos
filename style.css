@@ -289,7 +289,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
-    max-width: 50%;
+    max-width: 30%;
     margin: 0 auto;
     font-weight: 250;
 }
@@ -424,8 +424,7 @@ body {
   }
 
 .features-display-container {
-    max-width: 60%;
-    gap: 20px;
+    max-width: 30%;
     font-size: 0.8em;
     top: -30px;
   }
@@ -517,7 +516,7 @@ body {
   }
 
     .features-display-container {
-    max-width: 50%;
+    max-width: 30%;
     font-size: 0.7em;
     top: -20px;
   }
