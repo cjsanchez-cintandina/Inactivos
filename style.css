@@ -249,7 +249,7 @@ body {
 }
 
 .line6 {
-  font-size: 2.2em;
+  font-size: 1.5em;
   color: #666666;
   line-height: 0.9;
 }
@@ -405,6 +405,12 @@ body {
   .step-icon {
     width: 100%;
   }
+    .line6 {
+    font-size: 1.6em;
+  }
+  .line7 {
+    font-size: 1.6em;
+  }
 
 /* Móviles */
 @media (max-width: 700px) {
@@ -476,6 +482,13 @@ body {
     font-size: 0.9em;
   }
 
+  .line6 {
+    font-size: 1.6em;
+  }
+
+  .line7 {
+    font-size: 1.6em;
+  }
 
   .step {
     max-width: 100%; /* ocupan todo el ancho disponible */
@@ -484,6 +497,7 @@ body {
   .step-icon {
     width: 100%;
   }
+    
 
 }
 
