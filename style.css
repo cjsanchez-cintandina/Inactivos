@@ -281,14 +281,12 @@ body {
   position: relative;
   top: -30px;   
   z-index: 2;
-  text-align: start;
   margin: 0;   
 }
 
 
 .feature-item {
     display: flex;
-    align-items: flex-end;
     margin-bottom: 25px;
     gap: 15px;
 }
