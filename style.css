@@ -391,12 +391,48 @@ font-size: 3.1em;
   .step-icon {
     width: 100%;
   }
-    .line6 {
-    font-size: 1.2em;
+    .line6, .line7 {
+    font-size: 1.5em;
   }
-  .line7 {
-    font-size: 1em;
-  }
+
+    .features-display-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9em;
+    max-width: 100%;
+    gap: 20px;
+}
+
+.features-list {
+    justify-content:  flex-start !important;
+    flex-direction: column;
+    text-align: start !important;
+}
+
+.features-list{
+  position: relative;
+  z-index: 2;
+}
+
+
+.feature-icon {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
+
+.phone-app-image {
+    display: flex;
+    justify-content:  flex-end;
+    z-index: 1;
+    padding-left: 10%;
+}
+
+.phone-app-image img {
+  max-width: 200px;
+  height: auto;
+}
 
 }
 
@@ -489,6 +525,45 @@ font-size: 3.1em;
   .step-icon {
     width: 100%;
   }
+
+     .features-display-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8em;
+    max-width: 100%;
+    gap: 20px;
+}
+
+.features-list {
+    justify-content:  flex-start !important;
+    flex-direction: column;
+    text-align: start !important;
+}
+
+.features-list{
+  position: relative;
+  z-index: 2;
+}
+
+
+.feature-icon {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
+
+.phone-app-image {
+    display: flex;
+    justify-content:  flex-end;
+    z-index: 1;
+    padding-left: 10%;
+}
+
+.phone-app-image img {
+  max-width: 150px;
+  height: auto;
+}
 
 
 }
