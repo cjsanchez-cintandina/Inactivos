@@ -283,29 +283,33 @@ body {
 
 .features-display-container {
   display: flex;
-  justify-content: flex-end;   /* todo el bloque se mueve hacia la derecha */
-  align-items: flex-start;     /* alinea texto e imagen arriba */
-  gap: 30px;                   /* espacio entre texto e imagen */
+  flex-wrap: nowrap;          /* evita que la imagen se vaya abajo */
+  justify-content: flex-end;  /* empuja todo el bloque hacia la derecha */
+  align-items: flex-start;    /* alinea texto e imagen arriba */
+  gap: 30px;                  /* espacio entre texto e imagen */
   position: relative;
   top: -40px;
-  background: transparent;     /* sin fondo */
+  background: transparent;
   border: none;
-  font-size: 0.8em;            /* texto más pequeño */
+  font-size: 0.8em;           /* texto más pequeño */
   color: #333;
-  padding-right: 5%;           /* un poco de aire desde el borde derecho */
+  padding-right: 5%;          /* margen desde el borde derecho */
+  width: 100%;                /* asegura el ancho total disponible */
+  box-sizing: border-box;
 }
 
 /* bloque de texto */
 .features-list {
-  text-align: right;           /* texto alineado a la derecha */
-  max-width: 350px;            /* ancho controlado del bloque de texto */
+  text-align: right;          /* texto alineado a la derecha */
+  max-width: 350px;           /* controla el ancho del texto */
+  flex-shrink: 0;             /* evita que se reduzca demasiado */
 }
 
 /* ítems del texto */
 .feature-item {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-end;   /* íconos + texto alineados a la derecha */
+  justify-content: flex-end;  /* icono y texto alineados a la derecha */
   margin-bottom: 15px;
   gap: 10px;
 }
@@ -328,16 +332,18 @@ body {
   justify-content: flex-end;
   align-items: flex-start;
   max-width: 300px;
+  flex-shrink: 0;             /* evita que se reduzca o baje */
 }
 
 .phone-app-image img {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 0;            /* sin bordes ni sombras */
+  border-radius: 0;
   box-shadow: none;
   background: transparent;
 }
+
 
 
 /* Footer */
@@ -523,11 +529,10 @@ body {
   }
 
     .features-display-container {
-     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    top: -20px;
-  }
+  width: 50%;
+  margin-left: auto;  /* empuja todo a la mitad derecha */
+}
+
 
 .features-list, .phone-app-image {
     flex: 1 1 100%;
