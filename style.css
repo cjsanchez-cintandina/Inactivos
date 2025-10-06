@@ -289,16 +289,17 @@ body {
 
 .features-list {
   width: 50%;
-  text-align: start;
+  text-align: right; /* Alinea texto a la derecha */
   vertical-align: middle;
   font-size: 0.9em;
-  padding-right: 40px;
+  padding-right: 20px; /* Puedes reducir si quieres más pegado */
   background: transparent;
 }
 
 .feature-item {
   display: flex;
-  justify-content: start;
+  justify-content: flex-end; /* Mueve el contenido hacia la derecha */
+  align-items: center;
   margin-bottom: 15px;
   gap: 10px;
   background: transparent;
@@ -307,25 +308,33 @@ body {
 .feature-icon {
   width: 28px;
   height: 28px;
+  order: 2; /* Mueve el ícono al lado derecho del texto */
 }
 
 .feature-item p {
   margin: 0;
   max-width: 350px;
+  text-align: right; /* Asegura alineación del texto */
+  order: 1;
 }
 
 .phone-app-image {
-  width: 60%;
+  width: 50%;
   vertical-align: middle;
   background: transparent;
+  text-align: left; /* Alinea imagen a la izquierda */
+  overflow: visible;
+  padding: 0;
 }
 
 .phone-app-image img {
-  width: 300px;
+  width: 330px; /* puedes ajustar tamaño */
   height: auto;
-  border-radius: 0px;
-  align-items: end;
+  border-radius: 0;
+  display: block;
+  margin-left: -40px; /* Desborda un poco hacia la derecha */
 }
+
 
 
 
