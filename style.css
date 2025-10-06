@@ -249,8 +249,8 @@ body {
 }
 
 .line6 {
-  color: var(--light-gray);
-  line-height: 1.1;
+  color: #666666;
+  line-height: 0.9;
  margin-top: 15;
 }
 
