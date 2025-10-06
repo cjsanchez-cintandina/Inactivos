@@ -394,31 +394,29 @@ font-size: 5.1em;
     font-size: 1em;
   }
 
-  .features-layout {
-    width: 90%;
-    margin: 0 auto;
+.features-display-container {
+    flex-direction: column; /* Se apilan los elementos */
+    align-items: flex-end;  /* Mantiene todo a la derecha */
   }
 
   .features-list {
+    text-align: right;
+    font-size: 0.9em;
+    align-items: flex-end;  /* Mantiene íconos y texto a la derecha */
     width: 100%;
-    text-align: center;
-    padding-right: 0;
-  }
-
-  .phone-app-image {
-    text-align: center;
-    display: block;
-    padding-top: 20px;
-  }
-
-  .phone-app-image img {
-    width: 220px;
   }
 
   .feature-item {
-    justify-content: center;
-    text-align: center;
+    justify-content: flex-end;
   }
+
+  .phone-app-image {
+    justify-content: flex-end;
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+
 
 /* Móviles */
 @media (max-width: 700px) {
@@ -507,11 +505,24 @@ font-size: 5.1em;
   }
 
 
-    .features-display-container {
-    max-width: 50%;
-    gap: 20px;
-    font-size: 0.7em;
-    top: -20px;
+ .features-display-container {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+  }
+
+  .feature-item p {
+    font-size: 0.9em;
+  }
+
+  .feature-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .phone-app-image {
+    width: 85%;
+    justify-content: flex-end;
   }
 
 
