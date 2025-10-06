@@ -284,6 +284,7 @@ body {
 
 .features-display-container {
     display: flex;
+    font-size: 1.5em;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -294,7 +295,7 @@ body {
 
 .features-display-container {
   position: relative;
-  top: -90px;   
+  top: -70px;   
   z-index: 2;
   text-align: start;
   margin: 0;   
@@ -421,6 +422,11 @@ body {
     font-size: 1em;
   }
 
+.features-display-container {
+    font-size: 0.8em;
+    top: -70px;
+  }
+
 /* Móviles */
 @media (max-width: 700px) {
   /* Logos en fila siempre */
@@ -506,7 +512,12 @@ body {
   .step-icon {
     width: 100%;
   }
-    
+
+    .features-display-container {
+    font-size: 0.8em;
+    top: -70px;
+  }
+
 
 }
 
