@@ -424,10 +424,10 @@ body {
   }
 
 .features-display-container {
-    max-width: none;
-    gap: 50px;
+    max-width: 90%;
+    gap: 20px;
     font-size: 0.8em;
-    top: -50px;
+    top: -30px;
   }
 
 /* Móviles */
@@ -517,10 +517,10 @@ body {
   }
 
     .features-display-container {
-    max-width: none;
-    gap: 50px;
+    max-width: 90%;
+    gap: 20px;
     font-size: 0.7em;
-    top: -35px;
+    top: -20px;
   }
 
 
