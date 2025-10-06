@@ -288,7 +288,7 @@ body {
   margin: 0 auto;
   font-weight: 250;
   position: relative;
-  top: -20px;
+  top: -30px;
   z-index: 2;
 }
 
@@ -297,14 +297,15 @@ body {
   flex: 1;
   font-size: 1.1em;
   min-width: 300px;
-  text-align: right; /* 🔹 texto alineado a la derecha */
+  text-align: right; 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: flex-end;  
 }
 
 .feature-item {
-    display: flex !important;
+    display: flex ;
     align-items: flex-end;
     align-items: center
     margin-bottom: 25px;
@@ -315,7 +316,7 @@ body {
     width: 30px ;
     height: 30px;
     flex-shrink: 0;
-     order: 2;
+     order: 1;
 }
 
 .feature-item p {
@@ -323,7 +324,7 @@ body {
     font-size: 1.1em;
     color: #555;
     text-align: right; 
-    order: 1;
+    order: 2;
 }
 
 .phone-app-image {
@@ -334,13 +335,14 @@ body {
   justify-content: flex-start; 
   align-items: center;
   overflow: visible;
+  position: relative;
 }
 
 .phone-app-image img {
   width: 100%;
   height: auto;
   display: block;
-  margin-left: -60px; 
+  margin-left: -5%; 
   object-fit: contain;
 }
 
