@@ -298,8 +298,7 @@ body {
 
 .feature-item {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: start;
   margin-bottom: 15px;
   gap: 10px;
   background: transparent;
@@ -312,7 +311,6 @@ body {
 
 .feature-item p {
   margin: 0;
-  color: #555;
   max-width: 350px;
 }
 
