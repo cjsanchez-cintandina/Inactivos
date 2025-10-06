@@ -281,58 +281,61 @@ body {
     color: var(--primary-green);
 }
 
-.features-layout {
-  width: 100%;
-  border-collapse: collapse;
-  background: transparent;
+.features-display-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 800px;
+    gap: 20px;
+    max-width: 50%;
+    margin: 0 auto;
+    font-weight: 250;
 }
 
+.features-display-container {
+  position: relative;
+  top: -70px;   
+  z-index: 2;
+  text-align: start;
+  margin: 0;   
+}
+
+
 .features-list {
-  width: 70%;
-  text-align: start; 
-  vertical-align: middle;
-  font-size: 0.9em;
-  padding-right: 20px; /* Puedes reducir si quieres más pegado */
-  background: transparent;
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
 }
 
 .feature-item {
-  display: flex;
-  justify-content: flex-end; /* Mueve el contenido hacia la derecha */
-  align-items: center;
-  margin-bottom: 15px;
-  gap: 10px;
-  background: transparent;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    gap: 15px;
 }
 
 .feature-icon {
-  width: 28px;
-  height: 28px;
-  order: 2; /* Mueve el ícono al lado derecho del texto */
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
 }
 
 .feature-item p {
-  margin: 0;
-  max-width: 350px;
-  text-align: right; /* Asegura alineación del texto */
-  order: 1;
+    margin: 0;
+    font-size: 1.1em;
+    color: #555;
 }
 
 .phone-app-image {
-  width: 50%;
-  vertical-align: middle;
-  background: transparent;
-  text-align: end; /* Alinea imagen a la izquierda */
-  overflow: visible;
-  padding: 0;
-}
-
-.phone-app-image img {
-  width: 330px; /* puedes ajustar tamaño */
-  height: auto;
-  border-radius: 0;
-  display: block;
-  margin-left: -40px; /* Desborda un poco hacia la derecha */
+    flex: 1;
+    min-width: 250px;
+    max-width: 350px; /* Ajusta el tamaño de la imagen del teléfono */
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -529,34 +532,14 @@ body {
     width: 100%;
   }
 
-  .features-layout,
-  .features-layout tr,
-  .features-layout td {
-    display: block;           /* apila filas y columnas */
-    width: 100%;
-    text-align: center;
+
+    .features-display-container {
+    max-width: 50%;
+    gap: 20px;
+    font-size: 0.7em;
+    top: -20px;
   }
 
-  .features-list {
-    text-align: center;
-    width: 100%;
-    padding: 0;
-  }
-
-  .feature-item {
-    justify-content: center;
-    text-align: center;
-  }
-
-  .phone-app-image {
-    text-align: center;
-    margin-top: 20px;
-  }
-
-  .phone-app-image img {
-    width: 200px;
-    height: auto;
-  }
 
 }
 
