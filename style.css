@@ -283,7 +283,6 @@ body {
 .features-list{
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   position: relative;
   top: -30px;   
   z-index: 2;
