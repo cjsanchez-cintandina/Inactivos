@@ -289,7 +289,6 @@ font-size: 3.1em;
 
 .feature-item {
     display: flex;
-    justify-content:  flex-start !important;
     gap: 15px;
     margin-bottom: 10px;
     
@@ -309,7 +308,7 @@ font-size: 3.1em;
 
 .phone-app-image {
     display: flex;
-    width: 70%; /* Ajusta el tamaño de la imagen del teléfono */
+    width: 20%; /* Ajusta el tamaño de la imagen del teléfono */
     justify-content:  flex-end;
     z-index: 1;
 }
