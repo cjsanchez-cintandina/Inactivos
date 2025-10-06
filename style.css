@@ -257,7 +257,7 @@ body {
 
 .line6,
 .line7, h1 {
-font-size: 5.1em;
+font-size: 3.1em;
   display: block; 
   text-align: center;
   margin: 0 auto; 
@@ -274,9 +274,9 @@ font-size: 5.1em;
 }
 
 .features-list {
+    justify-content:  flex-start !important;
     flex-direction: column;
     font-weight: 250;
-    justify-content:  flex-start !important;
     text-align: right; 
 }
 
@@ -309,7 +309,7 @@ font-size: 5.1em;
 
 .phone-app-image {
     display: flex;
-    width: 100%; /* Ajusta el tamaño de la imagen del teléfono */
+    width: 70%; /* Ajusta el tamaño de la imagen del teléfono */
     justify-content:  flex-end;
     z-index: 1;
 }
@@ -336,7 +336,7 @@ font-size: 5.1em;
 /* ------------------- ESTILOS RESPONSIVE ------------------- */
 
 /* Tablets */
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
   .banner-container {
     width: 90%;
     padding: 20px;
@@ -412,7 +412,12 @@ font-size: 5.1em;
 
    .phone-app-image {
     justify-content: flex-end;
-    width: 80%;
+    display: flex;
+     width: 380px;
+  }
+   .phone-app-image img {
+    width: 100%;
+    max-width: none;
   }
 }
 
@@ -530,9 +535,14 @@ font-size: 5.1em;
   }
 
   .phone-app-image {
-    width: 70%;
-    justify-content: flex-end;
-  }
+     width: 380px;
+    display: flex;
+    justify-content: flex-end; 
+  }  
+    .phone-app-image img {
+      width: 100%;              /* la imagen se escala al 80% del ancho total */
+      max-width: none;         /* evita límites */
+    }
 
 
 }
