@@ -278,12 +278,17 @@ body {
     gap: 50px;
     max-width: 100%;
     gap: 20px;
-    max-width: 50%;
     margin: 0 auto;
+}
+
+.features-list {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
     font-weight: 250;
 }
 
-.features-display-container {
+.features-list{
   position: relative;
   top: -30px;   
   z-index: 2;
@@ -292,15 +297,9 @@ body {
 }
 
 
-.features-list {
-    flex: 1;
-    min-width: 300px;
-    text-align: left;
-}
-
 .feature-item {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     margin-bottom: 25px;
     gap: 15px;
 }
