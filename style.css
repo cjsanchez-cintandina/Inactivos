@@ -298,35 +298,36 @@ body {
   flex: 1;
   font-size: 1.1em;
   min-width: 300px;
-  text-align: right; /* texto alineado a la derecha */
+  text-align: right;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end; /* todo el bloque pegado a la derecha */
+  align-items: flex-end; /* bloque entero pegado a la derecha */
 }
 
 
 .feature-item {
   display: flex;
-  justify-content: flex-end; /* contenido al borde derecho */
+  justify-content: flex-end; /* empuja texto + icono al borde derecho */
   align-items: center;
   margin-bottom: 25px;
   gap: 15px;
 }
 
+
 .feature-icon {
   width: 30px;
   height: 30px;
   flex-shrink: 0;
-  order: 2; /* ícono después del texto → a la derecha */
+  order: 2; /* ícono a la derecha del texto */
 }
 
 .feature-item p {
   margin: 0;
   font-size: 1.1em;
   color: #555;
-  text-align: right; /* texto a la derecha */
-  order: 1; /* texto antes del ícono */
+  text-align: right; /* texto alineado a la derecha */
+  order: 1; /* texto primero */
 }
 
 .phone-app-image {
@@ -334,7 +335,7 @@ body {
   min-width: 600px;
   max-width: 800px;
   display: flex;
-  justify-content: flex-start; /* imagen pegada al inicio (izquierda) */
+  justify-content: flex-start; /* Imagen a la izquierda */
   align-items: center;
   overflow: visible;
   position: relative;
@@ -344,10 +345,9 @@ body {
   width: 120%;
   height: auto;
   display: block;
-  margin-left: -10%; /* sobresale un poco hacia la derecha */
+  margin-left: -10%; /* sobresale un poco hacia la izquierda */
   object-fit: contain;
 }
-
 
 /* Footer */
 .footer {
