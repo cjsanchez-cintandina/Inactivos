@@ -308,9 +308,14 @@ font-size: 3.1em;
 
 .phone-app-image {
     display: flex;
-    width: 500px; /* Ajusta el tamaño de la imagen del teléfono */
     justify-content:  flex-end;
     z-index: 1;
+    padding-right: 0;
+}
+
+.phone-app-image img {
+  max-width: 500px;
+  height: auto;
 }
 
 
