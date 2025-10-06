@@ -276,7 +276,7 @@ body {
 .features-list {
     flex: 1;
     min-width: 300px;
-    text-align: right; 
+    text-align: left; 
     font-weight: 250;
 }
 
