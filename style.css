@@ -304,12 +304,11 @@ body {
 }
 
 .phone-app-image {
-    flex: 1;
-    min-width: 500px;
-    max-width: 800px; /* Ajusta el tamaño de la imagen del teléfono */
     display: flex;
+    max-width: 100%; /* Ajusta el tamaño de la imagen del teléfono */
     justify-content:  flex-end;
 }
+
 
 /* Footer */
 .footer {
