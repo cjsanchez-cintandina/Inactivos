@@ -276,7 +276,7 @@ body {
 .features-list {
     flex: 1;
     min-width: 300px;
-    text-align: left; 
+    text-align: right; 
     font-weight: 250;
 }
 
@@ -295,6 +295,7 @@ body {
     display: flex;
     margin-bottom: 25px;
     gap: 15px;
+    text-align: right; 
 }
 
 .feature-icon {
