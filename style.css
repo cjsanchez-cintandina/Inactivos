@@ -288,8 +288,8 @@ body {
 }
 
 .features-list {
-  width: 50%;
-  text-align: right; /* Alinea texto a la derecha */
+  width: 70%;
+  text-align: start; 
   vertical-align: middle;
   font-size: 0.9em;
   padding-right: 20px; /* Puedes reducir si quieres más pegado */
