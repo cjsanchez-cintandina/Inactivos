@@ -247,13 +247,13 @@ body {
 }
 
 .line6 {
-  font-size: 1.5em;
+  font-size: 2 em;
   color: #666666;
-  line-height: 0.9;
+  line-height: 0.2;
 }
 
 .line7 {
- font-size: 1.5em;
+ font-size: 2 em;
  color: var(--primary-green);
 }
 
@@ -268,7 +268,6 @@ body {
 .features-display-container {
     display: flex;
     font-size: 1.5em;
-    gap: 50px;
     max-width: 100%;
     gap: 20px;
     margin: 0 auto;
@@ -277,11 +276,14 @@ body {
 .features-list {
     flex: 1;
     min-width: 300px;
-    text-align: start;
+    text-align: right; 
     font-weight: 250;
 }
 
 .features-list{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   position: relative;
   top: -30px;   
   z-index: 2;
