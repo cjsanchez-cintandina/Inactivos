@@ -309,7 +309,7 @@ font-size: 5.1em;
 
 .phone-app-image {
     display: flex;
-    width: 80%; /* Ajusta el tamaño de la imagen del teléfono */
+    width: 300px; /* Ajusta el tamaño de la imagen del teléfono */
     justify-content:  flex-end;
     z-index: 1;
 }
