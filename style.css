@@ -249,8 +249,15 @@ body {
 }
 
 .line6 {
+  font-size: 2.2em;
   color: #666666;
   line-height: 0.9;
+}
+
+.line7 {
+ font-size: 1.5em;
+ color: var(--primary-green);
+ line-height: 0.9;
  margin-top: 15;
 }
 
@@ -271,7 +278,7 @@ body {
     margin-bottom: 50px;
 }
 
-.difference-section .highlight {
+.difference-section {
     color: var(--primary-green);
 }
 
