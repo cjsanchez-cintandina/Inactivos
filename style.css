@@ -286,7 +286,7 @@ body {
     flex-wrap: wrap;
     font-size: 1.5em;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 20px;
     max-width: 50%;
