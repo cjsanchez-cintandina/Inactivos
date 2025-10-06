@@ -523,25 +523,18 @@ body {
     width: 100%;
   }
 
-   .features-layout {
-    width: 90%;
-    margin: 0 auto;
+  .features-layout,
+  .features-layout tr,
+  .features-layout td {
+    display: block;           /* apila filas y columnas */
+    width: 100%;
+    text-align: center;
   }
 
   .features-list {
+    text-align: center;
     width: 100%;
-    text-align: center;
-    padding-right: 0;
-  }
-
-  .phone-app-image {
-    text-align: center;
-    display: block;
-    padding-top: 20px;
-  }
-
-  .phone-app-image img {
-    width: 220px;
+    padding: 0;
   }
 
   .feature-item {
@@ -549,6 +542,15 @@ body {
     text-align: center;
   }
 
+  .phone-app-image {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .phone-app-image img {
+    width: 200px;
+    height: auto;
+  }
 
 }
 
