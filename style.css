@@ -333,7 +333,7 @@ body {
     min-width: 250px;
     max-width: 350px; /* Ajusta el tamaño de la imagen del teléfono */
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
 
 .phone-app-image img {
