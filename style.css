@@ -282,7 +282,7 @@ font-size: 5.1em;
 
 .features-list{
   position: relative;
-  top: -50px;   
+ /* top: -50px;   */
   z-index: 2;
   margin: 10px;   
 }
