@@ -247,18 +247,17 @@ body {
 }
 
 .line6 {
-  font-size: 3.3em;
   color: #666666;
   line-height: 0.2;
 }
 
 .line7 {
- font-size: 3.3em;
  color: var(--primary-green);
 }
 
 .line6,
-.line7 {
+.line7, h1 {
+font-size: 2.2em;
   display: block; 
   text-align: center;
   margin: 0 auto; 
@@ -266,7 +265,6 @@ body {
 }
 
 .features-display-container {
-    flex-direction: row;
     display: flex;
     font-size: 1.5em;
     max-width: 100%;
@@ -276,16 +274,14 @@ body {
 
 .features-list {
     flex-direction: column;
-    flex: 1;
     min-width: 300px;
     text-align: right; 
     font-weight: 250;
 }
 
 .features-list{
-  display: flex;
   position: relative;
-  top: -30px;   
+  top: -40px;   
   z-index: 2;
   margin: 0;   
 }
