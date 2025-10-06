@@ -318,7 +318,7 @@ body {
 
 .phone-app-image {
   width: 40%;
-  text-align: right;
+  text-align: end;
   vertical-align: middle;
   background: transparent;
 }
@@ -326,8 +326,7 @@ body {
 .phone-app-image img {
   width: 250px;
   height: auto;
-  border-radius: 20px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
 }
 
 
