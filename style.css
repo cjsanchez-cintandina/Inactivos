@@ -284,35 +284,34 @@ body {
 .features-display-container {
   position: relative;
   display: flex;
-  justify-content: flex-end;   /* todo el contenido hacia la derecha */
+  flex-direction: row;          /* texto e imagen lado a lado */
+  justify-content: flex-end;    /* empuja todo hacia la derecha */
   align-items: flex-start;
-  flex-wrap: nowrap;           /* evita que la imagen baje */
-  gap: 30px;                   /* espacio entre texto e imagen */
-  width: 50%;                  /* ocupa la mitad derecha de la pantalla */
-  margin-left: auto;           /* empuja todo hacia la derecha */
-  background: transparent;     /* sin fondo */
-  font-size: 0.8em;            /* texto más pequeño */
+  gap: 30px;                    /* separación entre texto e imagen */
+  width: 50%;                   /* ocupa la mitad derecha */
+  margin-left: auto;            /* empuja todo a la derecha */
+  padding-right: 5%;
+  background: transparent;      /* sin fondo */
+  font-size: 0.9em;             /* texto un poco más pequeño */
   color: #333;
-  padding-right: 2%;           /* un pequeño margen desde el borde derecho */
-  top: -40px;
-  z-index: 2;
   box-sizing: border-box;
+  z-index: 2;
 }
 
 /* bloque de texto */
 .features-list {
-  flex: 1;                     /* ocupa el espacio restante antes de la imagen */
-  text-align: right;           /* texto alineado a la derecha */
-  max-width: 350px;            /* controla el ancho del bloque de texto */
+  flex: 1;
+  text-align: right;            /* texto alineado a la derecha */
+  max-width: 380px;
 }
 
-/* ítems de texto */
+/* cada ítem */
 .feature-item {
   display: flex;
+  justify-content: flex-end;    /* alinea ícono + texto hacia la derecha */
   align-items: flex-start;
-  justify-content: flex-end;   /* icono + texto alineados a la derecha */
-  margin-bottom: 15px;
   gap: 10px;
+  margin-bottom: 18px;
 }
 
 .feature-icon {
@@ -327,19 +326,20 @@ body {
   color: #444;
 }
 
-/* imagen al lado derecho */
+/* imagen */
 .phone-app-image {
+  flex: 0 0 auto;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  flex: 0 0 auto;              /* mantiene su tamaño y no se encoge */
-  max-width: 300px;
+  max-width: 320px;
 }
 
 .phone-app-image img {
   width: 100%;
   height: auto;
   display: block;
+  border: none;
   border-radius: 0;
   box-shadow: none;
   background: transparent;
