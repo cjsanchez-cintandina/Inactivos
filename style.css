@@ -247,18 +247,22 @@ body {
 }
 
 .line6 {
-  text-align: center;
   font-size: 1.5em;
   color: #666666;
-  line-height: 0.5;
+  line-height: 0.9;
 }
 
 .line7 {
- text-align: center;
  font-size: 1.5em;
  color: var(--primary-green);
- line-height: 0.5;
- margin-top: 15;
+}
+
+.line6,
+.line7 {
+  display: block; 
+  text-align: center;
+  margin: 0 auto; 
+  z-index: 2;
 }
 
 .features-display-container {
