@@ -282,31 +282,31 @@ body {
 }
 
 .features-display-container {
-    display: flex;
-    max-width: 100% ;
-    gap: 20px;
-    margin: 0 auto;
-    font-weight: 250;
-}
-
-.features-display-container {
-  position: relative!important;
-  top: -20px !important;   
-  z-index: 2 !important;
-  margin: 0;   
+  display: flex;
+  max-width: 100%;
+  gap: 20px;
+  margin: 0 auto;
+  font-weight: 250;
+  position: relative;
+  top: -20px;
+  z-index: 2;
 }
 
 
 .features-list {
-    flex: 1;
-    font-size: 1.1 em ;
-    min-width: 300px;
-    text-align: start !important;
+  flex: 1;
+  font-size: 1.1em;
+  min-width: 300px;
+  text-align: right; /* 🔹 texto alineado a la derecha */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .feature-item {
     display: flex !important;
-    align-items: flex-start !important;
+    align-items: flex-end;
+    align-items: center
     margin-bottom: 25px;
     gap: 15px;
 }
@@ -315,23 +315,34 @@ body {
     width: 30px ;
     height: 30px;
     flex-shrink: 0;
+     order: 2;
 }
 
 .feature-item p {
     margin: 0;
     font-size: 1.1em;
     color: #555;
+    text-align: right; 
+    order: 1;
 }
 
 .phone-app-image {
-    flex: 1 ;
-    min-width: 600px !important;
-    max-width: 800px !important; /* Ajusta el tamaño de la imagen del teléfono */
-    display: flex !important;
-    justify-content:  flex-end !important;
-    padding-right: -3% !important;   
+  flex: 1;
+  min-width: 600px;
+  max-width: 800px;
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  overflow: visible;
 }
 
+.phone-app-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: -60px; 
+  object-fit: contain;
+}
 
 
 
