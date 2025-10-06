@@ -276,6 +276,8 @@ font-size: 5.1em;
 .features-list {
     flex-direction: column;
     font-weight: 250;
+    justify-content:  flex-start !important;
+    text-align: right; 
 }
 
 .features-list{
@@ -288,9 +290,8 @@ font-size: 5.1em;
 
 .feature-item {
     display: flex;
-    justify-content:  flex-start;
-    text-align: right; 
-    margin-bottom: 25px;
+    justify-content:  flex-start !important;
+    margin-bottom: 0;
     gap: 15px;
     
 }
