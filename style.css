@@ -438,11 +438,16 @@ font-size: 3.5em;
     flex-direction: column;
     margin: 0;
     padding-right: 0;
-    width: 65% !important;
+    width: 70% !important;
     z-index: 2; 
 
 }
-
+    
+.feature-item p {
+    width: 100%;  
+    max-width: none;
+    line-height: 1.4em; 
+}
  
 
 .feature-icon {
@@ -565,7 +570,7 @@ font-size: 3.5em;
     position: relative;
     flex-direction: column;
     text-align: start !important;
-     width: 65% !important;
+     width: 70% !important;
     z-index: 2;
 }
 
