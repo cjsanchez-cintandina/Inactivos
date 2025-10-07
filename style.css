@@ -343,7 +343,7 @@ font-size: 3.5em;
 }
 
 
-/* Footer */
+/* Pie de pagina */
 .footer {
     background-color: #333;
     color: var(--white);
@@ -359,6 +359,10 @@ font-size: 3.5em;
 .footer-logo {
     height: 30px; /* Ajusta el tamaño del logo del footer */
     width: auto;
+}
+
+.line8 {
+ color: var(--dark-green);
 }
 
 /* ------------------- ESTILOS RESPONSIVE ------------------- */
@@ -466,6 +470,25 @@ font-size: 3.5em;
   padding-left: 10%;
 }
 
+.footer {
+
+    font-size: 0.5em;
+}
+
+.footer p {
+    margin-bottom: 15px;
+}
+
+.footer-logo {
+    height: 20px; /* Ajusta el tamaño del logo del footer */
+    width: auto;
+}
+
+.line8 {
+ color: var(--dark-green);
+}
+
+    
 }
 
 /* Móviles */
@@ -595,7 +618,23 @@ font-size: 3.5em;
   padding-left: 10%;
 }
 
+.footer {
 
+    font-size: 0.5em;
+}
+
+.footer p {
+    margin-bottom: 15px;
+}
+
+.footer-logo {
+    height: 20px; /* Ajusta el tamaño del logo del footer */
+    width: auto;
+}
+
+.line8 {
+ color: var(--dark-green);
+}
 }
 
 
