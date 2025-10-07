@@ -180,11 +180,6 @@ body {
 
 /* Cuerpo e instructivo */
 
-.interactive-display-section {
-    background-color: #f0f0f0; /* Un fondo gris claro para esta sección */
-    padding: 60px 5%;
-    text-align: center;
-}
 
 .interactive-image {
   width: 100%;             
