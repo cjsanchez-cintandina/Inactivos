@@ -397,8 +397,9 @@ font-size: 3.1em;
 
    .features-display-container {
   padding-right: 0 !important;
-  margin-right: 0 !important;
-         font-size: 0.9em;
+   margin-right: 0 !important;
+   font-size: 0.9em;
+       width: 100%;
 }
 
 
@@ -481,7 +482,7 @@ font-size: 3.1em;
 
   /* Imagen: ocupa la mitad derecha, pegada al borde */
       .hero-image {
-      width: 380px;             /* ocupa toda la pantalla */
+      width: 400px;             /* ocupa toda la pantalla */
       display: flex;
       justify-content: flex-end; /* pega la imagen al borde derecho */
     }
