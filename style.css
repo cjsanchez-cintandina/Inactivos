@@ -294,6 +294,7 @@ font-size: 3.5em;
     font-size: 1.5em;
     max-width: 100%;
     gap: 20px;
+     align-items: flex-end; 
 
 }
 
@@ -334,7 +335,6 @@ font-size: 3.5em;
 .phone-app-image {
     display: flex;
     justify-content:  flex-end;
-    align-items: flex-end; 
     z-index: 1;
     padding-left: 5%;
 }
@@ -435,7 +435,7 @@ font-size: 3.5em;
    .features-display-container {
   padding-right: 0 !important;
    margin-right: 0 !important;
-   font-size: 1em;
+   font-size: 0.8em;
     width: 100%;
     float: right;
 }
@@ -450,15 +450,12 @@ font-size: 3.5em;
 
 }
 
-
-    
 .feature-item p {
     width: 115%;  
     max-width: none;
    float: right;
 }
  
-
 .feature-icon {
     width: 35px;
     height: 32px;
@@ -576,7 +573,7 @@ font-size: 3.5em;
   }
 
   .step {
-    max-width: 100%; /* ocupan todo el ancho disponible */
+    max-width: 100%; 
     align-items: center;
   }
 
