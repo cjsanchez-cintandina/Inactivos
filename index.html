@@ -29,7 +29,7 @@
     <span class="line2">Entrega inmediata <br> con logotipo y datos <br> de tu empresa.</span>
     <div class="call-to-action">
       <span class="line3">Conoce cómo funciona</span>
-      <img src="assets/FLECHA-1.png" alt="Flecha hacia abajo" class="arrow-down">
+      <img src="assets/FLECHA-1.png" alt="Flecha hacia abajo" class="arrow-down"  onclick="scrollDown()">
     </div>
   </div>
 </header>
@@ -98,6 +98,15 @@
         <p>Más de <span class= "line8"> <b>65 años</b> </span> fabricando y comercializando  productos adhesivos y de embalaje <br> de excelente calidad</p>
         <img src="assets/LOGO CINTANDINA.png" alt="Logo CINTANDINA" class="footer-logo">
     </footer>
+
+    <script>
+    function scrollDown() {
+      window.scrollBy({
+        top: window.innerHeight, // 🔹 baja una altura de pantalla
+        behavior: 'smooth'       // 🔹 desplazamiento suave
+      });
+    }
+    </script>
     
 </body>
 </html>
