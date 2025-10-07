@@ -246,6 +246,10 @@ body {
   color: #000; /* o blanco, según contraste */
 }
 
+  .step-icon {
+    width: 100%;
+  }
+
 .line6 {
   color: #666666;
   line-height: 0.2;
