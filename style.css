@@ -361,8 +361,8 @@ font-size: 3.5em;
 }
 
 .phone-app-image img {
-  max-width: 900px;
-    width: 100%;
+  max-width: 700px;
+
   height: auto;
 }
 
@@ -492,8 +492,7 @@ font-size: 3.5em;
 
 
 .phone-app-image img {
-  max-width: 500px;
-    width: 100%;
+  max-width: 300px;
   height: auto; 
   padding-left: 5%;
     flex: 0 0 30%;
