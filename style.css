@@ -125,8 +125,8 @@ body {
 /* Imagen central */
 .hero-image {
   display: flex;
- justify-content: flex-end; /* manda la imagen a la derecha */
-  padding-right: 15%;        /* empuja un poco hacia adentro para no pegarla al borde */
+ justify-content: flex-end; 
+  padding-right: 15%;        
 }
 
 .hero-image img {
@@ -177,9 +177,17 @@ body {
   z-index: 2;
 }
 
+.interactive-image {
+  width: 100%;             
+  height: auto;              
+  display: block;            
+  margin: 0;
+  padding: 0;
+}
+
 /* banner selección*/
 .how-to-read-section {
-    background-color: var(--dark-green); /* O un verde más oscuro */
+    background-color: var(--dark-green);
     color: var(--white);
     height: 60px;  
     display: flex;   
@@ -190,25 +198,12 @@ body {
     padding: 0 5%;   
 }
 
-/* Cuerpo e instructivo */
-
-.interactive-image {
-  width: 100%;             
-  height: auto;              
-  display: block;            
-  margin: 0;
-  padding: 0;
-}
-
-
 .how-to-read-section {
     font-size: 1.5em;
     font-weight: 700;
 }
 
-
-
-/* Difference Section */
+/* Cuerpo e instructivo */
 
 .difference-section {
   position: relative;
@@ -238,16 +233,16 @@ body {
   position: relative;
   z-index: 1; /* ahora el texto siempre está arriba */
   color: #000; /* o blanco, según contraste */
-padding: 10% 0;
+  padding: 10% 0;
 }
 
- .step {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 75%; 
-    margin: 0 auto; 
+.step {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+width: 75%; 
+margin: 0 auto; 
 }
 .step-icon {
     width: 100%; 
@@ -276,7 +271,7 @@ padding: 10% 0;
 
 .line6,
 .line7, h1 {
-font-size: 3.5em;
+  font-size: 3.5em;
   display: block; 
   text-align: center;
   margin: 0 auto; 
@@ -293,8 +288,8 @@ font-size: 3.5em;
     margin-bottom: 0;
     padding-bottom: 0;
     float: right;
-        padding: 0;
-       margin: 0;
+    padding: 0;
+    margin: 0;
 
 }
 
@@ -319,14 +314,11 @@ font-size: 3.5em;
     flex: 0 0 60%;
 }
 
-
 .feature-item {
     display: flex;
     gap: 15px;
     margin-bottom: 10px;
-    
 }
-
 .feature-icon {
     width: 45px;
     height: 40px;
@@ -338,16 +330,14 @@ font-size: 3.5em;
     font-size: 1.1em;
     color: #555;
 }
-
 .phone-app-image {
     display: flex;
     justify-content:  flex-end;
     z-index: 1;
     padding-left: 5%;
-     flex: 0 0 40%;
-    
+    flex: 0 0 40%;
     justify-content: flex-end;
-     align-items: flex-end;
+    align-items: flex-end;
 }
 
 .phone-app-image {
@@ -356,10 +346,8 @@ font-size: 3.5em;
 
 .phone-app-image img {
   max-width: 700px;
-
   height: auto;
 }
-
 
 /* Pie de pagina */
 .footer {
@@ -449,18 +437,18 @@ font-size: 3.5em;
   }
 
    .features-display-container {
-  padding-right: 0 !important;
-   margin-right: 0 !important;
-       position: relative;
-       align-items: flex-start;
-    justify-content: space-between;
-   font-size: 0.8em;
-    width: 100%;
-    float: right;
-    padding: 0;
-    margin: 0;
-        max-height: 430px;
-       overflow: hidden;
+      padding-right: 0 !important;
+      margin-right: 0 !important;
+      position: relative;
+      align-items: flex-start;
+      justify-content: space-between;
+     font-size: 0.8em;
+     width: 100%;
+     float: right;
+     padding: 0;
+     margin: 0;
+     max-height: 430px;
+    overflow: hidden;
 }
 
 
@@ -468,7 +456,7 @@ font-size: 3.5em;
     position: relative;
     flex-direction: column;
     width: 100%;
-     z-index: 3;
+    z-index: 3;
     top: -40px;
     padding: 40px 0; 
     margin-right: 5%;
@@ -476,15 +464,15 @@ font-size: 3.5em;
 
 }
 
-    .features-list p {
-      margin-bottom: 20px;
-         line-height: 1.6;
-    }
+.features-list p {
+   margin-bottom: 20px;
+   line-height: 1.6;
+}
 
 .feature-item p {
     width: 115%;  
     max-width: none;
-   float: right;
+    float: right;
 }
  
 .feature-icon {
@@ -512,8 +500,6 @@ font-size: 3.5em;
 }
 
 
-    
-
 .phone-app-image {
   position: relative; 
   display: flex;
@@ -524,36 +510,28 @@ font-size: 3.5em;
 }
 
 .phone-app-image img {
-  position: absolute; 
-    bottom: -440px !important;  
-  right: -48px ;             
-  width: 220px !important;
-  height: auto !important;
-     max-width: none !important;
-     flex: 0 0 auto !important;
-  z-index: 2;
+   position: absolute; 
+   bottom: -440px !important;  
+   right: -48px ;             
+   width: 220px !important;
+   height: auto !important;
+   max-width: none !important;
+   flex: 0 0 auto !important;
+   z-index: 2;
 }
-
-
 .footer {
-
     font-size: 0.9em;
 }
-
 .footer p {
     margin-bottom: 15px;
 }
-
 .footer-logo {
     height: 40px; 
     width: auto;
 }
-
 .line8 {
  color: var(--dark-green);
-}
-
-    
+}    
 }
 
 /* Móviles */
@@ -580,7 +558,7 @@ font-size: 3.5em;
     height: 60px;
   }
 
-  /* Texto más compacto */
+
   .line1 h1 {
     font-size: 1.4em;
     top: -80px;
@@ -609,14 +587,14 @@ font-size: 3.5em;
 
   /* Imagen: ocupa la mitad derecha, pegada al borde */
       .hero-image {
-      width: 400px;             /* ocupa toda la pantalla */
+      width: 400px;             
       display: flex;
-      justify-content: flex-end; /* pega la imagen al borde derecho */
+      justify-content: flex-end; 
     }
     
     .hero-image img {
-      width: 100%;              /* la imagen se escala al 80% del ancho total */
-      max-width: none;         /* evita límites */
+      width: 100%;             
+      max-width: none;        
     }
 
     /* Instructivo*/
@@ -649,15 +627,12 @@ font-size: 3.5em;
   }
 
     .features-display-container {
-
-        font-size: 0.7em;
-        margin: 0 3%;
-        float: right;
-        padding: 0;
-       margin: 0;
+    font-size: 0.7em;
+    margin: 0 3%;
+    float: right;
+    padding: 0;
+    margin: 0;
 }
-    
-
 
 .features-list {
     position: relative;
@@ -668,35 +643,29 @@ font-size: 3.5em;
     flex: 2; 
 
 }
-
 .feature-icon {
     width: 35px;
     height: 32px;
     flex-shrink: 0;
 }
 .phone-app-image  {
- flex: 1;
+   flex: 1;
 }
 .phone-app-image img {
   max-width: 250px;
   height: auto; 
 }
-    
-
 .footer {
-
     font-size: 0.8em;
 }
 
 .footer p {
     margin-bottom: 15px;
 }
-
 .footer-logo {
     height: 40px;
     width: auto;
 }
-
 .line8 {
  color: var(--dark-green);
 }
