@@ -505,7 +505,7 @@ font-size: 3.5em;
     justify-content: flex-end;
  align-items: flex-end;
     z-index: 1;
-     right: -80px;
+     right: -60px !important;
     
 }
 
