@@ -434,7 +434,6 @@ font-size: 3.5em;
    font-size: 1em;
     width: 100%;
     float: right;
-    align-items: flex-start;
 }
 
 
@@ -453,7 +452,7 @@ font-size: 3.5em;
 .feature-item p {
     width: 115%;  
     max-width: none;
-   float: inline-end;
+   float: right;
 }
  
 
@@ -465,9 +464,9 @@ font-size: 3.5em;
 
 
 .phone-app-image img {
-  max-width: 280px;
+  max-width: 250px;
   height: auto; 
-  padding-left: 10%;
+  padding-left: 5%;
 }
 
 .footer {
