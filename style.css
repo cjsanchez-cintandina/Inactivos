@@ -507,8 +507,8 @@ font-size: 3.5em;
 
 .phone-app-image img {
   position: absolute; 
-    bottom: -90px;  
-  right: -90px;             
+    bottom: -90px !important;  
+  right: -90px ;             
   max-width: 350px;
   height: auto;
   z-index: 2;
