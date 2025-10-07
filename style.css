@@ -244,6 +244,7 @@ body {
   position: relative;
   z-index: 1; /* ahora el texto siempre está arriba */
   color: #000; /* o blanco, según contraste */
+padding: 10% 0;
 }
 
  .step {
@@ -603,23 +604,25 @@ font-size: 3.5em;
     flex-direction: column;
     padding-right: 0;
     width: 150px;
-    z-index: 2; 
+    z-index: 2;
+    flex: 2; 
 
 }
- 
-
 
 .feature-icon {
     width: 35px;
     height: 32px;
     flex-shrink: 0;
 }
-
+.phone-app-image  {
+ flex: 1;
+}
 .phone-app-image img {
   max-width: 250px;
   height: auto; 
   padding-left: 5%;
 }
+    
 
 .footer {
 
