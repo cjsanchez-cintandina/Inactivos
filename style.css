@@ -356,6 +356,7 @@ font-size: 3.5em;
 
 .footer p {
     margin-bottom: 20px;
+    line-height: 1.1;
 }
 
 .footer-logo {
@@ -442,11 +443,10 @@ font-size: 3.5em;
 .features-list {
     position: relative;
     flex-direction: column;
-    margin: 0;
     padding-right: 0;
     width: 100%;
     z-index: 2; 
-     margin: 0 5%;
+     margin: 0 5% 0 0; 
 
 }
 
