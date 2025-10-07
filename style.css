@@ -448,9 +448,9 @@ font-size: 3.5em;
 }
     
 .feature-item p {
-    width: 100%;  
+    width: 115%;  
     max-width: none;
-    line-height: 1.4em; 
+    text-align: right;
 }
  
 
@@ -573,11 +573,23 @@ font-size: 3.5em;
 .features-list {
     position: relative;
     flex-direction: column;
-    text-align: start !important;
-     width: 70% !important;
-    z-index: 2;
+    margin: 0;
+    padding-right: 0;
+    width: 100%;
+    z-index: 2; 
+
 }
 
+    .features-list {
+  flex: 2;
+}
+    
+.feature-item p {
+    width: 115%;  
+    max-width: none;
+    text-align: right;
+}
+ 
 
 
 .feature-icon {
