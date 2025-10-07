@@ -345,8 +345,8 @@ font-size: 3.5em;
 
 /* Pie de pagina */
 .footer {
-    background-color: #333;
-    color: var(--white);
+    background-color: #f5f5f5;
+    color: var(--dark-text);
     text-align: center;
     padding: 30px 5%;
     font-size: 0.9em;
@@ -432,8 +432,7 @@ font-size: 3.5em;
   padding-right: 0 !important;
    margin-right: 0 !important;
    font-size: 1em;
-       width: 50% !important;
-       margin: 0 3%;
+       width: 50%;
         float: inline-end;
 }
 
