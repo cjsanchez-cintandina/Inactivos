@@ -452,11 +452,11 @@ font-size: 3.5em;
 .features-list {
     position: relative;
     flex-direction: column;
-    padding-right: 0;
     width: 150%;
     z-index: 2; 
-    top: -40px; 
-    margin: 0;
+    top: -60px; 
+    padding: 40px 0; 
+    margin-right: 5%;
 
 }
 
