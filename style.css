@@ -438,7 +438,6 @@ font-size: 3.5em;
     margin: 0;
     padding-right: 0;
      width: 62%;
-    right: -60px;
     z-index: 2; 
 }
 
@@ -564,7 +563,6 @@ font-size: 3.5em;
     flex-direction: column;
     text-align: start !important;
      width: 62%;
-     right: -60px;
     z-index: 2;
 }
 
