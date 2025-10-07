@@ -446,7 +446,6 @@ font-size: 3.5em;
     padding-right: 0;
     width: 100%;
     z-index: 2; 
-     margin: 0 10% 0 0 !important; 
 
 }
 
@@ -586,11 +585,9 @@ font-size: 3.5em;
   }
 
     .features-display-container {
-  padding-right: 0 !important;
-  margin-right: 0 !important;
+
         font-size: 0.7em;
         margin: 0 3%;
-         float: inline-end;
 }
     
 
@@ -600,7 +597,6 @@ font-size: 3.5em;
     flex-direction: column;
     padding-right: 0;
     width: 100%;
-    float: inline-end;
     z-index: 2; 
 
 }
