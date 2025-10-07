@@ -457,19 +457,21 @@ font-size: 3.5em;
    .features-display-container {
   padding-right: 0 !important;
    margin-right: 0 !important;
+       position: relative;
+       align-items: flex-start;
     justify-content: space-between;
    font-size: 0.8em;
     width: 100%;
     float: right;
-        padding: 0;
-       margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 
 .features-list {
-    position: absolute;
+    position: relative;
     flex-direction: column;
-    width: 150%;
+    width: 70%;
      z-index: 3;
     top: 50px;
     padding: 40px 0; 
@@ -491,13 +493,17 @@ font-size: 3.5em;
 
 
 
-.phone-app-image img {
-  max-width: 300px;
-  height: auto; 
+.phone-app-image img { 
   padding-left: 5%;
+    display: flex;
     flex: 0 0 30%;
     justify-content: flex-end;
      align-items: flex-end;
+}
+
+    .phone-app-image img {
+  max-width: 100%;
+  height: auto;
 }
 
 .footer {
