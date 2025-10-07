@@ -438,7 +438,7 @@ font-size: 3.5em;
     flex-direction: column;
     margin: 0;
     padding-right: 0;
-    width: 100% !important;
+    width: 100%;
     z-index: 2; 
 
 }
@@ -446,9 +446,9 @@ font-size: 3.5em;
 
     
 .feature-item p {
-    width: 115% !important;  
+    width: 115%;  
     max-width: none;
-    text-align: right;
+   float: inline-end;
 }
  
 
@@ -573,14 +573,10 @@ font-size: 3.5em;
     flex-direction: column;
     margin: 0;
     padding-right: 0;
-    width: 100% !important;
+    width: 100%;
+    float: inline-end;
     z-index: 2; 
 
-}
- 
-.feature-item p {
-    width: 115% !important;  
-    max-width: none;
 }
  
 
