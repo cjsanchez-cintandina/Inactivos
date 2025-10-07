@@ -443,9 +443,12 @@ font-size: 3.5em;
    .features-display-container {
   padding-right: 0 !important;
    margin-right: 0 !important;
+    justify-content: space-between;
    font-size: 0.8em;
     width: 100%;
     float: right;
+        padding: 0;
+       margin: 0;
 }
 
 
@@ -457,6 +460,7 @@ font-size: 3.5em;
     top: -60px; 
     padding: 40px 0; 
     margin-right: 5%;
+    flex: 0 0 70%;
 
 }
 
@@ -477,6 +481,9 @@ font-size: 3.5em;
   max-width: 250px;
   height: auto; 
   padding-left: 5%;
+    flex: 0 0 30%;
+    justify-content: flex-end;
+     align-items: flex-end;
 }
 
 .footer {
