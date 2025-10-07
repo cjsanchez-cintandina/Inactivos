@@ -441,7 +441,7 @@ font-size: 3.5em;
     text-align: right !important;
     margin: 0;
     padding-right: 0;
-     width: 60%;
+     width: 50%;
 }
 
  
@@ -566,7 +566,7 @@ font-size: 3.5em;
     justify-content:  flex-start !important;
     flex-direction: column;
     text-align: start !important;
-     width: 60%;
+     width: 50%;
 }
 
 
