@@ -442,6 +442,10 @@ font-size: 3.5em;
     z-index: 2; 
 
 }
+
+    .features-list {
+  flex: 2;
+}
     
 .feature-item p {
     width: 100%;  
