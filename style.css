@@ -471,7 +471,7 @@ font-size: 3.5em;
 .features-list {
     position: relative;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
      z-index: 3;
     top: 50px;
     padding: 40px 0; 
@@ -499,11 +499,6 @@ font-size: 3.5em;
     flex: 0 0 30%;
     justify-content: flex-end;
      align-items: flex-end;
-}
-
-    .phone-app-image img {
-  max-width: 100%;
-  height: auto;
 }
 
 .footer {
