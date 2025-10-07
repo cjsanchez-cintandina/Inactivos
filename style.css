@@ -319,7 +319,7 @@ font-size: 3.5em;
   margin: 15px;   
     flex: 2;
     display: flex;
-     top: -40px; 
+     top: -20px; 
     padding: 40px 0; 
     margin-right: 5%;
     flex: 0 0 60%;
@@ -361,7 +361,7 @@ font-size: 3.5em;
 }
 
 .phone-app-image img {
-  max-width: 400px;
+  max-width: 900px;
     width: 100%;
   height: auto;
 }
