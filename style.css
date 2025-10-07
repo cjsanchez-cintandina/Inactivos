@@ -476,7 +476,7 @@ font-size: 3.5em;
     top: -40px;
     padding: 40px 0; 
     margin-right: 5%;
-    flex: 0 0 70%;
+    flex: 0 0 70% !important;
 
 }
 
@@ -496,9 +496,9 @@ font-size: 3.5em;
 .phone-app-image img { 
   padding-left: 5%;
     display: flex;
-    flex: 0 0 30%;
+    flex: 0 0 30% !important;
     justify-content: flex-end;
-     align-items: flex-end;
+ align-items: flex-end;
 }
 
 .footer {
