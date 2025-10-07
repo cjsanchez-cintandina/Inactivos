@@ -295,8 +295,12 @@ font-size: 3.5em;
     max-width: 100%;
     gap: 20px;
     align-items: flex-end; 
+    justify-content: space-between;
     margin-bottom: 0;
     padding-bottom: 0;
+    float: right;
+        padding: 0;
+       margin: 0;
 
 }
 
@@ -314,6 +318,10 @@ font-size: 3.5em;
   margin: 15px;   
     flex: 2;
     display: flex;
+     top: -60px; 
+    padding: 40px 0; 
+    margin-right: 5%;
+    flex: 0 0 70%;
 }
 
 
@@ -341,6 +349,9 @@ font-size: 3.5em;
     justify-content:  flex-end;
     z-index: 1;
     padding-left: 5%;
+     flex: 0 0 30%;
+    justify-content: flex-end;
+     align-items: flex-end;
 }
 
 .phone-app-image {
@@ -603,6 +614,9 @@ font-size: 3.5em;
 
         font-size: 0.7em;
         margin: 0 3%;
+        float: right;
+        padding: 0;
+       margin: 0;
 }
     
 
