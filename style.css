@@ -480,6 +480,11 @@ font-size: 3.5em;
 
 }
 
+    .features-list p {
+      margin-bottom: 20px;
+         line-height: 1.6;
+    }
+
 .feature-item p {
     width: 115%;  
     max-width: none;
@@ -487,8 +492,8 @@ font-size: 3.5em;
 }
  
 .feature-icon {
-    width: 35px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
 }
 
 
@@ -500,7 +505,7 @@ font-size: 3.5em;
     justify-content: flex-end;
  align-items: flex-end;
     z-index: 1;
-     right: -60px;
+     right: -80px;
     
 }
 
