@@ -432,8 +432,9 @@ font-size: 3.5em;
   padding-right: 0 !important;
    margin-right: 0 !important;
    font-size: 1em;
-       width: 50%;
-        float: inline-end;
+    width: 100%;
+    float: right;
+    align-items: flex-start;
 }
 
 
