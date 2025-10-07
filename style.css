@@ -434,14 +434,12 @@ font-size: 3.5em;
 
 
 .features-list {
-    justify-content:  flex-start !important;
     flex-direction: column;
-    text-align: start !important;
-     align-items: flex-end;
-    text-align: right !important;
     margin: 0;
     padding-right: 0;
-     width: 50%;
+     width: 62%;
+    right: -60px;
+    z-index: 2; 
 }
 
  
@@ -563,10 +561,11 @@ font-size: 3.5em;
 
 
 .features-list {
-    justify-content:  flex-start !important;
     flex-direction: column;
     text-align: start !important;
-     width: 50%;
+     width: 62%;
+     right: -60px;
+    z-index: 2;
 }
 
 
