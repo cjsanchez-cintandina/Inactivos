@@ -511,7 +511,7 @@ font-size: 3.5em;
   position: absolute; 
     bottom: -500px !important;  
   right: -50px ;             
-  max-width: 300px;
+  max-width: 250px;
   height: auto;
   z-index: 2;
 }
