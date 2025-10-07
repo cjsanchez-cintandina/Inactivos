@@ -276,7 +276,7 @@ body {
 }
 
 .line7 {
- color: var(--primary-green);
+ color: var(--dark-green);
 }
 
 .line6,
@@ -320,7 +320,7 @@ font-size: 3.5em;
 }
 
 .feature-icon {
-    width: 40px;
+    width: 45px;
     height: 40px;
     flex-shrink: 0;
 }
@@ -334,6 +334,7 @@ font-size: 3.5em;
 .phone-app-image {
     display: flex;
     justify-content:  flex-end;
+    align-items: flex-end; 
     z-index: 1;
     padding-left: 5%;
 }
@@ -459,7 +460,7 @@ font-size: 3.5em;
  
 
 .feature-icon {
-    width: 32px;
+    width: 35px;
     height: 32px;
 }
 
@@ -604,7 +605,7 @@ font-size: 3.5em;
 
 
 .feature-icon {
-    width: 32px;
+    width: 35px;
     height: 32px;
     flex-shrink: 0;
 }
