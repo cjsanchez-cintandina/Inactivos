@@ -335,7 +335,7 @@ font-size: 3.5em;
     display: flex;
     justify-content:  flex-end;
     z-index: 1;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 .phone-app-image img {
@@ -612,7 +612,7 @@ font-size: 3.5em;
 .phone-app-image img {
   max-width: 250px;
   height: auto; 
-  padding-left: 10%;
+  padding-left: 5%;
 }
 
 .footer {
