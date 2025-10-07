@@ -467,11 +467,11 @@ font-size: 3.5em;
 
 
 .features-list {
-    position: relative;
+    position: absolute;
     flex-direction: column;
     width: 150%;
-    z-index: 2; 
-    top: -40px; 
+     z-index: 3;
+    top: 50px;
     padding: 40px 0; 
     margin-right: 5%;
     flex: 0 0 70%;
