@@ -453,9 +453,10 @@ font-size: 3.5em;
     position: relative;
     flex-direction: column;
     padding-right: 0;
-    width: 120%;
+    width: 150%;
     z-index: 2; 
-    top: -60px;  
+    top: -40px; 
+    margin: 0;
 
 }
 
