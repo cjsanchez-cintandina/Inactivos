@@ -250,7 +250,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
     width: 75%; 
 }
 .step-icon {
@@ -411,7 +410,9 @@ font-size: 3.1em;
 
   .step-icon {
     width: 100%;
+    align-items: center;
   }
+    
     .line6, .line7 {
     font-size: 2.3em;
   }
@@ -534,10 +535,12 @@ font-size: 3.1em;
 
   .step {
     max-width: 100%; /* ocupan todo el ancho disponible */
+    align-items: center;
   }
 
   .step-icon {
     width: 100%;
+    align-items: center;
   }
 
     .features-display-container {
