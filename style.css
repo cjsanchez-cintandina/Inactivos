@@ -278,20 +278,6 @@ margin: 0 auto;
   z-index: 2;
 }
 
-/*.features-display-container {
-    display: flex;
-    font-size: 1.5em;
-    max-width: 100%;
-    gap: 20px;
-    align-items: flex-end; 
-    justify-content: space-between;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    float: right;
-    padding: 0;
-    margin: 0;
-
-}*/
 
 .features-display-container {
       padding-right: 0 !important;
@@ -316,7 +302,7 @@ margin: 0 auto;
     font-weight: 250;
     text-align: start !important;
      margin: 0 15%;
-    width: 120%;
+     width: 120%;
      margin-left: 10%
 }
 
@@ -328,12 +314,12 @@ margin: 0 auto;
 .features-list{
       position: relative;
       z-index: 3;
-      margin: 15px;   
+      /*margin: 15px; */  
       flex: 2;
       display: flex;
       top: -45px;
       padding: 40px 0; 
-      margin-right: 15%;
+      margin-right: 15% !important;
       flex: 0 0 55% !important;
 }
 
@@ -363,10 +349,6 @@ margin: 0 auto;
     flex: 0 0 45%;
     overflow: visible;
 }
-
-/*.phone-app-image {
-     flex: 1; 
-}*/
 
 .phone-app-image img {
   position: absolute; 
