@@ -495,7 +495,7 @@ margin: 0 auto;
      padding: 0;
      margin: 0;
      max-height: 425px;
-    overflow: hidden;
+     overflow: hidden;
 }
 
 
@@ -507,7 +507,7 @@ margin: 0 auto;
     flex: 2; 
     top: -40px;
     padding: 40px 0 !important;
-    padding-right: 0;
+    padding-right: 0 !important;
 
 }
 
@@ -543,7 +543,7 @@ margin: 0 auto;
    position: absolute; 
    bottom: 90px;     
    /*width: 220px !important;*/
-    max-width: 250px;
+    max-width: 100px;
    height: auto !important;
    max-width: none !important;
    flex: 0 0 auto !important;
