@@ -503,11 +503,11 @@ margin: 0 auto;
     position: relative;
     flex-direction: column;
     width: 100%;
-    z-index: 3;
+    z-index: 2;
+    flex: 2; 
     top: -40px;
     padding: 40px 0 !important;
-    flex: 0 0 55% !important;
-    margin-right:  0!important;
+    padding-right: 0;
 
 }
 
@@ -536,13 +536,14 @@ margin: 0 auto;
   z-index: 1;
   padding-left: 5%;
   overflow: visible;
-  flex: 0 0 45%  !important;
+  flex: 1;
 }
 
 .phone-app-image img {
    position: absolute; 
    bottom: 100px;     
-   width: 220px !important;
+   /*width: 220px !important;*/
+    max-width: 250px;
    height: auto !important;
    max-width: none !important;
    flex: 0 0 auto !important;
