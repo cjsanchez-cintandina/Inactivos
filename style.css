@@ -352,7 +352,7 @@ margin: 0 auto;
   max-width: 900px;
   height: auto;
   right: -40px ;
-  width: 460px !important;
+  width: 440px !important;
   max-width: none !important;
   flex: 0 0 auto !important;
   z-index: 2;
@@ -542,7 +542,7 @@ margin: 0 auto;
 
 .phone-app-image img {
    position: absolute; 
-   bottom: 0px;     
+   bottom: 70px;     
    width: 200px !important;
    height: auto !important;
    max-width: none !important;
