@@ -310,10 +310,8 @@ margin: 0 auto;
      display: flex;
      top: -40px;
      padding: 40px 0; 
-     margin-right: 5% !important;
     flex: 0 0 55% !important;
 }
-
 .features-list p {
    margin-bottom: 20px;
    line-height: 1.6;
@@ -494,7 +492,7 @@ margin: 0 auto;
      float: right;
      padding: 0;
      margin: 0;
-     max-height: 420px;
+     max-height: 418px;
      overflow: hidden;
 }
 
@@ -507,7 +505,6 @@ margin: 0 auto;
     flex: 2; 
     top: -40px;
     padding: 40px 0 !important;
-    padding-right: 0 !important;
 
 }
 
@@ -542,7 +539,7 @@ margin: 0 auto;
 .phone-app-image img {
    position: absolute; 
    bottom: 90px;     
-   width: 220px !important;
+   width: 200px !important;
    height: auto !important;
    max-width: none !important;
    flex: 0 0 auto !important;
