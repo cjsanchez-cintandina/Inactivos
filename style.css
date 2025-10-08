@@ -115,10 +115,12 @@ body {
 .line1 h1,
 .line2 {
   position: relative;
-  top: -90px;   
+  top: -150px;   
   z-index: 2;
   text-align: center;
-  margin: 0;   
+  margin: 0;
+  margin-left: auto;
+  width: 50%;
 }
 
 
