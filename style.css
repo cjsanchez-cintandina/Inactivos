@@ -304,15 +304,8 @@ margin: 0 auto;
      margin: 0 15%;
      width: 120%;
      margin-left: 10%
-}
-
-.features-list p {
-   margin-bottom: 20px;
-   line-height: 1.6;
-}
-
-.features-list{
-      position: relative;
+     margin-top: 20px;
+     position: relative;
       z-index: 3;
       /*margin: 15px; */  
       flex: 2;
@@ -322,6 +315,12 @@ margin: 0 auto;
       margin-right: 15% !important;
       flex: 0 0 55% !important;
 }
+
+.features-list p {
+   margin-bottom: 20px;
+   line-height: 1.6;
+}
+
 
 .feature-item {
     display: flex;
