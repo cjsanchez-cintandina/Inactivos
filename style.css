@@ -333,7 +333,7 @@ margin: 0 auto;
       display: flex;
       top: -45px;
       padding: 40px 0; 
-      margin-right: 5%;
+      margin-right: 15%;
       flex: 0 0 55% !important;
 }
 
@@ -563,7 +563,7 @@ margin: 0 auto;
 
 .phone-app-image img {
    position: absolute; 
-   bottom: 80px;
+   bottom: 100px;
   /* right: -48px ;     */        
    width: 220px !important;
    height: auto !important;
