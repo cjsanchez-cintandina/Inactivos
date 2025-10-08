@@ -471,34 +471,69 @@ margin: 0 auto;
     align-items: center;
   }
 
-    .features-display-container {
-    font-size: 0.7em;
-    margin: 0 3%;
-    float: right;
-    padding: 0;
-    margin: 0;
+  .features-display-container {
+      padding-right: 0 !important;
+      margin-right: 0 !important;
+      position: relative;
+      align-items: flex-start;
+      justify-content: space-between;
+     font-size: 0.8em;
+     width: 100%;
+     float: right;
+     padding: 0;
+     margin: 0;
+     max-height: 430px;
+    overflow: hidden;
 }
+
 
 .features-list {
     position: relative;
     flex-direction: column;
-    padding-right: 0;
-    width: 150px;
-    z-index: 2;
-    flex: 2; 
+    width: 100%;
+    z-index: 3;
+    top: -45px;
+    padding: 40px 0; 
+    margin-right: 5%;
+    flex: 0 0 55% !important;
 
 }
+
+.features-list p {
+   margin-bottom: 20px;
+   line-height: 1.6;
+}
+
+.feature-item p {
+    width: 115%;  
+    max-width: none;
+    float: right;
+}
+ 
 .feature-icon {
-    width: 29px;
-    height: 32px;
-    flex-shrink: 0;
+    width: 25px;
+    height: 28px;
 }
-.phone-app-image  {
-   flex: 1;
+
+
+.phone-app-image {
+  position: relative; 
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 1;
+  overflow: visible; 
 }
+
 .phone-app-image img {
-  max-width: 250px;
-  height: auto; 
+   position: absolute; 
+   bottom: -440px !important;  
+   right: -48px ;             
+   width: 220px !important;
+   height: auto !important;
+   max-width: none !important;
+   flex: 0 0 auto !important;
+   z-index: 2;
 }
 .footer {
     font-size: 0.8em;
