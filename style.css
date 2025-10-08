@@ -299,7 +299,7 @@ margin: 0 auto;
       position: relative;
       align-items: flex-start;
       justify-content: space-between;
-      font-size: 0.8em;
+      font-size: 2.1em;
       width: 100%;
       float: right;
       padding: 0;
@@ -342,8 +342,8 @@ margin: 0 auto;
     margin-bottom: 10px;
 }
 .feature-icon {
-    width: 35px;
-    height: 40px;
+    width: 45px;
+    height: 46px;
     flex-shrink: 0;
 }
 
@@ -360,22 +360,20 @@ margin: 0 auto;
     z-index: 1;
     padding-left: 5%;
     flex: 0 0 45%;
-    justify-content: flex-end;
-    align-items: flex-end;
     overflow: visible;
 }
 
-.phone-app-image {
+/*.phone-app-image {
      flex: 1; 
-}
+}*/
 
 .phone-app-image img {
   position: absolute; 
-  max-width: 700px;
+  max-width: 900px;
   height: auto;
-  bottom: -440px !important;  
+/*  bottom: -440px !important;  */
   right: -48px ;
-  width: 220px !important;
+  width: 500px !important;
   max-width: none !important;
   flex: 0 0 auto !important;
   z-index: 2;
