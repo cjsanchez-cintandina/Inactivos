@@ -537,13 +537,12 @@ margin: 0 auto;
   padding-left: 5%;
   overflow: visible;
   flex: 0 0 45%  !important;
-  padding-bottom: 100px !important;
 }
 
 .phone-app-image img {
    position: absolute; 
    bottom: 100px;     
-   width: 200px !important;
+   width: 220px !important;
    height: auto !important;
    max-width: none !important;
    flex: 0 0 auto !important;
