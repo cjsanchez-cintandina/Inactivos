@@ -303,15 +303,15 @@ margin: 0 auto;
 }
 
 .features-list{
-  position: relative;
-  z-index: 2;
-  margin: 15px;   
-    flex: 2;
-    display: flex;
-     top: -30px; 
-    padding: 40px 0; 
-    margin-right: 5%;
-    flex: 0 0 60%;
+      position: relative;
+      z-index: 2;
+      margin: 15px;   
+      flex: 2;
+      display: flex;
+      top: -70px; 
+      padding: 40px 0; 
+      margin-right: 5%;
+      flex: 0 0 60%;
 }
 
 .feature-item {
@@ -457,7 +457,7 @@ margin: 0 auto;
     flex-direction: column;
     width: 100%;
     z-index: 3;
-    top: -40px;
+    top: -60px;
     padding: 40px 0; 
     margin-right: 5%;
     flex: 0 0 55% !important;
