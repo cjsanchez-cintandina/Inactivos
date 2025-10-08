@@ -315,7 +315,7 @@ margin: 0 auto;
     flex-direction: column;
     font-weight: 250;
     text-align: start !important;
-     margin: 0 5%;
+     margin: 0 15%;
     width: 120%;
 }
 
@@ -562,8 +562,8 @@ margin: 0 auto;
 
 .phone-app-image img {
    position: absolute; 
-   bottom: -700px !important;  
-   right: -48px ;             
+  /* bottom: -700px !important;  */
+  /* right: -48px ;     */        
    width: 220px !important;
    height: auto !important;
    max-width: none !important;
