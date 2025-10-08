@@ -304,13 +304,11 @@ margin: 0 auto;
      margin: 0 15%;
      width: 120%;
      margin-left: 10%
-     margin-top: 20px;
      position: relative;
-      z-index: 3;
-      /*margin: 15px; */  
+      z-index: 3; 
       flex: 2;
       display: flex;
-      top: -45px;
+      top: -40px;
       padding: 40px 0; 
       margin-right: 15% !important;
       flex: 0 0 55% !important;
@@ -355,7 +353,7 @@ margin: 0 auto;
   height: auto;
 /*  bottom: -440px !important;  */
   right: -48px ;
-  width: 470px !important;
+  width: 460px !important;
   max-width: none !important;
   flex: 0 0 auto !important;
   z-index: 2;
