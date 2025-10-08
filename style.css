@@ -506,11 +506,10 @@ margin: 0 auto;
     z-index: 3;
     top: -40px;
     padding: 40px 0; 
-    margin-right: 5% !important;
+    /*margin-right: 5% !important;*/
     flex: 0 0 55% !important;
 
 }
-
 
 .features-list p {
    margin-bottom: 20px;
@@ -542,7 +541,7 @@ margin: 0 auto;
 
 .phone-app-image img {
    position: absolute; 
-   bottom: 70px;     
+   bottom: 95px;     
    width: 200px !important;
    height: auto !important;
    max-width: none !important;
