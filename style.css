@@ -301,16 +301,16 @@ margin: 0 auto;
     flex-direction: column;
     font-weight: 250;
     text-align: start !important;
-     margin: 0 10%;
+     margin: 0 5%;
      width: 120%;
-     margin-left: 10%;
+     margin-left: 5%;
      position: relative;
      z-index: 3; 
      flex: 2;
      display: flex;
      top: -40px;
      padding: 40px 0; 
-    flex: 0 0 55% !important;
+     flex: 0 0 55% !important;
 }
 .features-list p {
    margin-bottom: 20px;
@@ -492,7 +492,7 @@ margin: 0 auto;
      float: right;
      padding: 0;
      margin: 0;
-     max-height: 418px;
+     max-height: 416px;
      overflow: hidden;
 }
 
@@ -539,7 +539,7 @@ margin: 0 auto;
 .phone-app-image img {
    position: absolute; 
    bottom: 90px;     
-   width: 200px !important;
+   width: 210px !important;
    height: auto !important;
    max-width: none !important;
    flex: 0 0 auto !important;
