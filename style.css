@@ -421,13 +421,15 @@ margin: 0 auto;
 
 
   .line1 h1 {
-    font-size: 1.4em;
-    top: -150px;
+    font-size: 1.6em;
+    top: -155px;
+    line-height: 1.3;
   }
 
   .line2 {
-    font-size: 1.4em;
-    top: -150px;
+    font-size: 1.6em;
+    top: -154px;
+    line-height: 1.3;
   }
 
   .line3 {
@@ -451,7 +453,7 @@ margin: 0 auto;
       width: 350px;             
       display: flex;
       justify-content: flex-end;
-      max-height: 500px;
+      max-height: 505px;
     }
     
     .hero-image img {
