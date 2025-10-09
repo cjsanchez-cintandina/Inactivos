@@ -60,7 +60,7 @@ body {
   background: transparent;
   padding: 40px;
   max-width: 1500px;
-  max-height: 800px;
+  max-height: 950px;
   width: 80%;
   text-align: center;
   margin-top: 15;
@@ -138,8 +138,9 @@ body {
 
 .hero-image img {
   max-width: 600px;
+  width: 500px;
   max-height: 700px;
-  right: -20px;
+  right: 10px;
   display: block; 
   padding-top: 0;
   padding-bottom: 0;
@@ -150,7 +151,7 @@ body {
 .call-to-action {
   text-align: center;
   position: relative; 
-  top: -250px;
+  top: -350px;
   font-weight: 600;
   cursor: pointer;
 }
