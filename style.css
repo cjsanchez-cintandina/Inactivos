@@ -128,8 +128,6 @@ body {
 /* Imagen central */
 .hero-image {
   display: flex;
-  max-width: 600px;
-  max-height: 700px;
   justify-content: flex-end;
   align-items: flex-end;
   padding-left: 5%;
@@ -139,6 +137,8 @@ body {
 }
 
 .hero-image img {
+  max-width: 600px;
+  max-height: 700px;
   right: -50px;
   display: block; 
   padding-top: 0;
@@ -149,6 +149,8 @@ body {
 /* Pagina1 */
 .call-to-action {
   text-align: center;
+  position: relative; 
+  top: -100px;
   font-weight: 600;
   cursor: pointer;
 }
@@ -158,6 +160,7 @@ body {
   margin: 20px auto 0;
   width: 40px;
 }
+
 
 /* Sección Slogan */
 .product-slogan-section {
