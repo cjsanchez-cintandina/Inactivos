@@ -93,14 +93,14 @@ body {
 /* Texto */
 
 .line1 h1 {
-  font-size: 2.2em;
+  font-size: 2.5em;
   color: #666;
   line-height: 1.5;
   margin-top: 25px;
 }
 
 .line2 {
-  font-size: 2.2em;
+  font-size: 2.5em;
   color: #666;
   line-height: 1.5;
   margin-bottom: 5px !important;
@@ -111,7 +111,7 @@ body {
 .line2 {
   display: block;
   position: relative;
-  top: -700px; 
+  top: -500px; 
   left: -250px;
   z-index: 2;
   margin: 0;
@@ -150,7 +150,7 @@ body {
 .call-to-action {
   text-align: center;
   position: relative; 
-  top: -100px;
+  top: -180px;
   font-weight: 600;
   cursor: pointer;
 }
