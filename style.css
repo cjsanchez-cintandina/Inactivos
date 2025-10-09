@@ -108,6 +108,7 @@ body {
 
 .line1 h1,
 .line2 {
+  display: block;
   position: relative;
   top: -250px; 
   left: 60px;
