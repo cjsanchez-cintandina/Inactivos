@@ -125,21 +125,23 @@ body {
 /* Imagen central */
 .hero-image {
   display: flex;
- justify-content: flex-end; 
- align-items: flex-end;
- padding-left: 5%;
- overflow: visible;
- margin-top: 0;
- margin-bottom: 0; 
- margin-left: auto;   
- margin-right: auto;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 5%;
+  padding-top: 0;    
+  padding-bottom: 0; 
+  overflow: visible;
 }
 
 .hero-image img {
   max-width: 500px;
   height: auto;
-  right: -45px ;
+  right: -45px;
+  display: block; 
+  padding-top: 0;
+  padding-bottom: 0;
 }
+
 
 /* Pagina1 */
 .call-to-action {
@@ -446,7 +448,7 @@ margin: 0 auto;
 
   /* Imagen: ocupa la mitad derecha, pegada al borde */
       .hero-image {
-      width: 400px;             
+      width: 350px;             
       display: flex;
       justify-content: flex-end; 
     }
@@ -454,10 +456,6 @@ margin: 0 auto;
     .hero-image img {
       width: 100%;             
       max-width: none;
-      margin-top: 0 !important;
-      margin-bottom: 0 !important; 
-      margin-left: auto;   
-      margin-right: auto;
     }
 
     /* Instructivo*/
