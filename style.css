@@ -110,8 +110,8 @@ body {
 .line2 {
   display: block;
   position: relative;
-  top: -250px; 
-  left: -180px;
+  top: -500px; 
+  left: -250px;
   z-index: 2;
   margin: 0;
 }
@@ -427,14 +427,14 @@ margin: 0 auto;
     font-size: 1.6em;
     top: -158px;
     line-height: 1.2;
-    left: -25px;
+    left: -215px;
   }
 
   .line2 {
     font-size: 1.6em;
     top: -156px;
     line-height: 1.2;
-    left: -25px;
+    left: -15px;
   }
 
   .line3 {
