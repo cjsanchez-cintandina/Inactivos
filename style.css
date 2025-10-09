@@ -450,7 +450,8 @@ margin: 0 auto;
       .hero-image {
       width: 350px;             
       display: flex;
-      justify-content: flex-end; 
+      justify-content: flex-end;
+      max-height: 415px;
     }
     
     .hero-image img {
