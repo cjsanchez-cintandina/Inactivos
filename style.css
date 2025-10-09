@@ -62,7 +62,8 @@ body {
   max-width: 1500px;
   width: 80%;
   text-align: center;
- margin-top: 15;
+  margin-top: 15;
+  overflow: visible;
 }
 
 /* Logos */
@@ -94,7 +95,7 @@ body {
   font-size: 2.2em;
   color: #666;
   line-height: 1.1;
-  margin-top: 15;
+  margin-top: 15px;
 }
 
 .line2 {
@@ -105,22 +106,22 @@ body {
   font-weight: 280;
 }
 
+.line1 h1,
+.line2 {
+  position: relative;
+  top: -250px; 
+  left: 60px;
+  z-index: 2;
+  margin: 0;
+}
+
+
 .line3 {
   font-size: 1.5em;
   margin-top: 0px !important;
   color: #666;
   font-weight: 280;
 }
-
-.line1 h1,
-.line2 {
-  position: relative;
-  top: -250px; 
-  left: -60px;
-  z-index: 2;
-  margin: 0;
-}
-
 
 /* Imagen central */
 .hero-image {
