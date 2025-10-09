@@ -435,8 +435,13 @@ margin: 0 auto;
 
   .line3 {
     font-size: 1em;
-    top: -150px;
   }
+
+    .call-to-action {
+     top: -100px;
+    }
+
+    
      .line4 {
     font-size: 1em;
   }
@@ -449,6 +454,7 @@ margin: 0 auto;
     font-size: 1.8em;
   }
 
+    
   /* Imagen: ocupa la mitad derecha, pegada al borde */
       .hero-image {
       width: 350px;             
