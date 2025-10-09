@@ -428,6 +428,8 @@ margin: 0 auto;
     top: -158px;
     line-height: 1.2;
     text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .line2 {
@@ -435,6 +437,8 @@ margin: 0 auto;
     top: -156px;
     line-height: 1.2;
     text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .line3 {
