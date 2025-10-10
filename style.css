@@ -150,7 +150,7 @@ body {
 .call-to-action {
   text-align: center;
   position: relative; 
-  top: -700px;
+  top: -680px;
   font-weight: 600;
   cursor: pointer;
 }
@@ -466,21 +466,24 @@ margin: 0 auto;
     
   /* Imagen: ocupa la mitad derecha, pegada al borde */
       .hero-image {
-      width: 350px;             
-      display: flex;
+      width: 350px !important;             
+      display: flex !important;
       justify-content: flex-end;
-      max-height: 505px;
+      max-height: 505px !important;
     }
     
     .hero-image img {
-      width: 100%;             
-      max-width: none;
+      width: 100% !important ;             
+      max-width: none !important;
+      max-height: 505px !important;
     }
 
+
+    
     /* Instructivo*/
     .how-to-read-section {
     padding: 30px 5%;
-    height: 8px;  
+    height: 8px ;  
         
   }
 
