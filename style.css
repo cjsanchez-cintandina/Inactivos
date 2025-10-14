@@ -314,7 +314,7 @@ margin: 0 auto;
 
 .features-list {
     justify-content:  flex-start !important;
-    width: 80%;
+    width: 60%;
     flex-direction: column;
     font-weight: 250;
     text-align: start !important;
@@ -365,9 +365,10 @@ margin: 0 auto;
 .phone-app-image img {
   position: absolute; 
   max-width: 500px;
+  width: 200px !important;
   height: auto;
   right: -35px ;
-  width: 250px !important;
+ 
   max-width: none !important;
   flex: 0 0 auto !important;
   z-index: 2;
