@@ -170,6 +170,7 @@ body {
   width: 100vw;              
   margin: 40px 0 0 0;   
   padding: 0; 
+  flex-direction: column;
     
 }
 .product-slogan-section span {
@@ -199,6 +200,8 @@ body {
   align-items: flex-end;
   left: -100px;
   padding-left: -5%;
+  width: 40%;
+  height: auto;
 }
 
 .interactive-image {
@@ -209,7 +212,7 @@ body {
   justify-content:  flex-start !important;
   margin: 0 auto;
   padding: 0;
-    right: -300px;
+  right: -700px;
 }
 
 /* banner selección*/
