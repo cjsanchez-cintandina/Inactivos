@@ -206,12 +206,12 @@ body {
 }
 
 .interactive-image {
-  width: 80%;             
+  width: 100%;             
   height: auto;              
   display: flex;
   margin: 0 auto;
   padding: 0;
-  right: -2000px;
+  right: -1500px;
 }
 
 /* banner selección*/
