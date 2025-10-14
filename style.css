@@ -799,7 +799,6 @@ margin: 0 auto;
    max-width: none !important;
    flex: 0 0 auto !important;
    z-index: 2;
-   top: 50px;
 }
 .footer {
     font-size: 0.8em;
