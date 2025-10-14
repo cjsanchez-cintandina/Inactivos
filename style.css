@@ -482,21 +482,15 @@ margin: 0 auto;
 
 .hero-image {
   display: flex;
-  justify-content: flex-end;
+  justify-content:  flex-start;
   align-items: flex-end;
-  padding-left: 5%;
-  padding-top: 0;    
+  padding-left: 0%;  
   padding-bottom: 15px; 
   overflow: visible;
 }
 
 .hero-image img {
-  width: 750px;
-  height: 1140px;
-  right: 900px;
-  display: block; 
-  padding-top: 0;
-  padding-bottom: 0;
+ right: 0; 
 }
 
 /* Pagina1 */
