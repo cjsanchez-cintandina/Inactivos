@@ -145,6 +145,7 @@ body {
   display: block; 
   padding-top: 0;
   padding-bottom: 0;
+  top: -50px;
 }
 
 
@@ -152,7 +153,7 @@ body {
 .call-to-action {
   text-align: center;
   position: relative; 
-  top: -680px;
+  top: -750px;
   font-weight: 600;
   cursor: pointer;
 }
