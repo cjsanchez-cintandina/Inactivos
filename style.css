@@ -583,32 +583,32 @@ margin: 0 auto;
       padding-right: 0 !important;
       margin-right: 0 !important;
       position: relative;
-      align-items: flex-start;
       justify-content: space-between;
-     font-size: 0.7em;
+     font-size: 1.7em;
      width: 100%;
      float: right;
      padding: 0;
+      text-align: center !important;
      margin: 0;
-     max-height: 415px;
+     max-height: 500px;
      overflow: hidden;
 }
-
 
 .features-list {
     position: relative;
     flex-direction: column;
-    width: 100%;
+    width: 60%;
     z-index: 2;
     flex: 2; 
-    top: -40px;
+    top: 0px;
     padding: 50px 0 !important;
 
 }
 
+
 .features-list p {
    margin-bottom: 20px;
-   line-height: 2.0;
+   line-height: 1.6;
 }
 
 .feature-item p {
@@ -636,13 +636,14 @@ margin: 0 auto;
 
 .phone-app-image img {
    position: absolute; 
-   bottom: 110px;     
+   bottom: 0px;     
    width: 205px !important;
    height: auto !important;
    max-width: none !important;
    flex: 0 0 auto !important;
    z-index: 2;
 }
+    
 .footer {
     font-size: 0.8em;
 }
