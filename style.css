@@ -194,14 +194,16 @@ body {
   text-align: center;
   margin: 0 auto; 
   z-index: 2;
+  top: -500px; 
+  left: -10px;
 }
 
 .interactive-image {
   width: 60%;             
   height: auto;              
   display: block;
-  align-items: center;
-  justify-content: center;
+  align-items: start !important;
+  justify-content: start !important;
   margin: 0 auto;
   padding: 0;
 }
