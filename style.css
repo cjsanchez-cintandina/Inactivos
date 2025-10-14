@@ -668,13 +668,10 @@ margin: 0 auto;
     }
 
     
-     .line4 {
+     .line4, .line5 {
     font-size: 1.1em;
+    text-align: center !important;
     
-  }
-
-  .line5 {
-    font-size: 1.1em;; 
   }
 
     .line6, .line7 {
@@ -794,7 +791,7 @@ margin: 0 auto;
 
 .phone-app-image img {
    position: absolute; 
-   bottom: 70px;     
+   bottom: 0px;     
    width: 205px !important;
    height: auto !important;
    max-width: none !important;
