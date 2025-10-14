@@ -637,7 +637,7 @@ margin: 0 auto;
 .phone-app-image img {
    position: absolute; 
    bottom: 0px;     
-   width: 205px !important;
+   width: 400px !important;
    height: auto !important;
    max-width: none !important;
    flex: 0 0 auto !important;
@@ -645,7 +645,7 @@ margin: 0 auto;
 }
     
 .footer {
-    font-size: 0.8em;
+    font-size: 1.5em;
 }
 
 .footer p {
