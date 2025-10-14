@@ -197,7 +197,7 @@ body {
   margin: 0 auto; 
   z-index: 2;
   top: -500px; 
-  left: -30px;
+  left: -500px;
 }
 
 .interactive-image {
