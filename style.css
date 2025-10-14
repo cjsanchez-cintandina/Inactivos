@@ -511,11 +511,11 @@ margin: 0 auto;
 
     
      .line4 {
-    font-size: 1em;
+    font-size: 2.0em;
   }
 
   .line5 {
-    font-size: 1em;
+    font-size: 2.0em;
   }
 
     .line6, .line7 {
@@ -608,7 +608,7 @@ margin: 0 auto;
 
 .features-list p {
    margin-bottom: 20px;
-   line-height: 1.6;
+   line-height: 2.0;
 }
 
 .feature-item p {
