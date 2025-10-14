@@ -166,7 +166,6 @@ body {
 
 /* Sección Slogan */
 .product-slogan-section {
-  flex-direction: row;
   width: 100vw;              
   margin: 40px 0 0 0;   
   padding: 0;                
@@ -177,14 +176,14 @@ body {
 }
 
 .line4 {
-  font-size: 1.8em;
+  font-size: 2.1em;
   color: var(--dark-green);
   line-height: 0.9;
   text-align: end !important;  
   width: 50%;
 }
 .line5 {
-  font-size: 1.8em;
+  font-size: 2.1em;
   color: var(--dark-green);
   font-weight: 280;
   text-align: end !important;
@@ -193,12 +192,12 @@ body {
 
 .line4,
 .line5 {
-  display: block; 
-  text-align: center;
+  display: block;
+  /*text-align: center;*/
   margin: 0 auto; 
   z-index: 2;
   top: -500px; 
-  left: -10px;
+  left: -30px;
 }
 
 .interactive-image {
@@ -209,6 +208,7 @@ body {
   justify-content: start !important;
   margin: 0 auto;
   padding: 0;
+  right: 500px;
 }
 
 /* banner selección*/
