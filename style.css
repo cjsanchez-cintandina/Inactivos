@@ -464,7 +464,7 @@ margin: 0 auto;
 .line2 {
   display: block;
   position: relative;
-  top: -500px; 
+  top: -600px; 
   left: -500px;
   z-index: 2;
   margin: 0;
@@ -480,13 +480,15 @@ margin: 0 auto;
   font-weight: 280;
 }
 
-
+.hero-image img {
+  right: -500px;
+}
 
 /* Pagina1 */
 .call-to-action {
   text-align: center;
   position: relative; 
-  top: -200px;
+  top: -400px;
   font-weight: 600;
   cursor: pointer;
 }
