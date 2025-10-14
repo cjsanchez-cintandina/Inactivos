@@ -179,13 +179,13 @@ body {
   font-size: 1.8em;
   color: var(--dark-green);
   line-height: 0.9;
-  text-align: end;    
+  text-align: end !important;    
 }
 .line5 {
   font-size: 1.8em;
   color: var(--dark-green);
   font-weight: 280;
-  text-align: end;    
+  text-align: end !important;    
 }
 
 .line4,
@@ -739,8 +739,9 @@ margin: 0 auto;
   .features-display-container {
       padding-right: 0 !important;
       position: relative;
-      align-items: flex-start;
-      justify-content: space-between;
+      display: flex; 
+      justify-content: flex-end;
+      /*justify-content: space-between;*/
      font-size: 0.7em;
      width: 100%;
      float: right;
