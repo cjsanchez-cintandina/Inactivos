@@ -178,30 +178,28 @@ body {
 }
 
 .line4 {
-  font-size: 3.1em;
+  font-size: 2.5em;
   color: var(--dark-green);
-  line-height: 0.9;
-  text-align: end !important;  
+  line-height: 0.9; 
   }
 .line5 {
-  font-size: 3.1em;
+  font-size: 2.5em;
   color: var(--dark-green);
   font-weight: 280;
-  text-align: end !important;
+  margin-bottom: 5px !important;
 }
 
 .line4,
 .line5 {
-  display: flex;
-  /*text-align: center;*/
-  margin: 0 auto; 
-  z-index: 2;
+  display: block;
+  position: relative;
+  top: -900px; 
   padding-left: -5%;
   width: 80%;
   height: auto;
-  justify-content: end;
-  align-items: end;
-  text-align: end;
+  text-align: end !important;
+  z-index: 2;
+  margin: 0; 
 }
 
 .interactive-image {
