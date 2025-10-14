@@ -739,16 +739,14 @@ margin: 0 auto;
   .features-display-container {
       padding-right: 0 !important;
       position: relative;
-      display: flex; 
-      justify-content: flex-end;
-      /*justify-content: space-between;*/
+      justify-content: space-between;
      font-size: 0.7em;
      width: 100%;
      float: right;
      padding: 0;
      text-align: center !important;
      margin: 0;
-     max-height: 415px;
+     max-height: 500px;
      overflow: hidden;
 }
 
