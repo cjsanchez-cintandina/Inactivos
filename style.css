@@ -199,7 +199,7 @@ body {
   top: 800px;
   left: -100px;
   padding-left: -5%;
-  width: 760%;
+  width: 120%;
   height: auto;
   justify-content: end;
   align-items: end;
@@ -683,6 +683,7 @@ margin: 0 auto;
 
     
      .line4, .line5 {
+    width: 100%;
     display: block !important;   
     font-size: 1em;
     text-align: center !important;    
