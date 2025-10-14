@@ -637,7 +637,7 @@ margin: 0 auto;
 .phone-app-image img {
    position: absolute; 
    bottom: 0px;     
-   width: 300px !important;
+   width: 280px !important;
    height: auto !important;
    max-width: none !important;
    flex: 0 0 auto !important;
