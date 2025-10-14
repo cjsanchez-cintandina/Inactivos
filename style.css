@@ -134,9 +134,8 @@ body {
   align-items: flex-end;
   padding-left: 5%;
   padding-top: 0;    
-  padding-bottom: 0; 
+  padding-bottom: 15px; 
   overflow: visible;
-  top: -150px;
 }
 
 .hero-image img {
@@ -206,12 +205,15 @@ body {
 }
 
 .interactive-image {
-  width: 100%;             
-  height: auto;              
-  display: flex;
-  padding: 0;
-  right: -1500px;
-  bottom: 0;
+   width: 100%;             
+  height: auto;            
+  display: flex;           
+  padding: 0;               
+  position: fixed;          
+  bottom: 0;                
+  left: 0;                 
+  right: 0;                
+  z-index: 9999;   
 }
 
 /* banner selección*/
