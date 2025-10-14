@@ -482,7 +482,7 @@ margin: 0 auto;
 
 .hero-image {
   display: flex;
-  justify-content:  flex-end !important;
+  justify-content:  end !important;
   align-items: flex-end !important;
   padding-left: 0%;  
   padding-bottom: 15px; 
@@ -490,7 +490,12 @@ margin: 0 auto;
 }
 
 .hero-image img {
- right: 0; 
+  width: 750px;
+  height: 1140px;
+  display: block;
+  padding: 0;
+  position: relative;            
+  right: 0;                   
 }
 
 /* Pagina1 */
