@@ -136,6 +136,7 @@ body {
   padding-top: 0;    
   padding-bottom: 0; 
   overflow: visible;
+  top: -150px;
 }
 
 .hero-image img {
@@ -145,7 +146,6 @@ body {
   display: block; 
   padding-top: 0;
   padding-bottom: 0;
-  top: -50px;
 }
 
 
