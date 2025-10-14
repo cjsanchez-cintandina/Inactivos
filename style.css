@@ -194,10 +194,9 @@ body {
   display: block;
   position: relative;
   top: 0px; 
-  left: -500px;
-  padding-left: -5%;
+  left: -1500px;
   width: 80%;
-  height: auto;
+  height: 30px;
   text-align: end !important;
   z-index: 2;
   margin: 0; 
