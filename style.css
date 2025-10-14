@@ -116,7 +116,7 @@ body {
   z-index: 2;
   margin: 0;
   text-align: left !important;
-  align-items: flex-end;
+  align-items: end;
 }
 
 
@@ -313,7 +313,6 @@ margin: 0 auto;
       margin: 0;
       max-height: 1040x;
      overflow: hidden;
-     overflow: visible !important;
 }
 
 
@@ -395,7 +394,7 @@ margin: 0 auto;
 }
 
 .footer-logo {
-    height: 50px; 
+    height: 20px; 
     width: auto;
 }
 
