@@ -167,7 +167,7 @@ body {
 /* Sección Slogan */
 .product-slogan-section {
   display: flex;
-  width: 100vw;              
+  width: 100%;              
   margin: 40px 0 0 0;   
   padding: 0; 
   flex-direction: column;
@@ -198,9 +198,9 @@ body {
   z-index: 2;
   justify-content:  flex-end;
   align-items: flex-end;
-  left: -100px;
+  left: -900px;
   padding-left: -5%;
-  width: 40%;
+  width: 60%;
   height: auto;
 }
 
@@ -212,7 +212,7 @@ body {
   justify-content:  flex-start !important;
   margin: 0 auto;
   padding: 0;
-  right: -700px;
+  right: -900px;
 }
 
 /* banner selección*/
