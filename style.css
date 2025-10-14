@@ -166,6 +166,7 @@ body {
 
 /* Sección Slogan */
 .product-slogan-section {
+  display: flex;
   width: 100vw;              
   margin: 40px 0 0 0;   
   padding: 0; 
@@ -174,7 +175,7 @@ body {
     
 }
 .product-slogan-section span {
-  display: block;
+  display: flex;
 }
 
 .line4 {
