@@ -170,7 +170,7 @@ body {
   width: 100%;              
   margin: 40px 0 0 0;   
   padding: 0; 
-  flex-direction: column;
+  /*flex-direction: column;*/
     
 }
 .product-slogan-section span {
@@ -180,7 +180,7 @@ body {
 .line4 {
   font-size: 2.5em;
   color: var(--dark-green);
-  line-height: 1.6; 
+  line-height: 1.9; 
   }
 .line5 {
   font-size: 2.5em;
