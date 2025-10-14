@@ -200,6 +200,9 @@ body {
   padding-left: -5%;
   width: 60%;
   height: auto;
+  justify-content: end;
+  align-items: end;
+  text-align: end;
 }
 
 .interactive-image {
