@@ -196,10 +196,10 @@ body {
   /*text-align: center;*/
   margin: 0 auto; 
   z-index: 2;
-  top: 50px;
+  botton: 70px;
   left: -1200px;
   padding-left: -5%;
-  width: 60%;
+  width: 760%;
   height: auto;
   justify-content: end;
   align-items: end;
@@ -207,7 +207,7 @@ body {
 }
 
 .interactive-image {
-  width: 100%;             
+  width: 80%;             
   height: auto;              
   display: flex;
   margin: 0 auto;
