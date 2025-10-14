@@ -205,12 +205,14 @@ body {
 }
 
 .interactive-image {
-  width: 100%;             
+  width: 60%;             
   height: auto;              
   display: flex;
   padding: 0;
   bottom: 0;
   padding-bottom: 0px;
+  justify-content: start !important;
+  align-items: start !important;
 }
 
 /* banner selección*/
