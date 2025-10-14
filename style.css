@@ -676,11 +676,14 @@ margin: 0 auto;
     .product-slogan-section {
         display: block; 
         flex-direction: block;                
-        text-align: center;        
+        text-align: center;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
     
      .line4, .line5 {
+    display: block; 
     font-size: 1em;
     text-align: center !important;
     width: 100%;
