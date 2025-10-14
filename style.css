@@ -446,14 +446,14 @@ margin: 0 auto;
 
 
  .line1 h1 {
-  font-size: 2.5em;
+  font-size: 1.8em;
   color: #666;
   line-height: 1.5;
   margin-top: 25px;
 }
 
 .line2 {
-  font-size: 2.5em;
+  font-size: 1.8em;
   color: #666;
   line-height: 1.5;
   margin-bottom: 5px !important;
@@ -465,7 +465,7 @@ margin: 0 auto;
   display: block;
   position: relative;
   top: -500px; 
-  left: -50px;
+  left: -500px;
   z-index: 2;
   margin: 0;
   text-align: end !important;
@@ -480,25 +480,6 @@ margin: 0 auto;
   font-weight: 280;
 }
 
-/* Imagen central */
-.hero-image {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding-left: 5%;
-  padding-top: 0;    
-  padding-bottom: 15px; 
-  overflow: visible;
-}
-
-.hero-image img {
-  width: 750px;
-  height: 1140px;
-  right: 50px;
-  display: block; 
-  padding-top: 0;
-  padding-bottom: 0;
-}
 
 
 /* Pagina1 */
