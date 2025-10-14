@@ -465,7 +465,7 @@ margin: 0 auto;
   display: block;
   position: relative;
   top: -450px; 
-  left: -500px;
+  left: -450px;
   z-index: 2;
   margin: 0;
   text-align: end !important;
@@ -485,7 +485,8 @@ margin: 0 auto;
   justify-content:  end !important;
   align-items: flex-end !important;
   padding-left: 0%;  
-  padding-bottom: 15px; 
+  padding-bottom: 15px;
+  padding: 0;
   overflow: visible;
 }
 
@@ -495,7 +496,7 @@ margin: 0 auto;
   display: block;
   padding: 0;
   position: relative;            
-  right: 0;                   
+  right: 0 !important                  
 }
 
 /* Pagina1 */
