@@ -196,9 +196,7 @@ body {
   /*text-align: center;*/
   margin: 0 auto; 
   z-index: 2;
-  justify-content:  flex-end;
-  align-items: flex-end;
-  left: -900px;
+  left: -1200px;
   padding-left: -5%;
   width: 60%;
   height: auto;
@@ -208,11 +206,9 @@ body {
   width: 60%;             
   height: auto;              
   display: flex;
-  align-items: flex-start !important;
-  justify-content:  flex-start !important;
   margin: 0 auto;
   padding: 0;
-  right: -900px;
+  right: -1100px;
 }
 
 /* banner selección*/
