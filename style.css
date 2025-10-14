@@ -176,14 +176,16 @@ body {
 }
 
 .line4 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   color: var(--dark-green);
   line-height: 0.9;
+  text-align: end;    
 }
 .line5 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   color: var(--dark-green);
   font-weight: 280;
+  text-align: end;    
 }
 
 .line4,
@@ -665,15 +667,12 @@ margin: 0 auto;
 
     
      .line4 {
-    font-size: 1.5em;
-    text-align: end !important;
-    top: 20px; 
+    font-size: 1.1em;
+    
   }
 
   .line5 {
-    font-size: 1.5em;
-    text-align: end !important;
-    top: 20px; 
+    font-size: 1.1em;; 
   }
 
     .line6, .line7 {
