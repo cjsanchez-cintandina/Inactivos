@@ -482,8 +482,8 @@ margin: 0 auto;
 
 .hero-image {
   display: flex;
-  justify-content:  flex-start;
-  align-items: flex-end;
+  justify-content:  flex-end !important;
+  align-items: flex-end !important;
   padding-left: 0%;  
   padding-bottom: 15px; 
   overflow: visible;
