@@ -183,14 +183,12 @@ body {
   color: var(--dark-green);
   line-height: 0.9;
   text-align: end !important;  
-  width: 50%;
-}
+  }
 .line5 {
   font-size: 2.1em;
   color: var(--dark-green);
   font-weight: 280;
   text-align: end !important;
-  width: 50%;
 }
 
 .line4,
@@ -681,11 +679,9 @@ margin: 0 auto;
 
     
      .line4, .line5 {
-    display: block; 
+    display: block !important;   
     font-size: 1em;
-    text-align: center !important;
-    width: 100%;
-    
+    text-align: center !important;    
   }
 
     .line6, .line7 {
