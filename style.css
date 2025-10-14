@@ -229,6 +229,7 @@ body {
   overflow: hidden;
   padding:  0;
   overflow: visible !important;
+  height: 720px;
 }
 
 .background-layer {
@@ -312,7 +313,8 @@ margin: 0 auto;
       padding: 0;
       margin: 0;
       max-height: 1040x;
-     overflow: hidden;
+      overflow: hidden;
+      overflow: visible;
 }
 
 
