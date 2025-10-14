@@ -727,7 +727,6 @@ margin: 0 auto;
 
   .features-display-container {
       padding-right: 0 !important;
-      margin-right: 0 !important;
       position: relative;
       align-items: flex-start;
       justify-content: space-between;
@@ -735,7 +734,7 @@ margin: 0 auto;
      width: 50%;
      float: right;
      padding: 0;
-     padding-left: 100%;
+     text-align: right !important;
      margin: 0;
      max-height: 415px;
      overflow: hidden;
