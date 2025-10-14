@@ -307,14 +307,14 @@ margin: 0 auto;
       float: right;
       padding: 0;
       margin: 0;
-      max-height: 900px;
+      max-height: 950px;
      overflow: hidden;
 }
 
 
 .features-list {
     justify-content:  flex-start !important;
-    width: 100%;
+    width: 80%;
     flex-direction: column;
     font-weight: 250;
     text-align: start !important;
@@ -364,10 +364,10 @@ margin: 0 auto;
 
 .phone-app-image img {
   position: absolute; 
-  max-width: 900px;
+  max-width: 500px;
   height: auto;
   right: -35px ;
-  width: 440px !important;
+  width: 250px !important;
   max-width: none !important;
   flex: 0 0 auto !important;
   z-index: 2;
