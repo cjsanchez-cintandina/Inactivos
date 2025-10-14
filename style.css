@@ -168,8 +168,10 @@ body {
 .product-slogan-section {
   width: 100vw;              
   margin: 40px 0 0 0;   
-  padding: 0;                
+  padding: 0; 
+  justify-content: space-between;
  /* text-align: center;    */    
+    
 }
 .product-slogan-section span {
   display: block;
@@ -197,15 +199,16 @@ body {
   margin: 0 auto; 
   z-index: 2;
   top: -500px; 
-  left: -500px;
+  justify-content:  flex-end;
+  align-items: flex-end;
 }
 
 .interactive-image {
   width: 60%;             
   height: auto;              
   display: block;
-  align-items: start !important;
-  justify-content: start !important;
+  align-items: flex-start !important;
+  justify-content:  flex-start !important;
   margin: 0 auto;
   padding: 0;
   right: 500px;
