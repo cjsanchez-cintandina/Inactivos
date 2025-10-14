@@ -171,7 +171,7 @@ body {
   margin: 40px 0 0 0;   
   padding: 0; 
   justify-content: space-between;
- /* text-align: center;    */    
+  align-items: center;
     
 }
 .product-slogan-section span {
@@ -199,7 +199,6 @@ body {
   /*text-align: center;*/
   margin: 0 auto; 
   z-index: 2;
-  top: -500px; 
   justify-content:  flex-end;
   align-items: flex-end;
 }
@@ -675,6 +674,7 @@ margin: 0 auto;
     }
     
     .product-slogan-section {
+        display: block; 
         flex-direction: block;                
         text-align: center;        
     }
