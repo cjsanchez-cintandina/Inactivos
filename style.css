@@ -314,12 +314,11 @@ margin: 0 auto;
 
 .features-list {
     justify-content:  flex-start !important;
-    width: 60%;
+    width: 80%;
     flex-direction: column;
     font-weight: 250;
     text-align: start !important;
      margin: 0 5%;
-     width: 120%;
      margin-left: 5%;
      position: relative;
      z-index: 3; 
@@ -331,7 +330,7 @@ margin: 0 auto;
 }
 .features-list p {
    margin-bottom: 20px;
-   line-height: 1.6;
+  /* line-height: 1.6;*/
 }
 
 
@@ -348,7 +347,7 @@ margin: 0 auto;
 
 .feature-item p {
     margin: 0;
-    font-size: 1.1em;
+    font-size: 0.9em;
     color: #555;
 }
 .phone-app-image {
