@@ -187,16 +187,16 @@ body {
   font-weight: 280;
   margin-bottom: 5px !important;
   text-align: left !important;
-  top: 330px ; 
+  top: 350px ; 
 }
 
 .line4,
 .line5 {
   /*display: block;*/
   position: absolute;
-  right: 0; 
-  left: 1000px;
-  width: 30%;
+  /*right: 0; */
+  left: 1100px;
+  width: 40%;
   height: auto;
   text-align: left !important;
   z-index: 2;
