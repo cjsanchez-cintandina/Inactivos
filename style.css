@@ -169,10 +169,7 @@ body {
   display: flex;
   position: relative;
   width: 100%;              
-  /*margin: 40px 0 0 0;   */
-  padding: 0; 
-/*  flex-direction: row;*/
-    
+  padding: 0;     
 }
 .product-slogan-section span {
   display: flex;
@@ -182,13 +179,15 @@ body {
   font-size: 2.8em;
   color: var(--dark-green);
   top: 250px;
+  text-align: left !important
   }
 .line5 {
   font-size: 2.8em;
   color: var(--dark-green);
   font-weight: 280;
   margin-bottom: 5px !important;
-  top: 330px; 
+  text-align: left !important;
+  top: 330px ; 
 }
 
 .line4,
@@ -196,7 +195,7 @@ body {
   /*display: block;*/
   position: absolute;
   right: 0;
-  left: 300px;
+  left: 500px;
   width: 60%;
   height: auto;
   text-align: left !important;
