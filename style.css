@@ -546,14 +546,11 @@ margin: 0 auto;
   }
 
 .interactive-image {
-    width: 80%;             
+    width: 50%;             
     height: auto;                        
-    margin: 0;
-    padding: 0;
     bottom: 0;
-    padding-bottom: 30px; 
+    padding-top: 30px;
 }
-
 
     
   /* Imagen: ocupa la mitad derecha, pegada al borde */
