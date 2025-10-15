@@ -179,16 +179,16 @@ body {
 }
 
 .line4 {
-  font-size: 2.5em;
+  font-size: 2.8em;
   color: var(--dark-green);
-  top: 200px;
+  top: 250px;
   }
 .line5 {
-  font-size: 2.5em;
+  font-size: 2.8em;
   color: var(--dark-green);
   font-weight: 280;
   margin-bottom: 5px !important;
-  top: 250px; 
+  top: 300px; 
 }
 
 .line4,
