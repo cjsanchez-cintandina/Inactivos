@@ -392,6 +392,28 @@ margin: 0 auto;
   z-index: 2;
 }
 
+/*Contactanos*/
+
+.contact {
+    background-color: #f5f5f5;
+    color: var(--light-grayt);
+    text-align: center;
+    padding: 30px 5%;
+    font-size: 1.3em;
+    font-weight: 350;
+}
+
+.contact p {
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.contact-logo {
+    height: 30px; 
+    width: auto;
+}
+
+
 /* Pie de pagina */
 .footer {
     background-color: #f5f5f5;
