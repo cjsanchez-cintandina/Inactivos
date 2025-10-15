@@ -104,12 +104,13 @@
     </footer>
 
     <script>
-    function scrollDown() {
-      window.scrollBy({
-        top: window.innerHeight, 
-        behavior: 'smooth'       
-      });
-    }
+      function scrollToSlogan() {
+        const sloganSection = document.getElementById("slogan");
+        sloganSection.scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+        });
+      }
     </script>
     
 </body>
