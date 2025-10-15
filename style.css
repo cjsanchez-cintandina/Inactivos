@@ -180,11 +180,13 @@ body {
 .line4 {
   font-size: 2.5em;
   color: var(--dark-green);
+  padding-bottom: 15px; 
   }
 .line5 {
   font-size: 2.5em;
   color: var(--dark-green);
   font-weight: 280;
+  padding-top: 15px; 
 }
 
 .line4,
@@ -725,7 +727,7 @@ margin: 0 auto;
      .line4, .line5 {
         display: block;
         position: relative;
-        top: 0px; 
+        top: 10px; 
         width: 100%;
         justify-content: center !important;
         font-size: 1em;
