@@ -510,7 +510,7 @@ margin: 0 auto;
   top: 10px;
   }
 .line5 {
-  top: 22px ; 
+  top: 30px ; 
 }
     
  .line4, .line5 {
@@ -521,7 +521,7 @@ margin: 0 auto;
     left: 0;
     right: 0;
     justify-content: center !important;
-    font-size: 1.1em;
+    font-size: 1.5em;
     text-align: center !important; 
     align-items: center !important;
     padding-bottom: 5px; 
