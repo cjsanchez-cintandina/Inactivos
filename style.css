@@ -179,15 +179,12 @@ body {
   font-size: 2.8em;
   color: var(--dark-green);
   top: 250px;
-  text-align: left !important
   }
 .line5 {
   font-size: 2.8em;
   color: var(--dark-green);
   font-weight: 280;
-  margin-bottom: 5px !important;
-  text-align: left !important;
-  top: 350px ; 
+  top: 380px ; 
 }
 
 .line4,
@@ -195,14 +192,12 @@ body {
   /*display: block;*/
   position: absolute;
   /*right: 0; */
-  left: 1100px;
+  left: 1050px;
   width: 40%;
   height: auto;
   text-align: left !important;
   z-index: 2;
   margin: 0; 
-  justify-content: flex-end !important;
-  align-items: flex-end !important;
 }
 
 .interactive-image {
