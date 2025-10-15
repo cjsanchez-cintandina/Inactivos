@@ -513,22 +513,17 @@ margin: 0 auto;
 
 
     
-     .line4 {
-    font-size: 1.8em;
-  }
-
-  .line5 {
-    font-size: 1.8em;
-  }
-    
-     .line4, .line5 {
-        display: block;
-        position: relative;
-        justify-content: center !important;
-        text-align: center !important; 
-        align-items: center !important;
-        padding-bottom: 5px; 
-        margin-bottom: 0 !important;
+ .line4, .line5 {
+    display: block;
+    position: relative;
+    top: 10px; 
+    width: 100%;
+    justify-content: center !important;
+    font-size: 1.5em;
+    text-align: center !important; 
+    align-items: center !important;
+    padding-bottom: 5px; 
+    margin-bottom: 0 !important;
   }
 
     .line6, .line7 {
