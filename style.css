@@ -191,9 +191,9 @@ body {
 .line5 {
   display: block;
   position: absolute;
-  top: 500px;
+  top: -250px;
   left: 0px;
-  width: 50%;
+  width: 80%;
   height: auto;
   text-align: end !important;
   z-index: 2;
