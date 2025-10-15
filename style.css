@@ -180,9 +180,6 @@ body {
 .line4 {
   font-size: 2.5em;
   color: var(--dark-green);
-  line-height: 2.5; 
-  margin-bottom: 25px;
- 
   }
 .line5 {
   font-size: 2.5em;
@@ -728,6 +725,7 @@ margin: 0 auto;
      .line4, .line5 {
         display: block;
         position: relative;
+        top: 0px; 
         width: 100%;
         justify-content: center !important;
         font-size: 1em;
