@@ -130,6 +130,7 @@ body {
 /* Imagen central */
 .hero-image {
   display: flex;
+  position: absolute;
   justify-content: flex-end;
   align-items: flex-end;
   padding-left: 5%;
@@ -145,7 +146,6 @@ body {
   display: block; 
   padding-top: 0;
   padding-bottom: 0;
-  top: -30px; 
 }
 
 
