@@ -185,13 +185,14 @@ body {
   font-size: 2.5em;
   color: var(--dark-green);
   font-weight: 280;
+  margin-bottom: 5px !important;
 }
 
 .line4,
 .line5 {
   display: block;
   position: absolute;
- /* top: -250px;*/
+  top: -250px;
   /*left: -10px;*/
   width: 100%;
   height: auto;
@@ -732,6 +733,7 @@ margin: 0 auto;
         text-align: center !important; 
         align-items: center !important;
         padding-bottom: 5px; 
+        margin-bottom: 0 !important;
   }
    
 
