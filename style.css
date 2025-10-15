@@ -129,8 +129,8 @@ body {
 
 /* Imagen central */
 .hero-image {
+  max-height: 1040px;
   display: flex;
-  position: absolute;
   justify-content: flex-end;
   align-items: flex-end;
   padding-left: 5%;
@@ -320,7 +320,7 @@ margin: 0 auto;
       float: right;
       padding: 0;
       margin: 0;
-      max-height: 1040x;
+      max-height: 1040px;
       overflow: hidden;
       overflow: visible;
 }
