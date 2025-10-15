@@ -827,6 +827,15 @@ margin: 0 auto;
     margin-top: 30px;
     }
 
+.difference-section { 
+  max-height: 800px;
+}
+
+.background-layer {
+   height: 100%;
+}
+
+
   .features-display-container {
       padding-right: 0 !important;
       position: relative;
