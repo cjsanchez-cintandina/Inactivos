@@ -510,9 +510,10 @@ margin: 0 auto;
     
  .line4, .line5 {
     display: block;
-    position: relative;
+    position: absolute;
     top: 10px; 
     width: 100%;
+    height: auto;
     left: 0;
     right: 0;
     justify-content: center !important;
