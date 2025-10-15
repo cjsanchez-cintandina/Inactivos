@@ -506,12 +506,16 @@ margin: 0 auto;
   width: 40px;
 }
 
-
+.line4 {
+  top: 10px;
+  }
+.line5 {
+  top: 16px ; 
+}
     
  .line4, .line5 {
     display: block;
     position: absolute;
-    top: 10px; 
     width: 100%;
     height: auto;
     left: 0;
