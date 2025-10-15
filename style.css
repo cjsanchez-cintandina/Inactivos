@@ -493,6 +493,7 @@ margin: 0 auto;
 }
 
 .hero-image img {
+  weight: 60%;
  left: 500px;            
 }
 
