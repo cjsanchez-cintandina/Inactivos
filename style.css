@@ -734,6 +734,8 @@ margin: 0 auto;
         display: block !important;
         position: relative !important;
         top: 10px !important; 
+        left: 0; 
+        right: 0;
         width: 100% !important;
         justify-content: center !important;
         font-size: 1em;
