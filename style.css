@@ -550,6 +550,7 @@ margin: 0 auto;
     height: auto;                        
     margin: 0;
     padding: 0;
+    bottom: 0;
     padding-bottom: 30px; 
 }
 
