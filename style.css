@@ -513,6 +513,12 @@ margin: 0 auto;
   width: 40px;
 }
 
+.product-slogan-section {
+       
+      max-height: 1100px;
+          
+}
+
 .line4 {
   top: 10px;
   }
@@ -544,6 +550,7 @@ margin: 0 auto;
     height: auto;                        
     margin: 0;
     padding: 0;
+    padding-bottom: 30px; 
 }
 
 
@@ -596,6 +603,10 @@ margin: 0 auto;
     margin-top: 30px;
     }
 
+.difference-section {
+
+      height: 900px;
+}
   .features-display-container {
       padding-right: 0 !important;
       margin-right: 0 !important;
@@ -614,7 +625,7 @@ margin: 0 auto;
 .features-list {
     position: relative;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
     z-index: 2;
     flex: 2; 
     top: 0px;
