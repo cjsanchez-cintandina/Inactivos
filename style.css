@@ -549,7 +549,7 @@ margin: 0 auto;
     width: 80%;             
     height: auto;                        
     bottom: 0;
-    padding-top: 50px;
+    padding-top: 80px !important;
     justify-content: center !important;
     align-items: center !important;
 }
@@ -665,7 +665,7 @@ margin: 0 auto;
 .phone-app-image img {
    position: absolute; 
    bottom: 0px;     
-   width: 280px !important;
+   width: 400px !important;
    height: auto !important;
    max-width: none !important;
    flex: 0 0 auto !important;
