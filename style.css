@@ -169,7 +169,8 @@ body {
 .product-slogan-section {
   display: flex;
   position: relative;
-  width: 100%;              
+  width: 100%;    
+  max-height: 720px;
   padding: 0;     
 }
 .product-slogan-section span {
