@@ -181,19 +181,18 @@ body {
   font-size: 2.5em;
   color: var(--dark-green);
   line-height: 2.5; 
-  margin-bottom: 50px;
+  margin-bottom: 25px;
  
   }
 .line5 {
   font-size: 2.5em;
   color: var(--dark-green);
   font-weight: 280;
-  margin-top: 50px;
 }
 
 .line4,
 .line5 {
-  display: flex;
+  display: block;
   position: absolute;
   top: 250px;
   left: 60px;
