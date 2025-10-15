@@ -195,7 +195,8 @@ body {
 .line5 {
   /*display: block;*/
   position: absolute;
-  left: -250px;
+  right: 0;
+  left: 300px;
   width: 60%;
   height: auto;
   text-align: left !important;
@@ -731,10 +732,10 @@ margin: 0 auto;
 
     
      .line4, .line5 {
-        display: block;
-        position: relative;
-        top: 10px; 
-        width: 100%;
+        display: block !important;
+        position: relative !important;
+        top: 10px !important; 
+        width: 100% !important;
         justify-content: center !important;
         font-size: 1em;
         text-align: center !important; 
