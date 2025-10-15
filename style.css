@@ -195,8 +195,8 @@ body {
 .line5 {
   /*display: block;*/
   position: absolute;
-  left: -10px;
-  width: 80%;
+  left: 100px;
+  width: 60%;
   height: auto;
   text-align: left !important;
   z-index: 2;
@@ -514,11 +514,21 @@ margin: 0 auto;
 
     
      .line4 {
-    font-size: 2.0em;
+    font-size: 1.8em;
   }
 
   .line5 {
-    font-size: 2.0em;
+    font-size: 1.8em;
+  }
+    
+     .line4, .line5 {
+        display: block;
+        position: relative;
+        justify-content: center !important;
+        text-align: center !important; 
+        align-items: center !important;
+        padding-bottom: 5px; 
+        margin-bottom: 0 !important;
   }
 
     .line6, .line7 {
@@ -526,7 +536,7 @@ margin: 0 auto;
   }
 
 .interactive-image {
-    width: 100%;             
+    width: 80%;             
     height: auto;                        
     margin: 0;
     padding: 0;
