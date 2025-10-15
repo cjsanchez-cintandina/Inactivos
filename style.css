@@ -515,7 +515,7 @@ margin: 0 auto;
 
 .product-slogan-section {
        
-      max-height: 1100px;
+      max-height: 1200px;
           
 }
 
@@ -546,10 +546,12 @@ margin: 0 auto;
   }
 
 .interactive-image {
-    width: 50%;             
+    width: 80%;             
     height: auto;                        
     bottom: 0;
-    padding-top: 30px;
+    padding-top: 50px;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
     
