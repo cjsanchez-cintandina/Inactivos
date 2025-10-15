@@ -209,6 +209,7 @@ body {
   display: flex;
   padding: 0;
   bottom: 0;
+  right: -500px;
   padding-bottom: 0px;
   justify-content: start !important;
   align-items: start !important;
