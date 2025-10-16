@@ -399,13 +399,13 @@ margin: 0 auto;
     color: var(--light-grayt);
     text-align: center;
     padding: 30px 5%;
-    font-size: 1.3em;
+    font-size: 2.3em;
     font-weight: 350;
 }
 
 .contact p {
     margin-bottom: 20px;
-    line-height: 2.1;
+    line-height: 1.1;
 }
 
 .contact-logo {
