@@ -397,24 +397,32 @@ margin: 0 auto;
 .contact {
     background-color: #f5f5f5;
     color: var(--light-grayt);
-    text-align: center;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 20px;                  
     padding: 30px 5%;
     font-size: 1.6em;
     font-weight: 350;
-    align-items: center;
-    justify-content: space-between;
+    text-align: center;    
 }
 
 .contact p {
     width: 50%;
     height: auto;
-    margin-bottom: 20px;
-    line-height: 1.1;
+    margin: 0;
+    line-height: 1.2;
 }
 
 .contact-logo {
     height: 60px; 
     width: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.contact-logo:hover {
+  transform: scale(1.05);    
 }
 
 
