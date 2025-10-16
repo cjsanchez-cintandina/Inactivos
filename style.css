@@ -705,6 +705,22 @@ margin: 0 auto;
    flex: 0 0 auto !important;
    z-index: 2;
 }
+
+    .contact {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    text-align: center;    
+}
+
+
+.contact-logo {
+    height: 60px; 
+    width: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
     
 .footer {
     font-size: 1.5em;
@@ -933,6 +949,22 @@ margin: 0 auto;
    flex: 0 0 auto !important;
    z-index: 2;
 }
+
+.contact {
+display: flex;  
+align-items: center;
+justify-content: center;
+gap: 15px;                  
+padding: 30px 5%;
+font-size: 1.1em;
+text-align: center;    
+}
+
+.contact-logo {
+    height: 55px; 
+    width: auto;
+}
+    
 .footer {
     font-size: 0.8em;
 }
