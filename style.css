@@ -395,7 +395,7 @@ margin: 0 auto;
 /*Contactanos*/
 
 .contact {
-    background-color: #f5f5f5;
+    background-color: var(--white);
     color: var(--light-grayt);
     text-align: center;
     padding: 30px 5%;
@@ -405,11 +405,11 @@ margin: 0 auto;
 
 .contact p {
     margin-bottom: 20px;
-    line-height: 1.1;
+    line-height: 2.1;
 }
 
 .contact-logo {
-    height: 30px; 
+    height: 60px; 
     width: auto;
 }
 
@@ -426,11 +426,11 @@ margin: 0 auto;
 
 .footer p {
     margin-bottom: 20px;
-    line-height: 2.1;
+    line-height: 1.1;
 }
 
 .footer-logo {
-    height: 60px; 
+    height: 30px; 
     width: auto;
 }
 
