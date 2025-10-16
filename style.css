@@ -404,6 +404,8 @@ margin: 0 auto;
 }
 
 .contact p {
+    width: 50%;
+    height: auto;
     margin-bottom: 20px;
     line-height: 1.1;
 }
