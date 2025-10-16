@@ -400,7 +400,7 @@ margin: 0 auto;
     display: flex;  
     align-items: center;
     justify-content: center;
-    gap: 10px;                  
+    gap: 15px;                  
     padding: 30px 5%;
     font-size: 1.6em;
     font-weight: 350;
@@ -408,7 +408,7 @@ margin: 0 auto;
 }
 
 .contact p {
-    width: 30%;
+    width: auto;
     height: auto;
     margin: 0;
     line-height: 1.2;
