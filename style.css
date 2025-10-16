@@ -401,6 +401,8 @@ margin: 0 auto;
     padding: 30px 5%;
     font-size: 1.6em;
     font-weight: 350;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .contact p {
