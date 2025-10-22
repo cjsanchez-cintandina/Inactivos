@@ -132,9 +132,11 @@ font-size: 1.1em;
 .line4 p{
     font-size: 0.8em;
     text-align: justify;
+    line-height: 1;
     width: 100%;
-    margin-top: 15px;
-    margin-botton:15px;
+    margin-top: 20px;
+    margin-botton:20px;
+    
 }
 .line5 {
   font-size: 0.6em;
