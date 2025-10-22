@@ -100,8 +100,10 @@ body {
 /* Celulares */
 @media (max-width: 700px) {
   .banner-container {
-    width: 90%;
-    max-height: 800px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
   }
 
      .pegatin-cintandina {
@@ -130,19 +132,16 @@ body {
 }
 
 .line4 {
-  font-size: 1em;
+  font-size: 0.8em;
   color: var(--dark-text);
-  height: auto;
+  text-align: left;
   }
 .line5 {
-  font-size: 0.8em;
+  font-size: 0.5em;
   color: var(--dark-text); 
+text-align: center;
 }
 
-.line4,
-.line5 {
-  text-align: center;
-}
 
 .line4 p{
     line-height: 1.6; 
