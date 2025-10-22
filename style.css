@@ -76,20 +76,15 @@ body {
 
 /* Imagen central */
 .pegatin-cintandina  {
-  max-height: 1040px;
+  max-height: 100%;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding-left: 5%;
-  padding-top: 0;    
-  padding-bottom: 15px; 
-  overflow: visible;
+  justify-content: center;
+  align-items: center;
 }
 
 .pegatin-cintandina img {
-  width: 750px;
-  height: 1140px;
-  right: 115px;
+  width: 500px;
+  height: auto;
   display: block; 
   padding-top: 0;
   padding-bottom: 0;
