@@ -125,12 +125,12 @@ body {
 }
 
 .line3 {
-  font-size: 1.8em;
+  font-size: 1.2em;
   color: var(--dark-green);
 }
 
 .line4 {
-  font-size: 1.5em;
+  font-size: 1em;
   color: var(--dark-text);
   height: auto;
   }
@@ -145,7 +145,7 @@ body {
 }
 
 .line4 p{
-    line-height: 2.1; 
+    line-height: 1.6; 
 }
 
 .line1 h1,
