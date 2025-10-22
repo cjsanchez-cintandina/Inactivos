@@ -106,6 +106,8 @@ body {
     align-items: center;
     padding: 25px;
     text-align: center; 
+    overflow-y: hidden;
+    overflow-x: auto;
   }
 
  .pegatin-cintandina {
@@ -119,7 +121,9 @@ font-size: 1.5em;
     
 .line2 {
   font-size: 2.1em;
+  text-align: center;
   width: 100%;
+  font-weight: bold;
 }
 
 .line3 {
