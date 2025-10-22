@@ -68,12 +68,12 @@ body {
 }
 
 .line4 {
-  font-size: 2em;
+  font-size: 2.3em;
   color: var(--dark-text);
   height: auto;
   }
 .line5 {
-  font-size: 1.1em;
+  font-size: 1em;
   color: var(--dark-text); 
 }
 
@@ -83,7 +83,7 @@ body {
 }
 
 .line4 p{
-    line-height: 1.6; 
+    line-height: 2.1; 
 }
 
 .line1 h1,
