@@ -108,12 +108,9 @@ body {
   }
 
      .pegatin-cintandina {
-      width: 350px ;             
+      width: 350px;             
     }
 
-.contenedor {
-    width: 300px;
-}
   
 .line1 h1 {
   font-size: 2.3em;
@@ -144,12 +141,13 @@ body {
 .line5 {
   font-size: 0.6em;
   color: var(--dark-text); 
-text-align: center;
+  text-align: center;
 }
 
 
 .line4 p{
     line-height: 1.6; 
+    width: 350px 
    
 }
 
@@ -158,6 +156,7 @@ text-align: center;
 .line3,
 .line5 {
   line-height: 1;
+  width: 350px 
 }
 }
    
