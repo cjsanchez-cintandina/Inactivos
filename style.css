@@ -47,14 +47,14 @@ body {
 
 .line1 h1 {
   font-size: 2.5em;
-  color: #666;
+  color: var(--dark-green);
   line-height: 1.5;
   margin-top: 25px;
 }
 
 .line2 {
   font-size: 2.5em;
-  color: #666;
+  color: var(--dark-text);
   line-height: 1.5;
   margin-bottom: 5px !important;
   font-weight: 280;
@@ -74,14 +74,14 @@ body {
 
 
 .line3 {
-  font-size: 1.5em;
+  font-size: 2.0em;
   margin-top: 0px !important;
-  color: #666;
+  color: var(--dark-green);
   font-weight: 280;
 }
 
 /* Imagen central */
-.hero-image {
+.pegatin-cintandina  {
   max-height: 1040px;
   display: flex;
   justify-content: flex-end;
@@ -92,7 +92,7 @@ body {
   overflow: visible;
 }
 
-.hero-image img {
+.pegatin-cintandina img {
   width: 750px;
   height: 1140px;
   right: 115px;
@@ -101,45 +101,18 @@ body {
   padding-bottom: 0;
 }
 
-
-/* Pagina1 */
-.call-to-action {
-  text-align: center;
-  position: relative; 
-  top: -770px;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.call-to-action img {
-  display: block;
-  margin: 20px auto 0;
-  width: 40px;
-}
-
-
-/* Sección Slogan */
-.product-slogan-section {
-  display: flex;
-  position: relative;
-  width: 100%;    
-  max-height: 1000px;
-  padding: 0;     
-}
-.product-slogan-section span {
-  display: flex;
 }
 
 .line4 {
-  font-size: 2.8em;
-  color: var(--dark-green);
+  font-size: 1.5em;
+  color: var(--dark-text);
   top: 250px;
   width: 30%;
   height: auto;
   }
 .line5 {
-  font-size: 2.8em;
-  color: var(--dark-green);
+  font-size: 0.8em;
+  color: var(--dark-text);
   font-weight: 280;
   top: 380px ; 
   width: 22%;
@@ -157,252 +130,6 @@ body {
   margin: 0; 
 }
 
-.interactive-image {
-  display: flex;
-  width: 50%;             
-  height: auto;              
-  bottom: 0;
-  right: -1500px;
-  padding-bottom: 0px;
-  padding-top: 20px;
-  justify-content: start !important;
-  align-items: start !important;
-}
-
-/* banner selección*/
-.how-to-read-section {
-    background-color: var(--dark-green);
-    color: var(--white);
-    height: 60px;  
-    display: flex;   
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 5%;   
-}
-
-.how-to-read-section {
-    font-size: 1.5em;
-    font-weight: 700;
-}
-
-/* Cuerpo e instructivo */
-
-.difference-section {
-  position: relative;
-  overflow: hidden;
-  padding:  0;
-  /*overflow: visible !important;*/
-  height: auto;
-}
-
-.background-layer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: 
-    linear-gradient(to top, 
-    rgba(255, 255, 255, 1) 0%,    
-    rgba(255, 255, 255, 0.9) 75%,   
-    rgba(255, 255, 255, 0) 100%   
-    ),
-    url('assets/FONDO-CINTA-DE-SEGURIDAD-INTELIGENTE.png') no-repeat center;
-  background-size: cover;
-  z-index: 0;
-    overflow: visible !important;
-}
-
-
-.content-layer {
-  position: relative;
-  z-index: 1; /* ahora el texto siempre está arriba */
-  color: #000; /* o blanco, según contraste */
-  padding: 10% 0;
-}
-
-.step {
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-width: 60%; 
-margin: 0 auto; 
-}
-.step-icon {
-    width: 60%; 
-    height: auto;
-    align-items: center;
-    display: block;
-    margin: 0 auto; 
-}
-
-.step1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    margin-top: 100px;
-}
-
-.line6 {
-  color: #666666;
-  line-height: 0.2;
-}
-
-.line7 {
- color: var(--dark-green);
-}
-
-.line6,
-.line7, h1 {
-  font-size: 2.5em;
-  display: block; 
-  text-align: center;
-  margin: 0 auto; 
-  z-index: 2;
-}
-
-
-.features-display-container {
-      padding-right: 0 !important;
-      margin-right: 0 !important;
-      position: relative;
-      align-items: flex-start;
-      justify-content: space-between;
-      font-size: 1.9em;
-      width: 100%;
-      float: right;
-      padding: 0;
-      margin: 0;
-      max-height: 1040px;
-      overflow: hidden;
-      overflow: visible;
-}
-
-
-.features-list {
-    justify-content:  flex-start !important;
-    width: 80%;
-    flex-direction: column;
-    font-weight: 250;
-    text-align: start !important;
-     margin: 0 5%;
-     margin-left: 5%;
-     position: relative;
-     z-index: 3; 
-     flex: 2;
-     display: flex;
-     top: -40px;
-     padding: 40px 0; 
-     flex: 0 0 55% !important;
-}
-.features-list p {
-   margin-bottom: 20px;
-  /* line-height: 1.6;*/
-}
-
-
-.feature-item {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 10px;
-}
-.feature-icon {
-    width: 45px;
-    height: 46px;
-    flex-shrink: 0;
-}
-
-.feature-item p {
-    margin: 0;
-    font-size: 0.9em;
-    color: #555;
-}
-.phone-app-image {
-    position: relative;
-    display: flex;
-    justify-content:  flex-end;
-    align-items: flex-end;
-    z-index: 1;
-    padding-left: 5%;
-    flex: 0 0 45%;
-    overflow: visible;
-    z-index: 3;
-}
-
-.phone-app-image img {
-  position: absolute; 
-  max-width: 400px;
-  width: 400px !important;
-  height: auto;
-  right: -45px ;
- 
-  max-width: none !important;
-  flex: 0 0 auto !important;
-  z-index: 2;
-}
-
-/*Contactanos*/
-
-.contact {
-    background-color: #f5f5f5;
-    color: #000000;
-    display: flex;  
-    align-items: center;
-    justify-content: center;
-    gap: 60px;                  
-    padding: 30px 5%;
-    font-size: 1.6em;
-    font-weight: 350;
-    text-align: center;    
-}
-
-.contact p {
-    width: auto;
-    height: auto;
-    margin: 0;
-    line-height: 1.2;
-}
-
-.contact-logo {
-    height: 75px; 
-    width: auto;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-.contact-logo:hover {
-  transform: scale(1.05);    
-}
-
-
-/* Pie de pagina */
-.footer {
-    background-color: var(--white);
-    color: var(--light-grayt);
-    text-align: center;
-    padding: 30px 5%;
-    font-size: 1.3em;
-    font-weight: 350;
-}
-
-.footer p {
-    margin-bottom: 20px;
-    line-height: 1.1;
-}
-
-.footer-logo {
-    height: 30px; 
-    width: auto;
-}
-
-.line8 {
- color: var(--dark-green);
-}
-
 /* ------------------- ESTILOS RESPONSIVE ------------------- */
 
 /* Tablets */
@@ -412,28 +139,6 @@ margin: 0 auto;
     max-height: 800px;
     padding: 15px;
   }
-
-  .logo-container {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap !important;
-    gap: 15px;
-  }
-
-  .logo-cintandina,
-  .logo-ci {
-    max-height: 60px;
-    width: auto;
-  }
-
-  .separator {
-    width: 2px;
-    background: #000;
-    height: 65px;
-  }
-
 
  .line1 h1 {
   font-size: 1.8em;
@@ -469,42 +174,19 @@ margin: 0 auto;
   font-weight: 280;
 }
 
-.hero-image {
-  display: flex;
-  justify-content: flex-end !important;
-  align-items: flex-end !important;
-  padding-left: 0%;  
-  padding-bottom: 15px;
-  padding: 0;
-  overflow: visible;
+  .pegatin-cintandina {
+  width: 350px !important;             
+  display: flex !important;
+  justify-content: flex-end;
+  max-height: 505px !important;
 }
 
-.hero-image img {
-  weight: 60%;
-  left: 500px; 
-  padding-bottom: 35px; 
-}
+.pegatin-cintandina img {
+  width: 100% !important ;             
+  max-width: none !important;
+  max-height: 505px !important;
+}        
 
-/* Pagina1 */
-.call-to-action {
-  text-align: center;
-  position: relative; 
-  top: -350px;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.call-to-action img {
-  display: block;
-  margin: 20px auto 0;
-  width: 40px;
-}
-
-.product-slogan-section {
-       
-      max-height: 1200px;
-          
-}
 
 .line4 {
   top: 10px;
@@ -528,167 +210,7 @@ margin: 0 auto;
 
   }
 
-    .line6, .line7 {
-    font-size: 1.8em;
-  }
 
-.interactive-image {
-    width: 80%;             
-    height: auto;                        
-    bottom: 0;
-    padding-top: 80px !important;
-    justify-content: center !important;
-    align-items: center !important;
-}
-
-    
-  /* Imagen: ocupa la mitad derecha, pegada al borde */
-      .hero-image {
-      width: 350px !important;             
-      display: flex !important;
-      justify-content: flex-end;
-      max-height: 505px !important;
-    }
-    
-    .hero-image img {
-      width: 100% !important ;             
-      max-width: none !important;
-      max-height: 505px !important;
-    }
-
-
-    
-    /* Instructivo*/
-    .how-to-read-section {
-    padding: 30px 5%;
-    height: 8px ;  
-        
-  }
-
-  .how-to-read-section {
-    font-size: 0.9em;
-  }
-
-  .line6 {
-    font-size: 1.1em;
-  }
-
-  .line7 {
-    font-size: 1.1em;
-  }
-
-  .step {
-    max-width: 100%; 
-    align-items: center;
-  }
-
-   .step-icon {
-    width: 100%;
-    align-items: center;
-  }
- .step1 {
-    margin-top: 30px;
-    }
-
-.difference-section {
-
-      height: 900px;
-}
-  .features-display-container {
-      padding-right: 0 !important;
-      margin-right: 0 !important;
-      position: relative;
-      justify-content: space-between;
-     font-size: 1.7em;
-     width: 100%;
-     float: right;
-     padding: 0;
-      text-align: center !important;
-     margin: 0;
-     max-height: 650px;
-     overflow: hidden;
-}
-
-.features-list {
-    position: relative;
-    flex-direction: column;
-    width: 50%;
-    z-index: 2;
-    flex: 2; 
-    top: 0px;
-    padding: 50px 0 !important;
-
-}
-
-
-.features-list p {
-   margin-bottom: 20px;
-   line-height: 1.6;
-}
-
-.feature-item p {
-    width: 115%;  
-    max-width: none;
-    float: right;
-}
- 
-.feature-icon {
-    width: 30px;
-    height: 31px;
-}
-
-
-.phone-app-image {
-  position: relative; 
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  z-index: 1;
-  padding-left: 5%;
-  overflow: visible;
-  flex: 1;
-}
-
-.phone-app-image img {
-   position: absolute; 
-   bottom: 0px;     
-   width: 320px !important;
-   height: auto !important;
-   max-width: none !important;
-   flex: 0 0 auto !important;
-   z-index: 2;
-}
-
-    .contact {
-    display: flex;  
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2em;
-    text-align: center;    
-}
-
-
-.contact-logo {
-    height: 60px; 
-    width: auto;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-    
-.footer {
-    font-size: 1.5em;
-}
-
-.footer p {
-    margin-bottom: 15px;
-}
-.footer-logo {
-    height: 40px;
-    width: auto;
-}
-.line8 {
- color: var(--dark-green);
-} 
 }
 
 /* Celulares */
@@ -699,26 +221,21 @@ margin: 0 auto;
     padding: 15px;
   }
 
-  .logo-container {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap !important;
-    gap: 15px;
-  }
+     .pegatin-cintandina {
+      width: 350px !important;             
+      display: flex !important;
+      justify-content: flex-end;
+      max-height: 505px !important;
+    }
+    
+    .pegatin-cintandina img {
+      width: 100% !important ;             
+      max-width: none !important;
+      max-height: 505px !important;
+    }
 
-  .logo-cintandina,
-  .logo-ci {
-    max-height: 60px;
-    width: auto;
-  }
 
-  .separator {
-    width: 2px;
-    background: #000;
-    height: 65px;
-  }
+  
 
   .line1 h1 {
     font-size: 1.6em;
@@ -740,18 +257,6 @@ margin: 0 auto;
     font-size: 1em;
   }
 
-    .call-to-action {
-       position: relative; 
-        top: -100px;
-    }
-    
-    .product-slogan-section {
-        display: block !important;             
-        text-align: center !important;
-        justify-content: center !important;
-        align-items: center !important;
-    }
-
     
      .line4, .line5 {
         display: block !important;
@@ -767,173 +272,8 @@ margin: 0 auto;
         padding-bottom: 5px; 
         margin-bottom: 0 !important;
   }
+}
    
-
-    .line6, .line7 {
-    font-size: 1.8em;
-  }
-
-.interactive-image {
-    width: 140%;             
-    height: auto;                        
-    margin: 0;
-    padding: 0;
-}
-
-
-    
-  /* Imagen: ocupa la mitad derecha, pegada al borde */
-      .hero-image {
-      width: 350px !important;             
-      display: flex !important;
-      justify-content: flex-end;
-      max-height: 505px !important;
-    }
-    
-    .hero-image img {
-      width: 100% !important ;             
-      max-width: none !important;
-      max-height: 505px !important;
-    }
-
-
-    
-    /* Instructivo*/
-    .how-to-read-section {
-    padding: 30px 5%;
-    height: 8px ;  
-        
-  }
-
-  .how-to-read-section {
-    font-size: 0.9em;
-  }
-
-  .line6 {
-    font-size: 1.1em;
-  }
-
-  .line7 {
-    font-size: 1.1em;
-  }
-
-  .step {
-    max-width: 100%; 
-    align-items: center;
-  }
-
-   .step-icon {
-    width: 100%;
-    align-items: center;
-  }
- .step1 {
-    margin-top: 30px;
-    }
-
-.difference-section { 
-  max-height: 600px;
-}
-
-.background-layer {
-   height: 100%;
-}
-
-
-  .features-display-container {
-      padding-right: 0 !important;
-      position: relative;
-      justify-content: space-between;
-     font-size: 0.7em;
-     width: 100%;
-     float: right;
-     padding: 0;
-     text-align: center !important;
-     margin: 0;
-     max-height: 500px;
-     overflow: hidden;
-}
-
-
-.features-list {
-    position: relative;
-    flex-direction: column;
-    width: 50%;
-    z-index: 2;
-    flex: 2; 
-    top: 0px;
-    padding: 50px 0 !important;
-
-}
-
-.features-list p {
-   margin-bottom: 20px;
-   line-height: 1.6;
-}
-
-.feature-item p {
-    width: 115%;  
-    max-width: none;
-    float: right;
-}
- 
-.feature-icon {
-    width: 30px;
-    height: 31px;
-}
-
-
-.phone-app-image {
-  position: relative; 
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  z-index: 1;
-  padding-left: 5%;
-  overflow: visible;
-  flex: 1;
-}
-
-.phone-app-image img {
-   position: absolute; 
-   bottom: 0px;     
-   width: 205px !important;
-   height: auto !important;
-   max-width: none !important;
-   flex: 0 0 auto !important;
-   z-index: 2;
-}
-
-.contact {
-display: flex;  
-align-items: center;
-justify-content: center;
-gap: 15px;                  
-padding: 30px 5%;
-font-size: 1.1em;
-text-align: center;    
-}
-
-.contact-logo {
-    height: 55px; 
-    width: auto;
-}
-    
-.footer {
-    font-size: 0.8em;
-}
-
-.footer p {
-    margin-bottom: 15px;
-}
-.footer-logo {
-    height: 40px;
-    width: auto;
-}
-.line8 {
- color: var(--dark-green);
-} 
-}
-
 
 
 
