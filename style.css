@@ -82,10 +82,13 @@ body {
   text-align: center;
 }
 
+.line4 p{
+    line-height: 1.6; 
+}
+
 .line1 h1,
 .line2,
 .line3,
-.line4 p,
 .line5 {
   line-height: 1.2; /* Reduce el espacio entre líneas */
   margin: 0; /* Elimina márgenes que añaden separación extra */
