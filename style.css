@@ -62,19 +62,14 @@ body {
 .line1 h1,
 .line2 {
   display: block;
-  position: relative;
-  top: -900px; 
-  left: -800px;
-  z-index: 2;
   margin: 0;
-  text-align: end !important;
+  text-align: center;
     
 }
 
 
 .line3 {
   font-size: 2.0em;
-  margin-top: 0px !important;
   color: var(--dark-green);
   font-weight: 280;
 }
@@ -120,11 +115,7 @@ body {
 
 .line4,
 .line5 {
-  /*display: block;*/
-  position: absolute;
-  /*right: 0; */
-  left: 1130px;
-  text-align: left !important;
+  text-align: center;
   z-index: 2;
   margin: 0; 
 }
