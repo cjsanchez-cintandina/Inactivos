@@ -105,19 +105,8 @@ body {
   }
 
      .pegatin-cintandina {
-      width: 350px !important;             
-      display: flex !important;
-      justify-content: flex-end;
-      max-height: 505px !important;
+      width: 350px ;             
     }
-    
-    .pegatin-cintandina img {
-      width: 100% !important ;             
-      max-width: none !important;
-      max-height: 505px !important;
-    }
-
-
   
 .line1 h1 {
   font-size: 2.3em;
