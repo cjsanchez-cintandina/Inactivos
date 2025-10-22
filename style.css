@@ -13,7 +13,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   color: var(--dark-text);
-  line-height: 1.6;
+  overflow-y: hidden;
+  overflow-x: auto;
 }
 
 /* Header */
@@ -59,7 +60,7 @@ body {
 
 /* Imagen central */
 .pegatin-cintandina {
-  width: 500px;
+  width: 400px;
   height: auto;
   justify-content: center;
   align-items: center;
@@ -104,7 +105,7 @@ body {
     height: auto;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 25px;
   }
 
      .pegatin-cintandina {
@@ -113,12 +114,12 @@ body {
 
   
 .line1 h1 {
-  font-size: 2.3em;
+  font-size: 2.1em;
   color: var(--dark-green);
 }
 
 .line2 {
-  font-size: 2.3em;
+  font-size: 2.1em;
   color: var(--dark-text);
 }
 
@@ -129,12 +130,12 @@ body {
 }
 
 .line3 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: var(--dark-green);
 }
 
 .line4 {
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: var(--dark-text);
   text-align: left;
   }
