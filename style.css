@@ -105,6 +105,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 25px;
+    text-align: center; 
   }
 
      .pegatin-cintandina {
@@ -112,44 +113,23 @@ body {
     }
 
   
-.line1 h1 {
+.line1, .line2, h1 {
   font-size: 2.1em;
-  color: var(--dark-green);
-}
-
-.line2 {
-  font-size: 2.1em;
-  color: var(--dark-text);
-}
-
-.line1 h1,
-.line2 {
-  display: block;
-  text-align: center; 
 }
 
 .line3 {
   font-size: 1.1em;
-  color: var(--dark-green);
 }
-
-.line4 {
-  font-size: 0.8em;
-  color: var(--dark-text);
-  align-items: center;
-  width: 100%;
-  }
-.line5 {
-  font-size: 0.6em;
-  color: var(--dark-text); 
-  text-align: center;
-}
-
 
 .line4 p{
+    font-size: 0.8em;
     line-height: 1.6; 
     max-width: 350px;
-    text-align: left;   
+    text-align: left;
+    width: 100%;
+}
+.line5 {
+  font-size: 0.6em;
 }
 
 .line1 h1,
