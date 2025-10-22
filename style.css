@@ -61,7 +61,6 @@ body {
 .line1 h1,
 .line2 {
   display: block;
-  margin: 0;
   text-align: center;
     
 }
@@ -70,12 +69,11 @@ body {
 .line3 {
   font-size: 2.0em;
   color: var(--dark-green);
-  font-weight: 280;
 }
 
 /* Imagen central */
 .pegatin-cintandina {
-  width: 300px;
+  width: 500px;
   height: auto;
   justify-content: center;
   align-items: center;
@@ -91,7 +89,7 @@ body {
   height: auto;
   }
 .line5 {
-  font-size: 0.8em;
+  font-size: 1.3em;
   color: var(--dark-text);
   font-weight: 280;
   top: 380px ; 
