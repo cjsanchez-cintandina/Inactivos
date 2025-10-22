@@ -131,9 +131,10 @@ font-size: 1.1em;
 
 .line4 p{
     font-size: 0.8em;
-    line-height: 2.2; 
     text-align: justify;
     width: 100%;
+    margin-top: 15px;
+    margin-botton:15px;
 }
 .line5 {
   font-size: 0.6em;
