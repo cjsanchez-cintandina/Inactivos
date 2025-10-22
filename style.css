@@ -74,17 +74,14 @@ body {
 }
 
 /* Imagen central */
-.pegatin-cintandina  {
-  justify-content: center;
-  align-items: center;
-}
-
-.pegatin-cintandina img {
-  width: 100px;
+.pegatin-cintandina {
+  width: 50px;
   height: auto;
   display: block; 
   padding-top: 0;
   padding-bottom: 0;
+ justify-content: center;
+  align-items: center;
 }
 
 }
