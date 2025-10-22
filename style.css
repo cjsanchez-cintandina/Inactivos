@@ -44,30 +44,24 @@ body {
 /* Texto */
 
 .line1 h1 {
-  font-size: 2.5em;
+  font-size: 3em;
   color: var(--dark-green);
-  line-height: 1.5;
   margin-top: 25px;
 }
 
 .line2 {
-  font-size: 2.5em;
+  font-size: 3em;
   color: var(--dark-text);
-  line-height: 1.5;
-  margin-bottom: 5px !important;
-  font-weight: 280;
 }
 
 .line1 h1,
 .line2 {
   display: block;
-  text-align: center;
-    
+  text-align: center; 
 }
 
-
 .line3 {
-  font-size: 2.0em;
+  font-size: 2.3em;
   color: var(--dark-green);
 }
 
@@ -82,26 +76,18 @@ body {
 }
 
 .line4 {
-  font-size: 1.5em;
+  font-size: 2em;
   color: var(--dark-text);
-  top: 250px;
-  width: 30%;
   height: auto;
   }
 .line5 {
-  font-size: 1.3em;
-  color: var(--dark-text);
-  font-weight: 280;
-  top: 380px ; 
-  width: 22%;
-  height: auto;
+  font-size: 1.1em;
+  color: var(--dark-text); 
 }
 
 .line4,
 .line5 {
   text-align: center;
-  z-index: 2;
-  margin: 0; 
 }
 
 /* ------------------- ESTILOS RESPONSIVE ------------------- */
