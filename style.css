@@ -66,6 +66,7 @@ body {
 }
 
 .line4 {
+  width: 400px;
   font-size: 1.5em;
   text-align: justify;
   line-height: 1;
@@ -74,10 +75,6 @@ body {
 .line5 {
   font-size: 1em;
   color: var(--dark-text); 
-}
-
-.line4,
-.line5 {
   text-align: center;
 }
 
