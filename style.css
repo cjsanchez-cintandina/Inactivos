@@ -68,7 +68,8 @@ body {
 
 .line4 {
   display: block;
-  
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .line4 p {
@@ -76,8 +77,11 @@ body {
   color: var(--dark-text);
   text-align: justify;
   line-height: 1.5;
-  margin: 10px 300px; 
+  max-width: 800px;    /* ancho máximo del texto */
+  margin: 10px auto;   /* centra horizontalmente */
+  padding: 0 40px;     /* agrega espacio lateral sin usar píxeles fijos */
 }
+
 
 .line5 {
   font-size: 1em;
