@@ -77,9 +77,9 @@ body {
   color: var(--dark-text);
   text-align: justify;
   line-height: 1.5;
-  max-width: 800px;    /* ancho máximo del texto */
-  margin: 10px auto;   /* centra horizontalmente */
-  padding: 0 40px;     /* agrega espacio lateral sin usar píxeles fijos */
+  max-width: 1000px;   
+  margin: 10px auto;   
+  padding: 0 40px;     
 }
 
 
