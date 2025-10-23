@@ -67,7 +67,6 @@ body {
 
 .line4 {
   display: block;
-  text-align: center; /* opcional */
 }
 
 .line4 p {
@@ -75,7 +74,7 @@ body {
   color: var(--dark-text);
   text-align: justify;
   line-height: 1.5;
-  margin: 0 400px; 
+  margin: 0 300px; 
 }
 
 .line5 {
