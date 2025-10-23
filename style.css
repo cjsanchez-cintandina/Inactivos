@@ -75,14 +75,14 @@ body {
   color: var(--dark-text);
   text-align: justify;
   line-height: 1.5;
-  margin: 0 120px; 
+  margin: 0 180px; 
 }
 
 .line5 {
   font-size: 1em;
   color: var(--dark-text); 
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 
