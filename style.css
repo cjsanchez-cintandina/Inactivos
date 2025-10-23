@@ -127,8 +127,11 @@ font-size: 1.1em;
 }
 
 .line3 {
-  font-size: 1.2em;
+  font-size: 0.9em;
    width: 300px;
+   line-height: 1;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .line4 p{
@@ -145,8 +148,7 @@ font-size: 1.1em;
 }
 
 .line1 h1,
-.line2,
-.line3 {
+.line2, {
   line-height: 1.3;
 }
 
