@@ -66,6 +66,7 @@ body {
 }
 
 .line4 {
+  display: block;
   width: 400px;
   font-size: 1.5em;
   text-align: justify;
