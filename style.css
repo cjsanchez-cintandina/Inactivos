@@ -67,11 +67,13 @@ body {
 
 .line4 {
   display: block;
-  width: 400px;
+  align-items: center;
+  width: 700px;
   font-size: 1.5em;
   text-align: justify;
   line-height: 1;
   color: var(--dark-text);
+    
   }
 .line5 {
   font-size: 1em;
