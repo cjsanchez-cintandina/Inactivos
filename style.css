@@ -127,6 +127,7 @@ font-size: 1.1em;
 .line3 {
   font-size: 1em;
   line-height: 0.5;
+  width: 300px !important; 
   margin-left: 30px;
   margin-right: 80px;
 }
