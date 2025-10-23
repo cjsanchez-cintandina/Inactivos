@@ -66,11 +66,11 @@ body {
 }
 
 .line4 {
-  width: 700px;
   font-size: 1.5em;
   text-align: justify;
   line-height: 0.5;
   color: var(--dark-text);
+  margin: 0 60px; 
     
   }
 .line5 {
