@@ -71,11 +71,11 @@ body {
 }
 
 .line4 p {
-  font-size: 0.8em;
+  font-size: 1em;
   color: var(--dark-text);
   text-align: justify;
   line-height: 1.5;
-  margin: 0 600px; 
+  margin: 0 400px; 
 }
 
 .line5 {
