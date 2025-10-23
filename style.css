@@ -111,7 +111,7 @@ body {
   }
 
  .pegatin-cintandina {
-  width: 330px;             
+  width: 300px;             
 }
 
   
@@ -130,12 +130,12 @@ font-size: 1.1em;
 }
 
 .line4 p{
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-align: justify;
     line-height: 1;
     width: 100%;
-    margin-top: 30px;
-    margin-botton:40px;
+    margin-top: 20px;
+    margin-botton:50px;
     
 }
 .line5 {
