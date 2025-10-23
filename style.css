@@ -66,22 +66,24 @@ body {
 }
 
 .line4 {
+  display: block;
+  text-align: center; /* opcional */
+}
+
+.line4 p {
   font-size: 1.5em;
-  text-align: justify;
-  line-height: 0.5;
   color: var(--dark-text);
-  margin: 0 60px; 
-    
-  }
+  text-align: justify;
+  line-height: 1.5;
+  margin: 0 60px; /* mueve el margen aquí */
+}
+
 .line5 {
   font-size: 1em;
   color: var(--dark-text); 
   text-align: center;
 }
 
-.line4 p{
-    line-height: 2.1; 
-}
 
 .line1 h1,
 .line2,
