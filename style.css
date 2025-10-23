@@ -14,7 +14,7 @@ body {
   box-sizing: border-box;
   color: var(--dark-text);
   overflow-x: auto;
-  align-items: center;
+  justify-content: center;
 }
 
 /* Header */
@@ -23,7 +23,6 @@ body {
   background-size: cover;
   background-position: center;
   justify-content: center;
-  align-items: center;
   min-height: 90vh;
 }
 
@@ -34,6 +33,7 @@ body {
   width: 100%;
   text-align: center;
   margin-top: 15px;
+  justify-content: center;
 }
 /* Texto */
 
