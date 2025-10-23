@@ -67,6 +67,7 @@ body {
 
 .line4 {
   font-size: 2.3em;
+  line-height: 1;
   color: var(--dark-text);
   }
 .line5 {
@@ -124,13 +125,13 @@ body {
     display: block; 
     font-size: 1em;
     line-height: 1.1;
-    margin: 0 50px; 
+    margin: 0 45px; 
     text-align: center;
   }
 
 .line3 {
-  line-height: 1.1;
-  margin: 10 40px;
+  line-height: 1.2;
+  margin: 20 35px;
   width: auto;
   text-align: center;
 }
@@ -151,7 +152,7 @@ body {
 
 .line1 h1,
 .line2 {
-  line-height: 1;
+  line-height: 1.2;
 }
 
 }
